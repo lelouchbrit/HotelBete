@@ -1,0 +1,23 @@
+﻿[2016.02.16-01.33.35:608][  0]Log file open, 02/15/16 20:33:35
+[2016.02.16-01.33.35:608][  0]LogInit:Display: Running engine for game: Hotel
+[2016.02.16-01.33.35:608][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.16-01.33.35:608][  0]LogInit:Display: RandInit(-2086970307) SRandInit(-2086970272).
+[2016.02.16-01.33.35:608][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.16-01.33.35:608][  0]LogStats: Stats thread started at 0.103703
+[2016.02.16-01.33.35:608][  0]LogExit: Preparing to exit.
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.16-01.33.35:611][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.16-01.33.35:612][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.16-01.33.35:612][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.16-01.33.35:612][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.16-01.33.35:612][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.16-01.33.35:612][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.16-01.33.35:612][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.16-01.33.35:614][  0]LogExit: Exiting.
+[2016.02.16-01.33.35:618][  0]Log file closed, 02/15/16 20:33:35
