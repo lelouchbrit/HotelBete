@@ -1,0 +1,85 @@
+﻿[2016.02.29-16.36.05:942][  0]Log file open, 02/29/16 11:36:05
+[2016.02.29-16.36.05:942][  0]LogInit:Display: Running engine without a game
+[2016.02.29-16.36.05:942][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.29-16.36.05:942][  0]LogInit:Display: Loading recent project file: ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Hotel.uproject
+[2016.02.29-16.36.05:942][  0]LogInit:Display: RandInit(1910661011) SRandInit(1910661015).
+[2016.02.29-16.36.05:942][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.29-16.36.05:942][  0]LogStats: Stats thread started at 2.922743
+[2016.02.29-16.36.05:942][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.29-16.36.05:942][  0]LogInit: API Version: 2758231
+[2016.02.29-16.36.05:942][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.29-16.36.05:942][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.29-16.36.05:942][  0]LogInit: Build Configuration: Development
+[2016.02.29-16.36.05:942][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.29-16.36.05:942][  0]LogInit: Command line: -EpicPortal 
+[2016.02.29-16.36.05:942][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.29-16.36.05:942][  0]LogInit: Rocket: 1
+[2016.02.29-16.36.07:928][  0]LogInit: Using libcurl 7.41.0
+[2016.02.29-16.36.07:928][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.29-16.36.07:928][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.29-16.36.07:928][  0]LogInit:  - other features:
+[2016.02.29-16.36.07:928][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.29-16.36.07:928][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.29-16.36.07:928][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.29-16.36.07:928][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.29-16.36.07:928][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.29-16.36.07:928][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.29-16.36.07:928][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.29-16.36.07:928][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.29-16.36.07:928][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.29-16.36.07:928][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.29-16.36.10:286][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.29-16.36.10:293][  0]LogInit: Object subsystem initialized
+[2016.02.29-16.36.10:293][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.29-16.36.10:293][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.29-16.36.11:122][  0]LogInit: Computer: ANDREW-LAPTOP
+[2016.02.29-16.36.11:122][  0]LogInit: User: aehrl
+[2016.02.29-16.36.11:122][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.29-16.36.11:122][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2016.02.29-16.36.11:122][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.29-16.36.11:122][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-16.36.11:122][  0]LogMemory: Process Physical Memory: 56.28 MB used, 56.28 MB peak
+[2016.02.29-16.36.11:122][  0]LogMemory: Process Virtual Memory: 58.75 MB used, 58.75 MB peak
+[2016.02.29-16.36.11:122][  0]LogMemory: Physical Memory: 5063.53 MB used, 8051.78 MB total
+[2016.02.29-16.36.11:122][  0]LogMemory: Virtual Memory: 384.79 MB used, 134217728.00 MB total
+[2016.02.29-16.36.19:542][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.29-16.36.28:139][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M  (Feature Level 11_0)
+[2016.02.29-16.36.28:139][  0]LogD3D11RHI: Adapter has 4036MB of dedicated video memory, 0MB of dedicated system memory, and 4025MB of shared system memory, 1 output[s]
+[2016.02.29-16.36.29:416][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.02.29-16.36.29:416][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4025MB of shared system memory, 0 output[s]
+[2016.02.29-16.36.29:633][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.29-16.36.29:633][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4025MB of shared system memory, 0 output[s]
+[2016.02.29-16.36.29:633][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.29-16.36.29:645][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.29-16.36.29:645][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.29-16.36.29:671][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.29-16.36.29:692][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Intermediate/Shaders/WorkingDirectory/10740/).
+[2016.02.29-16.36.29:693][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aehrl/AppData/Local/Temp/UnrealShaderWorkingDir/A54EF3A7431674159C5CE6AC2E72FDF7/'.
+[2016.02.29-16.36.29:693][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.29-16.36.42:377][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.29-16.36.42:503][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.29-16.36.42:604][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.29-16.36.42:650][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.29-16.36.42:730][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.29-16.36.42:875][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.29-16.36.43:014][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.29-16.36.43:180][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.29-16.36.43:195][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.29-16.36.43:247][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.29-16.36.43:396][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.29-16.36.43:526][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.29-16.36.43:526][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.29-16.36.43:630][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.29-16.36.44:043][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.29-16.36.44:121][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.29-16.36.44:147][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.29-16.36.44:251][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.29-16.36.44:251][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.29-16.36.46:859][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.29-16.37.01:939][  0]LogDerivedDataCache: Loaded boot cache 15.08s 41MB C:/Users/aehrl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.29-16.37.01:939][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aehrl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.29-16.37.01:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.29-16.37.01:939][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.29-16.37.01:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.29-16.37.01:939][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.29-16.37.03:215][  0]LogDerivedDataCache:D
