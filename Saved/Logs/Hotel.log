@@ -189,4 +189,1115 @@
 [2016.03.18-22.29.19:413][923]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Ceiling.uasset
 [2016.03.18-22.29.19:446][923]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
 [2016.03.18-22.29.19:645][923]LogSavePackage: Save=33.104137ms
-[2016.03.18-22.29.19:645][923]LogSavePackage: Moving '../../../../../../Use
+[2016.03.18-22.29.19:645][923]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/guest_floor_haunted1588FCE64CB244B8627A24A89AC07DB6.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.uasset'
+[2016.03.18-22.29.19:647][923]LogSavePackage: Total save time: 51.252183ms
+[2016.03.18-22.29.19:647][923]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.uasset
+[2016.03.18-22.30.01:662][666]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Ceiling\guest_floor_haunted_lambert2_AmbientOcclusion.png)
+[2016.03.18-22.30.02:544][666]LogTexture:Display: Building textures: guest_floor_haunted_lambert2_AmbientOcclusion (AutoDXT)
+[2016.03.18-22.30.04:179][666]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Ceiling\lambert2_Base_Color.png)
+[2016.03.18-22.30.04:640][666]LogTexture:Display: Building textures: lambert2_Base_Color (AutoDXT)
+[2016.03.18-22.30.10:805][666]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Ceiling\lambert2_Metallic.png)
+[2016.03.18-22.30.10:833][666]LogTexture:Display: Building textures: lambert2_Metallic (AutoDXT)
+[2016.03.18-22.30.11:677][666]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Ceiling\lambert2_Normal_DirectX.png)
+[2016.03.18-22.30.12:633][666]LogTexture:Display: Building textures: lambert2_Normal_DirectX (BC5)
+[2016.03.18-22.30.13:569][666]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Ceiling\lambert2_Roughness.png)
+[2016.03.18-22.30.13:631][666]LogTexture:Display: Building textures: lambert2_Roughness (AutoDXT)
+[2016.03.18-22.31.44:463][698]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.44:830][698]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.44:836][698]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.31.44:864][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2016.03.18-22.31.46:223][730]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.18-22.31.46:223][730]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.18-22.31.46:223][730]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.18-22.31.51:288][ 51]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.51:293][ 51]LogMaterial: 0.000199 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.31.51:460][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-22.31.51:562][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2016.03.18-22.31.51:566][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-22.31.51:578][ 51]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.51:583][ 51]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.31.51:585][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.18-22.31.51:616][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2016.03.18-22.31.51:620][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-22.31.51:624][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.18-22.31.51:638][ 51]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.51:643][ 51]LogMaterial: 0.000234 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.31.51:644][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.18-22.31.51:696][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2016.03.18-22.31.51:699][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-22.31.51:703][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.18-22.31.51:706][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.18-22.31.51:719][ 51]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.51:724][ 51]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.31.51:727][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.18-22.31.51:755][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2016.03.18-22.31.51:758][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-22.31.51:761][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.18-22.31.51:765][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.18-22.31.51:769][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.18-22.31.51:782][ 51]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.51:787][ 51]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.31.51:788][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.03.18-22.31.51:814][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2016.03.18-22.31.51:818][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-22.31.51:821][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.18-22.31.51:824][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.18-22.31.51:828][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.18-22.31.51:831][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.03.18-22.31.53:158][114]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.18-22.31.53:159][114]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.18-22.31.53:159][114]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.18-22.31.54:551][178]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.31.54:557][178]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.31.55:922][258]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.18-22.31.55:922][258]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.18-22.31.55:923][258]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.18-22.32.15:652][642]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.15:658][642]LogMaterial: 0.000269 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.32.15:730][642]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-22.32.17:474][729]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.18-22.32.17:474][729]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.32.17:474][729]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.18-22.32.19:138][849]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.19:144][849]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.32.19:199][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.18-22.32.20:633][928]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.03.18-22.32.20:633][928]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.32.20:633][928]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.03.18-22.32.21:163][964]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.21:168][964]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.32.21:193][964]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.03.18-22.32.22:414][ 25]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-22.32.22:414][ 25]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.32.22:414][ 25]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-22.32.23:701][111]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.23:707][111]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.32.23:747][111]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.18-22.32.25:090][184]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.03.18-22.32.25:090][184]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.32.25:090][184]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-22.32.26:865][307]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.26:871][307]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.32.26:899][307]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.18-22.32.28:228][374]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2016.03.18-22.32.28:228][374]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.32.28:228][374]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.03.18-22.32.29:715][472]LogMaterialEditor: Applying material Ceiling
+[2016.03.18-22.32.30:387][472]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.30:401][472]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.32.30:477][472]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.30:494][472]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-22.32.30:514][472]LogMaterial: 0.012983 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.32.32:729][574]LogMaterialEditor: Saving and Compiling material Ceiling
+[2016.03.18-22.32.33:682][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Guest_Floor/Ceiling" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Ceiling.uasset" SILENT=true
+[2016.03.18-22.32.33:711][574]LogSavePackage: Save=22.313381ms
+[2016.03.18-22.32.33:711][574]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Ceiling5C1E18BB4408C4BF9DC2D8979948790E.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Ceiling.uasset'
+[2016.03.18-22.32.33:712][574]LogSavePackage: Total save time: 28.886981ms
+[2016.03.18-22.32.33:712][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Ceiling.uasset
+[2016.03.18-22.32.33:729][575]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2016.03.18-22.32.33:729][575]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.32.33:729][575]MaterialEditorStats: Info Texture samplers: 8/16
+[2016.03.18-22.32.58:242][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.18-22.32.58:397][109]LogSavePackage: Save=82.169525ms
+[2016.03.18-22.32.58:397][109]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/lambert2_Metallic7018B9174F1D73DF70E3D280B1767F74.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Metallic.uasset'
+[2016.03.18-22.32.58:398][109]LogSavePackage: Total save time: 83.474368ms
+[2016.03.18-22.32.58:398][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Metallic.uasset
+[2016.03.18-22.32.59:040][109]LogSavePackage: Save=614.339783ms
+[2016.03.18-22.32.59:040][109]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/lambert2_Base_Color7AD48EA64BD56110E74DCA85288B0293.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Base_Color.uasset'
+[2016.03.18-22.32.59:041][109]LogSavePackage: Total save time: 615.918923ms
+[2016.03.18-22.32.59:041][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Base_Color.uasset
+[2016.03.18-22.33.00:234][109]LogSavePackage: Save=1163.026733ms
+[2016.03.18-22.33.00:234][109]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/guest_floor_haunted_lambert2_AmbientOcclusionF492EBAC45E9E40F56F316B55C71738B.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/guest_floor_haunted_lambert2_AmbientOcclusion.uasset'
+[2016.03.18-22.33.00:236][109]LogSavePackage: Total save time: 1164.489482ms
+[2016.03.18-22.33.00:236][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/guest_floor_haunted_lambert2_AmbientOcclusion.uasset
+[2016.03.18-22.33.01:821][109]LogSavePackage: Save=1556.856567ms
+[2016.03.18-22.33.01:821][109]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/lambert2_Normal_DirectX857EA6F745BBAE58D5EC58A4EB8E9705.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Normal_DirectX.uasset'
+[2016.03.18-22.33.01:823][109]LogSavePackage: Total save time: 1558.345266ms
+[2016.03.18-22.33.01:823][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Normal_DirectX.uasset
+[2016.03.18-22.33.02:032][109]LogSavePackage: Save=181.004288ms
+[2016.03.18-22.33.02:032][109]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/lambert2_Roughness3E79CD13437078FB35804CA9DD2ABC9C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Roughness.uasset'
+[2016.03.18-22.33.02:033][109]LogSavePackage: Total save time: 182.401534ms
+[2016.03.18-22.33.02:033][109]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Ceiling/lambert2_Roughness.uasset
+[2016.03.18-22.46.54:711][391]LogEditorFactories: Performing atomic reimport of [C:/Users/Mandy/Documents/maya/projects/default/scenes/guest_floor_haunted.fbx]
+[2016.03.18-22.46.54:965][391]LogFbx: Loading FBX Scene from C:/Users/Mandy/Documents/maya/projects/default/scenes/guest_floor_haunted.fbx
+[2016.03.18-22.46.55:702][391]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.18-22.46.55:869][391]LogFbx:Warning: Triangulating static mesh Columns
+[2016.03.18-22.46.57:689][391]LogFbx:Warning: Triangulating static mesh 2FDoor
+[2016.03.18-22.47.21:871][391]LogFbx:Warning: Triangulating static mesh Object273
+[2016.03.18-22.47.21:912][391]LogFbx:Warning: Triangulating static mesh 2FGlass
+[2016.03.18-22.47.22:540][391]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Guest_Floor/lambert2'
+[2016.03.18-22.47.22:541][391]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Guest_Floor/lambert2'
+[2016.03.18-22.47.22:547][391]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2016.03.18-22.47.22:559][391]LogFbx:Warning: Triangulating static mesh Box144
+[2016.03.18-22.47.24:958][391]LogStaticMesh: Building static mesh guest_floor_haunted...
+[2016.03.18-22.47.28:582][391]LogStaticMesh: Built static mesh [3.625762.2s] /Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.guest_floor_haunted
+[2016.03.18-22.47.29:035][391]LogStaticMesh:Warning: guest_floor_haunted has degenerate tangent bases which will result in incorrect shading. 
+[2016.03.18-22.47.29:036][391]LogFbx:Warning: Warning guest_floor_haunted has degenerate tangent bases which will result in incorrect shading. 
+[2016.03.18-22.47.29:363][391]LogEditorFactories: -- imported successfully
+[2016.03.18-22.47.30:132][392]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 0.024
+[2016.03.18-22.47.30:138][392]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted] ([1] browsable assets)...
+[2016.03.18-22.47.30:189][392]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.guest_floor_haunted]
+[2016.03.18-22.47.30:189][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted]
+[2016.03.18-22.47.30:231][392]LogSavePackage: Save=20.226803ms
+[2016.03.18-22.47.30:231][392]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/guest_floor_haunted_Auto19CBEF58D412FBA7D408521B78641C91E.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted_Auto1.uasset'
+[2016.03.18-22.47.30:232][392]LogSavePackage: Total save time: 42.188182ms
+[2016.03.18-22.47.30:232][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted_Auto1.uasset
+[2016.03.18-22.47.30:237][392]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Models/Guest_Floor/lambert2] ([1] browsable assets)...
+[2016.03.18-22.47.30:266][392]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hotel/Art/Models/Guest_Floor/lambert2.lambert2]
+[2016.03.18-22.47.30:266][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Models/Guest_Floor/lambert2]
+[2016.03.18-22.47.30:280][392]LogSavePackage: Save=12.198268ms
+[2016.03.18-22.47.30:280][392]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/lambert2_Auto1F96F128640DB86A374E5F2AAEA906408.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/lambert2_Auto1.uasset'
+[2016.03.18-22.47.30:280][392]LogSavePackage: Total save time: 13.041601ms
+[2016.03.18-22.47.30:280][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/lambert2_Auto1.uasset
+[2016.03.18-22.47.30:280][392]LogFileHelpers: Auto-saving content packages took 0.147
+[2016.03.18-22.48.54:439][543]LogSavePackage: Save=10.225112ms
+[2016.03.18-22.48.54:439][543]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/guest_floor_hauntedCA4F0BD143035DB9936D878A4125CEF0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.uasset'
+[2016.03.18-22.48.54:441][543]LogSavePackage: Total save time: 14.967334ms
+[2016.03.18-22.48.54:441][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.uasset
+[2016.03.18-22.48.54:490][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Guest_Floor/lambert2" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/lambert2.uasset" SILENT=true
+[2016.03.18-22.48.54:503][543]LogSavePackage: Save=11.999780ms
+[2016.03.18-22.48.54:503][543]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/lambert29DE4E023463A12D03D76C3AEA90CA6D8.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/lambert2.uasset'
+[2016.03.18-22.48.54:504][543]LogSavePackage: Total save time: 13.290446ms
+[2016.03.18-22.48.54:504][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/lambert2.uasset
+[2016.03.18-22.52.55:117][509]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Walls\Walls_Base_Color_Alpha.tga)
+[2016.03.18-22.52.55:748][509]LogTexture:Display: Building textures: Walls_Base_Color_Alpha (AutoDXT)
+[2016.03.18-22.53.53:978][ 84]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.53.54:105][ 84]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.53.54:110][ 84]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.53.54:138][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-22.53.54:141][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-22.53.54:144][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-22.53.54:149][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-22.53.55:867][151]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-22.53.55:867][151]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.53.55:867][151]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-22.54.05:659][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CEA9260
+[2016.03.18-22.54.19:931][442]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.19:936][442]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.54.19:937][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.03.18-22.54.19:978][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-22.54.19:981][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-22.54.19:984][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-22.54.19:988][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-22.54.19:991][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.03.18-22.54.21:725][535]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-22.54.21:725][535]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.54.21:725][535]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-22.54.28:303][966]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.28:309][966]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.54.28:376][966]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.03.18-22.54.29:572][ 21]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-22.54.29:572][ 21]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.54.29:572][ 21]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-22.54.34:880][371]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.34:895][371]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.34:901][371]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.54.37:946][528]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-22.54.37:946][528]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-22.54.37:946][528]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-22.54.37:946][528]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-22.54.38:344][555]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.38:351][555]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.54.38:458][555]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.03.18-22.54.41:062][671]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-22.54.41:062][671]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-22.54.41:062][671]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-22.54.41:062][671]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-22.54.41:636][709]LogMaterialEditor: Applying material Walls
+[2016.03.18-22.54.42:316][709]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.42:332][709]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.54.42:358][709]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.42:374][709]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.54.42:383][709]LogMaterial: 0.001371 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.54.49:676][ 71]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.03.18-22.54.49:676][ 71]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 82 instructions
+[2016.03.18-22.54.49:676][ 71]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-22.54.49:676][ 71]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-22.55.04:230][979]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.55.04:243][979]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.55.04:249][979]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.55.05:594][ 46]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-22.55.05:594][ 46]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.55.05:594][ 46]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-22.55.07:741][192]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.55.07:756][192]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.55.07:802][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.03.18-22.55.10:074][319]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.03.18-22.55.10:074][319]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.55.10:074][319]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-22.55.10:751][363]LogMaterialEditor: Applying material Walls
+[2016.03.18-22.55.11:433][363]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.55.11:457][363]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.55.11:497][363]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.55.11:521][363]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-22.55.11:534][363]LogMaterial: 0.001572 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-22.55.17:311][671]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.03.18-22.55.17:311][671]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-22.55.17:311][671]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-22.55.18:361][741]LogMaterialEditor: Saving and Compiling material Walls
+[2016.03.18-22.55.18:419][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Guest_Floor/Walls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset" SILENT=true
+[2016.03.18-22.55.18:439][741]LogSavePackage: Save=16.121113ms
+[2016.03.18-22.55.18:439][741]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/WallsF82B052C4B27ABB404404389EA6627C0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset'
+[2016.03.18-22.55.18:440][741]LogSavePackage: Total save time: 20.479560ms
+[2016.03.18-22.55.18:440][741]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset
+[2016.03.18-22.56.28:383][201]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.18-22.56.31:065][201]LogSavePackage: Save=2611.442871ms
+[2016.03.18-22.56.31:065][201]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Base_Color_Alpha7D83DDA849FD3BB47DA0BEB844686CBB.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.uasset'
+[2016.03.18-22.56.31:067][201]LogSavePackage: Total save time: 2612.905622ms
+[2016.03.18-22.56.31:067][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.uasset
+[2016.03.18-23.00.48:280][868]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.00.48:285][868]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.00.49:603][943]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.00.49:610][943]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (4 / 4)
+[2016.03.18-23.00.49:610][943]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.00.51:109][ 25]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.00.51:109][ 25]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.00.51:109][ 25]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.00.56:236][340]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.00.56:242][340]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.00.56:268][340]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.00.57:571][405]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.00.57:571][405]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.00.57:571][405]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.01.04:246][544]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.01.04:260][544]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.01.04:302][544]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.01.04:325][544]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.01.04:335][544]LogMaterial: 0.001524 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.01.07:326][544]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.01.07:333][544]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_5' or package '/Engine/Transient'.
+[2016.03.18-23.01.07:518][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004EEE77E0
+[2016.03.18-23.01.14:297][569]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Walls\jpeg\Walls_Base_Color_Alpha.jpg)
+[2016.03.18-23.01.15:680][569]LogTexture:Display: Building textures: Walls_Base_Color_Alpha (AutoDXT)
+[2016.03.18-23.01.32:718][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.18-23.01.34:019][570]LogSavePackage: Save=1238.358154ms
+[2016.03.18-23.01.34:019][570]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World_Auto2F989E97A491413B426DFB6BB3722DA24.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto2.umap'
+[2016.03.18-23.01.34:028][570]LogSavePackage: Total save time: 1266.592469ms
+[2016.03.18-23.01.34:028][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto2.umap
+[2016.03.18-23.01.34:040][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 1.323
+[2016.03.18-23.01.34:040][570]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.323
+[2016.03.18-23.01.34:046][570]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Models/Guest_Floor/Walls] ([1] browsable assets)...
+[2016.03.18-23.01.34:162][570]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hotel/Art/Models/Guest_Floor/Walls.Walls]
+[2016.03.18-23.01.34:163][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Models/Guest_Floor/Walls]
+[2016.03.18-23.01.34:190][570]LogSavePackage: Save=21.753115ms
+[2016.03.18-23.01.34:190][570]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Auto2216555C140AF710E06CA539DA56BE716.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto2.uasset'
+[2016.03.18-23.01.34:191][570]LogSavePackage: Total save time: 27.279023ms
+[2016.03.18-23.01.34:191][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto2.uasset
+[2016.03.18-23.01.34:196][570]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha] ([1] browsable assets)...
+[2016.03.18-23.01.34:212][570]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.Walls_Base_Color_Alpha]
+[2016.03.18-23.01.34:212][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha]
+[2016.03.18-23.01.34:271][570]LogSavePackage: Save=57.649296ms
+[2016.03.18-23.01.34:271][570]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Base_Color_Alpha_Auto21DDCE7D7487C80A62269CE9CF4C02D55.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto2.uasset'
+[2016.03.18-23.01.34:272][570]LogSavePackage: Total save time: 58.594320ms
+[2016.03.18-23.01.34:272][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto2.uasset
+[2016.03.18-23.01.34:272][570]LogFileHelpers: Auto-saving content packages took 0.231
+[2016.03.18-23.01.48:657][614]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Walls\jpeg\Walls_Transparancy.jpg)
+[2016.03.18-23.01.49:482][614]LogTexture:Display: Building textures: Walls_Transparancy (AutoDXT)
+[2016.03.18-23.02.05:842][468]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.05:975][468]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.05:980][468]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.06:008][468]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.02.06:011][468]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.02.06:016][468]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.02.06:019][468]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.02.07:709][527]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.02.07:709][527]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.02.07:709][527]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.02.14:916][990]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.14:921][990]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.16:247][ 63]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.02.16:247][ 63]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.02.16:247][ 63]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.02.18:245][196]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.18:250][196]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.18:251][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.03.18-23.02.18:277][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.02.18:280][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.02.18:283][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.02.18:287][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.02.18:291][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.03.18-23.02.19:541][257]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.02.19:541][257]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.02.19:541][257]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.02.20:476][303]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.20:483][303]LogMaterial: 0.000462 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.20:508][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.03.18-23.02.21:704][359]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.02.21:704][359]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.02.21:704][359]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.02.23:328][463]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.23:333][463]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.23:334][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.03.18-23.02.23:400][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.02.23:405][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.02.23:409][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.02.23:412][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.02.23:416][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.03.18-23.02.23:419][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.03.18-23.02.24:651][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.02.24:651][517]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.02.24:651][517]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.02.26:882][646]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.26:897][646]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.26:929][646]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.03.18-23.02.28:969][745]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.03.18-23.02.28:969][745]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.02.28:969][745]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.03.18-23.02.29:609][784]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.02.30:287][784]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.30:311][784]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.30:356][784]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.30:406][784]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.02.30:419][784]LogMaterial: 0.001668 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.02.35:622][ 36]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.03.18-23.02.35:622][ 36]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.02.35:622][ 36]MaterialEditorStats: Info Texture samplers: 8/16
+[2016.03.18-23.03.05:172][721]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.03.05:177][721]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.03.06:542][787]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.03.06:548][787]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.03.07:987][854]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.03.07:987][854]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.03.07:987][854]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.03.16:614][445]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.03.16:619][445]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.03.17:837][502]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.03.17:837][502]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.03.17:837][502]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.03.23:800][589]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.03.23:814][589]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.03.23:846][589]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.03.23:862][589]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.03.23:870][589]LogMaterial: 0.001396 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.03.24:185][589]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.03.24:192][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_7' or package '/Engine/Transient'.
+[2016.03.18-23.03.24:337][589]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C68CC20
+[2016.03.18-23.04.24:036][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.18-23.04.25:155][462]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.04.25:163][462]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.04.34:354][786]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Walls\Walls_Base_Color_Alpha.tga)
+[2016.03.18-23.04.34:932][786]LogTexture:Display: Building textures: Walls_Base_Color_Alpha (AutoDXT)
+[2016.03.18-23.05.05:717][577]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-23.05.05:833][577]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.18-23.05.05:839][577]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.05:863][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.18-23.05.05:867][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.18-23.05.05:870][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.03.18-23.05.05:874][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.18-23.05.05:877][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.18-23.05.07:784][662]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2016.03.18-23.05.07:784][662]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.05.07:784][662]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.03.18-23.05.12:350][963]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.12:461][963]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.12:466][963]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.12:493][963]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.05.12:496][963]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.05.12:500][963]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.05.12:503][963]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.05.12:507][963]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.03.18-23.05.14:080][ 41]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.05.14:080][ 41]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.05.14:080][ 41]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.05.16:355][180]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.16:361][180]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.18:046][274]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.05.18:046][274]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.05.18:046][274]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.05.24:523][700]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.24:529][700]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.24:530][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.03.18-23.05.24:557][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.05.24:560][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.05.24:563][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.05.24:567][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.05.24:572][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.03.18-23.05.25:841][762]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.05.25:841][762]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.05.25:841][762]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.05.26:956][820]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.26:961][820]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.27:063][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.03.18-23.05.28:269][881]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.05.28:269][881]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.05.28:269][881]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.05.29:346][955]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.29:361][955]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.29:386][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.03.18-23.05.31:225][ 43]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.03.18-23.05.31:225][ 43]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.05.31:225][ 43]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.05.33:499][195]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.05.34:185][195]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.34:208][195]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.34:251][195]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.34:274][195]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.05.34:298][195]LogMaterial: 0.012029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.05.39:768][461]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.03.18-23.05.39:768][461]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.05.39:768][461]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.06.19:290][778]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.19:306][778]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.19:312][778]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.06.22:558][918]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-23.06.22:558][918]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-23.06.22:558][918]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.06.22:558][918]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.06.23:209][956]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.23:215][956]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.06.23:260][956]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.03.18-23.06.26:183][ 79]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-23.06.26:183][ 79]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-23.06.26:183][ 79]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.06.26:183][ 79]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.06.30:703][332]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.06.31:376][332]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.31:393][332]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.06.31:431][332]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.31:447][332]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.31:467][332]LogMaterial: 0.012440 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.06.35:622][498]LogMaterialEditor: Saving and Compiling material Walls
+[2016.03.18-23.06.37:450][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Guest_Floor/Walls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset" SILENT=true
+[2016.03.18-23.06.37:470][498]LogSavePackage: Save=15.408802ms
+[2016.03.18-23.06.37:470][498]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls7957C8A545EDBE37397DF68C70A89D1A.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset'
+[2016.03.18-23.06.37:471][498]LogSavePackage: Total save time: 19.834716ms
+[2016.03.18-23.06.37:471][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset
+[2016.03.18-23.06.37:491][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.03.18-23.06.37:491][499]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 82 instructions
+[2016.03.18-23.06.37:491][499]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.06.37:491][499]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.06.47:133][ 25]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.47:143][ 25]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.47:149][ 25]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.06.50:262][168]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2016.03.18-23.06.50:262][168]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2016.03.18-23.06.50:262][168]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.06.50:262][168]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.06.52:055][267]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.06.52:725][267]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.52:742][267]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.06.52:779][267]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.52:796][267]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.06.52:805][267]LogMaterial: 0.001644 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.06.57:425][460]LogMaterialEditor: Saving and Compiling material Walls
+[2016.03.18-23.07.00:658][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Guest_Floor/Walls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset" SILENT=true
+[2016.03.18-23.07.00:684][460]LogSavePackage: Save=21.037380ms
+[2016.03.18-23.07.00:684][460]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls5E655D8C4F427F8567D646A45373ECD0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset'
+[2016.03.18-23.07.00:686][460]LogSavePackage: Total save time: 26.474804ms
+[2016.03.18-23.07.00:686][460]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset
+[2016.03.18-23.07.00:710][461]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.03.18-23.07.00:710][461]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 81 instructions
+[2016.03.18-23.07.00:710][461]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.07.00:710][461]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.07.07:941][834]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.07.07:942][834]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Walls for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.18-23.07.07:942][834]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2016.03.18-23.07.07:942][834]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2016.03.18-23.07.07:946][834]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.07.07:947][834]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Walls for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.18-23.07.07:947][834]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2016.03.18-23.07.07:947][834]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2016.03.18-23.07.07:947][834]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.07.07:949][834]MaterialEditorStats:Error: Error [SM5] Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2016.03.18-23.07.07:949][834]MaterialEditorStats:Error: Error [SM5] Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2016.03.18-23.07.15:987][296]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.07.21:630][460]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.07.21:653][460]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.07.21:661][460]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.07.23:936][556]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.03.18-23.07.23:936][556]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.07.23:936][556]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.07.24:715][600]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.07.25:405][600]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.07.25:428][600]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.07.25:513][600]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.07.25:538][600]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.07.25:561][600]LogMaterial: 0.011648 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.07.30:344][783]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.03.18-23.07.30:345][783]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.07.30:345][783]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.11.35:763][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.18-23.11.35:786][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C6D6340
+[2016.03.18-23.11.37:157][634]LogSavePackage: Save=1333.424072ms
+[2016.03.18-23.11.37:157][634]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World_Auto381A39D3F47946872A8D269B0DBEF5B6C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto3.umap'
+[2016.03.18-23.11.37:158][634]LogSavePackage: Total save time: 1362.705596ms
+[2016.03.18-23.11.37:158][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto3.umap
+[2016.03.18-23.11.37:159][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 1.396
+[2016.03.18-23.11.37:159][634]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.396
+[2016.03.18-23.11.37:166][634]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Models/Guest_Floor/Walls] ([1] browsable assets)...
+[2016.03.18-23.11.37:252][634]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hotel/Art/Models/Guest_Floor/Walls.Walls]
+[2016.03.18-23.11.37:252][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Models/Guest_Floor/Walls]
+[2016.03.18-23.11.37:282][634]LogSavePackage: Save=24.719204ms
+[2016.03.18-23.11.37:282][634]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Auto3DB626C8E488FF176DAD21FB5209A4931.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto3.uasset'
+[2016.03.18-23.11.37:283][634]LogSavePackage: Total save time: 29.967915ms
+[2016.03.18-23.11.37:283][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto3.uasset
+[2016.03.18-23.11.37:289][634]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha] ([1] browsable assets)...
+[2016.03.18-23.11.37:315][634]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.Walls_Base_Color_Alpha]
+[2016.03.18-23.11.37:315][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha]
+[2016.03.18-23.11.37:387][634]LogSavePackage: Save=70.014763ms
+[2016.03.18-23.11.37:387][634]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Base_Color_Alpha_Auto38CBAD4094D4F72D8021C2FA9AF822C25.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto3.uasset'
+[2016.03.18-23.11.37:387][634]LogSavePackage: Total save time: 71.013566ms
+[2016.03.18-23.11.37:387][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto3.uasset
+[2016.03.18-23.11.37:388][634]LogFileHelpers: Auto-saving content packages took 0.227
+[2016.03.18-23.13.08:682][107]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.13.08:688][107]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.13.10:300][176]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.13.10:306][176]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.13.11:586][230]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.13.11:586][230]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.13.11:586][230]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.13.15:332][253]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.13.15:346][253]LogMaterial: 0.000218 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.13.15:389][253]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.13.15:494][253]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.13.15:513][253]LogMaterial: 0.011877 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.13.15:794][253]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.13.15:801][253]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_8' or package '/Engine/Transient'.
+[2016.03.18-23.13.15:984][253]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005F9076A0
+[2016.03.18-23.13.26:301][629]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Walls\Walls_Base_Color_Alpha.tga)
+[2016.03.18-23.13.27:418][629]LogTexture:Display: Building textures: Walls_Base_Color_Alpha (AutoDXT)
+[2016.03.18-23.14.35:207][882]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.14.35:322][882]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.14.35:328][882]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.14.35:359][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.14.35:363][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.14.35:366][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.14.35:370][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.14.39:273][ 30]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.14.39:273][ 30]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.14.39:273][ 30]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.14.41:138][103]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.14.41:143][103]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.14.41:144][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.03.18-23.14.41:179][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.14.41:182][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.14.41:185][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.14.41:189][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.14.41:192][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.03.18-23.14.43:284][164]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.14.43:284][164]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.14.43:284][164]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.14.46:707][323]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.14.46:713][323]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.14.46:863][323]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.03.18-23.14.48:127][377]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.14.48:127][377]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.14.48:127][377]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.14.48:833][413]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.14.48:848][413]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.14.48:873][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.03.18-23.14.51:146][503]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.03.18-23.14.51:147][503]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.14.51:147][503]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.15.24:216][237]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.15.24:922][237]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.15.24:946][237]LogMaterial: 0.000232 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.15.24:988][237]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.15.25:017][237]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.15.25:029][237]LogMaterial: 0.001476 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.15.31:730][506]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.03.18-23.15.31:730][506]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.15.31:730][506]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.16.52:228][571]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.16.52:234][571]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.16.54:082][646]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.16.54:082][646]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.16.54:082][646]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.18.09:978][435]LogEditorFactories: Performing atomic reimport of [E:/Users/Mandy/Documents/Substance Painter/exports/Guest/Walls/Walls_Base_Color_Alpha.tga]
+[2016.03.18-23.18.09:978][435]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/Users/Mandy/Documents/Substance Painter/exports/Guest/Walls/Walls_Base_Color_Alpha.tga)
+[2016.03.18-23.18.10:594][435]LogTexture:Display: Building textures: Walls_Base_Color_Alpha (AutoDXT)
+[2016.03.18-23.18.34:174][435]LogEditorFactories: -- imported successfully
+[2016.03.18-23.18.42:794][ 22]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.18.42:799][ 22]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.18.44:377][ 89]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.18.44:377][ 89]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.18.44:377][ 89]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.18.45:575][157]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.18.45:581][157]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.18.45:582][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.03.18-23.18.45:628][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.18.45:631][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.18.45:635][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.18.45:640][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.18.45:644][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.03.18-23.18.46:751][198]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2016.03.18-23.18.46:751][198]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.18.46:751][198]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.18-23.18.50:199][379]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.18.50:204][379]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.18.50:376][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.03.18-23.18.51:458][425]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.18-23.18.51:458][425]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.18.51:458][425]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.18.52:646][493]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.18.52:654][493]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.18.52:696][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.03.18-23.18.54:559][564]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.03.18-23.18.54:559][564]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.18.54:559][564]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.18.58:354][778]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.18.59:040][778]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.18.59:063][778]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.18.59:173][778]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.18.59:197][778]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.18.59:220][778]LogMaterial: 0.011988 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.19.04:993][ 36]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.03.18-23.19.04:993][ 36]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.19.04:993][ 36]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.19.12:342][426]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.19.12:358][426]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.19.12:364][426]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.19.14:928][539]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.19.14:934][539]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.19.14:971][539]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.03.18-23.19.16:117][585]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-23.19.16:117][585]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-23.19.16:117][585]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.19.16:117][585]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.19.25:971][ 90]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.19.25:981][ 90]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.19.25:987][ 90]LogMaterial: 0.000175 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.19.28:811][205]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2016.03.18-23.19.28:811][205]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2016.03.18-23.19.28:811][205]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.19.28:811][205]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.19.44:769][ 98]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.19.44:783][ 98]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.19.44:791][ 98]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.19.46:822][180]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.03.18-23.19.46:822][180]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.18-23.19.46:822][180]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.18-23.21.38:468][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.18-23.21.39:728][287]LogSavePackage: Save=1213.728394ms
+[2016.03.18-23.21.39:728][287]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World_Auto4FC77B43E4B7B6893F363FA9A52339B86.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto4.umap'
+[2016.03.18-23.21.39:729][287]LogSavePackage: Total save time: 1233.104557ms
+[2016.03.18-23.21.39:729][287]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto4.umap
+[2016.03.18-23.21.39:731][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 1.263
+[2016.03.18-23.21.39:731][287]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.263
+[2016.03.18-23.21.39:737][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Models/Guest_Floor/Walls] ([1] browsable assets)...
+[2016.03.18-23.21.39:834][287]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hotel/Art/Models/Guest_Floor/Walls.Walls]
+[2016.03.18-23.21.39:834][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Models/Guest_Floor/Walls]
+[2016.03.18-23.21.39:864][287]LogSavePackage: Save=24.766136ms
+[2016.03.18-23.21.39:864][287]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Auto41F037E9441A08E03354273BBCD8D6DD7.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto4.uasset'
+[2016.03.18-23.21.39:865][287]LogSavePackage: Total save time: 30.123871ms
+[2016.03.18-23.21.39:865][287]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto4.uasset
+[2016.03.18-23.21.39:871][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha] ([1] browsable assets)...
+[2016.03.18-23.21.39:899][287]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.Walls_Base_Color_Alpha]
+[2016.03.18-23.21.39:899][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha]
+[2016.03.18-23.21.39:969][287]LogSavePackage: Save=68.075829ms
+[2016.03.18-23.21.39:969][287]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Base_Color_Alpha_Auto47FBC36474896788E1CD605A180E165BD.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto4.uasset'
+[2016.03.18-23.21.39:970][287]LogSavePackage: Total save time: 69.432009ms
+[2016.03.18-23.21.39:970][287]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto4.uasset
+[2016.03.18-23.21.39:970][287]LogFileHelpers: Auto-saving content packages took 0.237
+[2016.03.18-23.22.21:990][550]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.22.22:006][550]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.22.22:012][550]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.22.25:453][705]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-23.22.25:453][705]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-23.22.25:453][705]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.22.25:453][705]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.22.26:422][759]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.22.27:096][759]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.22.27:112][759]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.22.27:143][759]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.22.27:157][759]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.22.27:177][759]LogMaterial: 0.011721 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.22.33:994][ 47]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.03.18-23.22.33:994][ 47]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 82 instructions
+[2016.03.18-23.22.33:994][ 47]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.22.33:994][ 47]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.25.41:205][221]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.25.41:211][221]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.25.43:303][306]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.25.43:310][306]LogMaterial: 0.000214 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.25.46:352][416]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.03.18-23.25.46:352][416]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2016.03.18-23.25.46:352][416]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.25.46:352][416]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.18-23.25.52:844][444]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.25.52:860][444]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.25.52:972][444]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.25.52:989][444]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.25.52:998][444]LogMaterial: 0.001683 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.25.53:241][444]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.25.53:248][444]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_10' or package '/Engine/Transient'.
+[2016.03.18-23.25.53:248][444]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_9' or package '/Engine/Transient'.
+[2016.03.18-23.25.53:404][444]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000F8EB6C00
+[2016.03.18-23.26.02:635][627]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Walls\jpeg\Walls_Base_Color_Alpha.jpg)
+[2016.03.18-23.26.03:870][627]LogTexture:Display: Building textures: Walls_Base_Color_Alpha (AutoDXT)
+[2016.03.18-23.26.25:595][988]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\Substance Painter\exports\Guest\Walls\jpeg\Walls_Transparancy.jpg)
+[2016.03.18-23.26.26:399][988]LogTexture:Display: Building textures: Walls_Transparancy (AutoDXT)
+[2016.03.18-23.26.36:804][476]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.26.36:937][476]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.26.36:943][476]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.26.36:966][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.26.36:970][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.26.36:973][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.26.36:977][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.26.40:313][592]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.03.18-23.26.40:313][592]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2016.03.18-23.26.40:313][592]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.26.40:313][592]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.18-23.26.45:747][886]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.26.45:753][886]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.26.45:754][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.03.18-23.26.45:784][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.26.45:788][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.26.45:791][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.26.45:794][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.26.45:797][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.03.18-23.26.49:249][ 43]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.03.18-23.26.49:249][ 43]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2016.03.18-23.26.49:249][ 43]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.26.49:249][ 43]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.18-23.26.50:152][ 91]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.26.50:158][ 91]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.26.50:223][ 91]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.03.18-23.26.52:205][165]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.26.52:211][165]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.26.52:212][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.03.18-23.26.52:237][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2016.03.18-23.26.52:240][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2016.03.18-23.26.52:246][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2016.03.18-23.26.52:250][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2016.03.18-23.26.52:253][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.03.18-23.26.52:256][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.03.18-23.26.53:306][212]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-23.26.53:306][212]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-23.26.53:307][212]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.26.53:307][212]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.26.55:541][307]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.26.55:548][307]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.26.55:641][307]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.03.18-23.26.55:902][318]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.03.18-23.26.55:902][318]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.03.18-23.26.55:902][318]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.26.55:902][318]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.18-23.26.59:535][461]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2016.03.18-23.26.59:535][461]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 63 instructions
+[2016.03.18-23.26.59:535][461]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.26.59:535][461]MaterialEditorStats: Info Texture samplers: 8/16
+[2016.03.18-23.27.04:359][724]LogMaterialEditor: Applying material Walls
+[2016.03.18-23.27.05:032][724]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.27.05:049][724]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.27.05:097][724]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.27.05:113][724]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.18-23.27.05:126][724]LogMaterial: 0.005374 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.18-23.27.12:343][ 31]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.03.18-23.27.12:343][ 31]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 83 instructions
+[2016.03.18-23.27.12:343][ 31]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.03.18-23.27.12:343][ 31]MaterialEditorStats: Info Texture samplers: 8/16
+[2016.03.18-23.31.40:912][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.18-23.31.42:313][966]LogSavePackage: Save=1345.864868ms
+[2016.03.18-23.31.42:313][966]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World_Auto57E097DBF45CA95DD6931C4AAE4C2FA6C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto5.umap'
+[2016.03.18-23.31.42:314][966]LogSavePackage: Total save time: 1369.611152ms
+[2016.03.18-23.31.42:314][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto5.umap
+[2016.03.18-23.31.42:315][966]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 1.403
+[2016.03.18-23.31.42:315][966]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.403
+[2016.03.18-23.31.42:322][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Models/Guest_Floor/Walls] ([1] browsable assets)...
+[2016.03.18-23.31.42:382][966]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hotel/Art/Models/Guest_Floor/Walls.Walls]
+[2016.03.18-23.31.42:382][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Models/Guest_Floor/Walls]
+[2016.03.18-23.31.42:450][966]LogSavePackage: Save=15.369202ms
+[2016.03.18-23.31.42:450][966]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Auto50E5F652D45AD8FC22477E6B098691BE8.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto5.uasset'
+[2016.03.18-23.31.42:450][966]LogSavePackage: Total save time: 67.504808ms
+[2016.03.18-23.31.42:450][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto5.uasset
+[2016.03.18-23.31.42:455][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha] ([1] browsable assets)...
+[2016.03.18-23.31.42:473][966]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.Walls_Base_Color_Alpha]
+[2016.03.18-23.31.42:473][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha]
+[2016.03.18-23.31.42:550][966]LogSavePackage: Save=76.637253ms
+[2016.03.18-23.31.42:550][966]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Base_Color_Alpha_Auto560CC7F1248931F66FDFA3DBA5555A2E8.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto5.uasset'
+[2016.03.18-23.31.42:552][966]LogSavePackage: Total save time: 77.998810ms
+[2016.03.18-23.31.42:552][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha_Auto5.uasset
+[2016.03.18-23.31.42:557][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Transparancy] ([1] browsable assets)...
+[2016.03.18-23.31.42:575][966]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Transparancy.Walls_Transparancy]
+[2016.03.18-23.31.42:575][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Transparancy]
+[2016.03.18-23.31.42:634][966]LogSavePackage: Save=57.336407ms
+[2016.03.18-23.31.42:634][966]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Transparancy_Auto574C4C2DA4BB58680AB78B2B3DD1DB505.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Transparancy_Auto5.uasset'
+[2016.03.18-23.31.42:634][966]LogSavePackage: Total save time: 58.325917ms
+[2016.03.18-23.31.42:634][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Transparancy_Auto5.uasset
+[2016.03.18-23.31.42:635][966]LogFileHelpers: Auto-saving content packages took 0.318
+[2016.03.19-00.24.29:839][784]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-00.24.29:854][784]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-00.24.29:859][784]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.19-00.24.31:504][854]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.19-00.24.31:504][854]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.19-00.24.31:504][854]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.19-00.24.32:188][891]LogMaterialEditor: Applying material Walls
+[2016.03.19-00.24.32:866][891]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-00.24.32:881][891]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.19-00.24.32:927][891]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-00.24.32:944][891]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-00.24.32:952][891]LogMaterial: 0.001384 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.19-00.24.35:106][972]LogMaterialEditor: Saving and Compiling material Walls
+[2016.03.19-00.24.35:957][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Guest_Floor/Walls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset" SILENT=true
+[2016.03.19-00.24.35:977][972]LogSavePackage: Save=16.319603ms
+[2016.03.19-00.24.35:977][972]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls4ABF2A534C6E34A57600089C9AC7C6A2.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset'
+[2016.03.19-00.24.35:978][972]LogSavePackage: Total save time: 20.455603ms
+[2016.03.19-00.24.35:978][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset
+[2016.03.19-00.24.35:999][973]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2016.03.19-00.24.35:999][973]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.19-00.24.35:999][973]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.19-00.55.02:658][570]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-00.55.02:664][570]LogMaterial: 0.000170 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.19-00.55.04:601][647]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.19-00.55.04:601][647]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.19-00.55.04:601][647]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.19-01.15.28:842][257]Cmd: DELETE
+[2016.03.19-01.15.28:842][257]Cmd: ACTOR DELETE
+[2016.03.19-01.15.28:894][257]LogEditorActor: Deleted Actor: PointLight
+[2016.03.19-01.15.28:950][257]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2016.03.19-01.15.36:428][448]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-01.15.36:442][448]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.19-01.15.36:472][448]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-01.15.36:488][448]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-01.15.36:497][448]LogMaterial: 0.001349 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.19-01.15.36:729][448]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.19-01.15.36:737][448]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_12' or package '/Engine/Transient'.
+[2016.03.19-01.15.36:879][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000F8610400
+[2016.03.19-01.16.13:196][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.19-01.16.14:460][645]LogSavePackage: Save=1215.179932ms
+[2016.03.19-01.16.14:460][645]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World_Auto6666C64454A143A0C282E9692D83D357C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto6.umap'
+[2016.03.19-01.16.14:461][645]LogSavePackage: Total save time: 1237.002958ms
+[2016.03.19-01.16.14:461][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto6.umap
+[2016.03.19-01.16.14:463][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 1.267
+[2016.03.19-01.16.14:463][645]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.267
+[2016.03.19-01.16.14:470][645]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hotel/Art/Models/Guest_Floor/Walls] ([1] browsable assets)...
+[2016.03.19-01.16.14:536][645]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hotel/Art/Models/Guest_Floor/Walls.Walls]
+[2016.03.19-01.16.14:536][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hotel/Art/Models/Guest_Floor/Walls]
+[2016.03.19-01.16.14:556][645]LogSavePackage: Save=15.760802ms
+[2016.03.19-01.16.14:556][645]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Auto6786558E7456A259AFC4A69BF143FE7FA.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto6.uasset'
+[2016.03.19-01.16.14:557][645]LogSavePackage: Total save time: 19.497380ms
+[2016.03.19-01.16.14:557][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Autosaves/Game/Hotel/Art/Models/Guest_Floor/Walls_Auto6.uasset
+[2016.03.19-01.16.14:557][645]LogFileHelpers: Auto-saving content packages took 0.092
+[2016.03.19-01.16.54:354][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Guest_Floor/Walls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset" SILENT=true
+[2016.03.19-01.16.54:360][972]LogSavePackage: Save=3.238889ms
+[2016.03.19-01.16.54:360][972]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls9ABFB7BD488A9B2D79E23D8A4691C610.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset'
+[2016.03.19-01.16.54:361][972]LogSavePackage: Total save time: 6.922178ms
+[2016.03.19-01.16.54:361][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/Walls.uasset
+[2016.03.19-01.16.57:077][972]LogSavePackage: Save=2688.529297ms
+[2016.03.19-01.16.57:077][972]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Base_Color_Alpha2301B1534DB3C949ABE020B2C5D82189.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.uasset'
+[2016.03.19-01.16.57:079][972]LogSavePackage: Total save time: 2690.363720ms
+[2016.03.19-01.16.57:079][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Guest_Floor/Wall/Walls_Base_Color_Alpha.uasset
+[2016.03.19-01.16.57:184][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.19-01.16.58:455][972]LogSavePackage: Save=1244.248779ms
+[2016.03.19-01.16.58:455][972]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World548554FD430569A7EDCEBD8135244383.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.19-01.16.58:457][972]LogSavePackage: Total save time: 1249.270648ms
+[2016.03.19-01.16.58:457][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.19-01.16.58:505][972]LogFileHelpers: Saving map 'World' took 1.422
+[2016.03.19-01.16.58:886][973]Cmd: QUIT_EDITOR
+[2016.03.19-01.16.59:157][973]LogExit: Preparing to exit.
+[2016.03.19-01.16.59:906][973]LogExit: Editor shut down
+[2016.03.19-01.16.59:907][973]LogExit: Transaction tracking system shut down
+[2016.03.19-01.16.59:928][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003007E5C0
+[2016.03.19-01.16.59:928][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FF62CA0
+[2016.03.19-01.16.59:929][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FE09C60
+[2016.03.19-01.16.59:951][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000305816C0
+[2016.03.19-01.16.59:952][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C4931A0
+[2016.03.19-01.16.59:952][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C0E85E0
+[2016.03.19-01.17.00:734][973]LogExit: Object subsystem successfully closed.
+[2016.03.19-01.17.00:784][973]LogD3D11RHI: Shutdown
+[2016.03.19-01.17.00:784][973]LogD3D11RHI: CleanupD3DDevice
+[2016.03.19-01.17.01:051][973]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.19-01.17.01:250][973]LogModuleManager: Shutting down and abandoning module MaterialEditor (202)
+[2016.03.19-01.17.01:250][973]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.03.19-01.17.01:250][973]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.19-01.17.01:250][973]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.19-01.17.01:250][973]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.19-01.17.01:250][973]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.19-01.17.01:250][973]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.19-01.17.01:254][973]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.19-01.17.01:254][973]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.19-01.17.01:255][973]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.19-01.17.01:255][973]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.19-01.17.01:255][973]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.19-01.17.01:261][973]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.19-01.17.01:262][973]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.19-01.17.01:289][973]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.19-01.17.01:289][973]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.19-01.17.01:290][973]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.19-01.17.01:290][973]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.19-01.17.01:290][973]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.19-01.17.01:923][973]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.19-01.17.01:935][973]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.19-01.17.01:940][973]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.19-01.17.01:940][973]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.19-01.17.01:940][973]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.19-01.17.01:948][973]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.19-01.17.01:948][973]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.19-01.17.01:967][973]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.19-01.17.01:967][973]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.19-01.17.01:967][973]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.19-01.17.01:967][973]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.19-01.17.01:983][973]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.19-01.17.02:016][973]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.19-01.17.02:016][973]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.19-01.17.02:016][973]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.19-01.17.02:016][973]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.19-01.17.02:035][973]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.19-01.17.02:035][973]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.19-01.17.02:035][973]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.19-01.17.02:035][973]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.19-01.17.02:035][973]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.19-01.17.02:065][973]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.19-01.17.02:065][973]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.19-01.17.02:065][973]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.19-01.17.02:074][973]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.19-01.17.02:075][973]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.19-01.17.02:312][973]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.19-01.17.02:320][973]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.03.19-01.17.02:334][973]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.19-01.17.02:334][973]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.19-01.17.02:334][973]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.19-01.17.02:334][973]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.19-01.17.02:334][973]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.03.19-01.17.02:334][973]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.03.19-01.17.02:334][973]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.19-01.17.02:360][973]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.19-01.17.02:360][973]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.19-01.17.02:360][973]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.19-01.17.02:360][973]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.19-01.17.02:425][973]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.19-01.17.02:429][973]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.19-01.17.02:429][973]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.19-01.17.02:429][973]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.19-01.17.02:438][973]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.19-01.17.02:438][973]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.19-01.17.02:438][973]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.19-01.17.02:438][973]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.19-01.17.02:439][973]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.19-01.17.02:439][973]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.19-01.17.02:439][973]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.19-01.17.02:444][973]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.19-01.17.02:444][973]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.19-01.17.02:444][973]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.19-01.17.02:444][973]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.19-01.17.02:444][973]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.19-01.17.02:444][973]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.19-01.17.02:449][973]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.19-01.17.02:450][973]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.19-01.17.02:450][973]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.19-01.17.02:451][973]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.03.19-01.17.02:452][973]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.03.19-01.17.02:462][973]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.03.19-01.17.02:563][973]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.03.19-01.17.02:564][973]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.03.19-01.17.02:762][973]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.03.19-01.17.02:773][973]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.19-01.17.02:774][973]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.19-01.17.02:774][973]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.19-01.17.02:779][973]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.19-01.17.02:779][973]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.19-01.17.02:779][973]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.19-01.17.02:779][973]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.19-01.17.02:779][973]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.19-01.17.02:779][973]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.19-01.17.02:789][973]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.19-01.17.02:789][973]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.19-01.17.02:789][973]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.19-01.17.02:789][973]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.19-01.17.02:789][973]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.19-01.17.02:800][973]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.19-01.17.02:811][973]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.19-01.17.02:825][973]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.19-01.17.02:838][973]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.19-01.17.02:838][973]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.19-01.17.02:840][973]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.19-01.17.02:899][973]LogDerivedDataCache: Shutdown
+[2016.03.19-01.17.02:899][973]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.19-01.17.02:920][973]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.19-01.17.02:920][973]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.19-01.17.02:930][973]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.19-01.17.02:931][973]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.19-01.17.02:932][973]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.19-01.17.04:933][973]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.19-01.17.04:958][973]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.19-01.17.04:985][973]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.19-01.17.04:985][973]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.19-01.17.04:985][973]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.19-01.17.04:986][973]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.19-01.17.04:986][973]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.19-01.17.04:995][973]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.19-01.17.05:015][973]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.19-01.17.05:015][973]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.19-01.17.05:028][973]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.19-01.17.05:028][973]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.19-01.17.05:028][973]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.19-01.17.05:028][973]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.19-01.17.05:037][973]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.19-01.17.05:037][973]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.19-01.17.05:037][973]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.19-01.17.05:039][973]LogExit: Exiting.
+[2016.03.19-01.17.05:069][973]Log file closed, 03/18/16 21:17:05
