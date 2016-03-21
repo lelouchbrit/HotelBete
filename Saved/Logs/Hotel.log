@@ -1,698 +1,820 @@
-﻿[2016.03.21-03.31.32:012][  0]Log file open, 03/20/16 23:31:32
-[2016.03.21-03.31.32:012][  0]LogInit:Display: Running engine without a game
-[2016.03.21-03.31.32:012][  0]LogPlatformFile: Not using cached read wrapper
-[2016.03.21-03.31.32:012][  0]LogInit:Display: Loading recent project file: F:/My Media/UCF Documents/DIG 4725-2/HotelBete/Hotel.uproject
-[2016.03.21-03.31.32:012][  0]LogInit:Display: RandInit(423879205) SRandInit(423879206).
-[2016.03.21-03.31.32:012][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.03.21-03.31.32:012][  0]LogStats: Stats thread started at 0.062132
-[2016.03.21-03.31.32:012][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
-[2016.03.21-03.31.32:012][  0]LogInit: API Version: 2758231
-[2016.03.21-03.31.32:012][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
-[2016.03.21-03.31.32:012][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.03.21-03.31.32:012][  0]LogInit: Build Configuration: Development
-[2016.03.21-03.31.32:012][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.03.21-03.31.32:012][  0]LogInit: Command line: -EpicPortal 
-[2016.03.21-03.31.32:012][  0]LogInit: Base directory: F:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.03.21-03.31.32:012][  0]LogInit: Rocket: 1
-[2016.03.21-03.31.32:018][  0]LogInit: Using libcurl 7.41.0
-[2016.03.21-03.31.32:018][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.21-03.31.32:018][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.21-03.31.32:018][  0]LogInit:  - other features:
-[2016.03.21-03.31.32:018][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.21-03.31.32:018][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.21-03.31.32:018][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.21-03.31.32:018][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.21-03.31.32:018][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.21-03.31.32:018][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.21-03.31.32:018][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.21-03.31.32:018][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.21-03.31.32:018][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.21-03.31.32:018][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.21-03.31.32:021][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.21-03.31.32:025][  0]LogInit: Object subsystem initialized
-[2016.03.21-03.31.32:026][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.21-03.31.32:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.21-03.31.32:030][  0]LogInit: Computer: DESKTOP-0FTHH47
-[2016.03.21-03.31.32:030][  0]LogInit: User: aehrl
-[2016.03.21-03.31.32:030][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.03.21-03.31.32:030][  0]LogInit: High frequency timer resolution =3.984646 MHz
-[2016.03.21-03.31.32:030][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.03.21-03.31.32:030][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.21-03.31.32:030][  0]LogMemory: Process Physical Memory: 56.30 MB used, 56.30 MB peak
-[2016.03.21-03.31.32:030][  0]LogMemory: Process Virtual Memory: 56.77 MB used, 56.77 MB peak
-[2016.03.21-03.31.32:030][  0]LogMemory: Physical Memory: 4982.49 MB used, 16322.88 MB total
-[2016.03.21-03.31.32:030][  0]LogMemory: Virtual Memory: 382.87 MB used, 134217728.00 MB total
-[2016.03.21-03.31.32:055][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.03.21-03.31.32:486][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
-[2016.03.21-03.31.32:486][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 3 output[s]
-[2016.03.21-03.31.32:487][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.03.21-03.31.32:487][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 0 output[s]
-[2016.03.21-03.31.32:487][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.21-03.31.32:491][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.21-03.31.32:491][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.21-03.31.32:504][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.21-03.31.32:519][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Intermediate/Shaders/WorkingDirectory/7252/).
-[2016.03.21-03.31.32:519][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aehrl/AppData/Local/Temp/UnrealShaderWorkingDir/669611114D9900D992ACA6B1742411AA/'.
-[2016.03.21-03.31.32:519][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.21-03.31.33:160][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.03.21-03.31.33:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.21-03.31.33:168][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.21-03.31.33:170][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.21-03.31.33:174][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.21-03.31.33:176][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.21-03.31.33:177][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.21-03.31.33:179][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.21-03.31.33:180][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.21-03.31.33:182][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.21-03.31.33:184][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.21-03.31.33:188][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.03.21-03.31.33:188][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.21-03.31.33:188][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.03.21-03.31.33:202][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.21-03.31.33:204][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.21-03.31.33:206][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.21-03.31.33:208][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.21-03.31.33:208][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.21-03.31.33:256][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.21-03.31.33:292][  0]LogDerivedDataCache: Loaded boot cache 0.04s 45MB C:/Users/aehrl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.21-03.31.33:292][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aehrl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.03.21-03.31.33:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.21-03.31.33:292][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.21-03.31.33:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.03.21-03.31.33:292][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.03.21-03.31.33:352][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.21-03.31.33:363][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aehrl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.21-03.31.33:517][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.21-03.31.33:520][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.03.21-03.31.33:611][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.21-03.31.33:611][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.21-03.31.33:789][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.21-03.31.34:397][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2016.03.21-03.31.34:406][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.03.21-03.31.34:611][  0]SourceControl: Info Source control is disabled
-[2016.03.21-03.31.34:664][  0]SourceControl: Info Source control is disabled
-[2016.03.21-03.31.34:672][  0]SourceControl: Info Source control is disabled
-[2016.03.21-03.31.34:678][  0]SourceControl: Info Source control is disabled
-[2016.03.21-03.31.34:860][  0]LogObj: 28802 objects as part of root set at end of initial load.
-[2016.03.21-03.31.34:860][  0]LogUObjectAllocator: 6129768 out of 0 bytes used by permanent object pool.
-[2016.03.21-03.31.34:910][  0]LogEngine: Initializing Engine...
-[2016.03.21-03.31.34:912][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.21-03.31.34:913][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.03.21-03.31.35:019][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.03.21-03.31.35:030][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.21-03.31.35:047][  0]LogInit: FAudioDevice initialized.
-[2016.03.21-03.31.35:067][  0]LogDerivedDataCache: Saved boot cache 0.02s 45MB C:/Users/aehrl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.21-03.31.35:069][  0]LogInit: Texture streaming: Enabled
-[2016.03.21-03.31.35:072][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.03.21-03.31.35:072][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
-[2016.03.21-03.31.35:072][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0b01f67c451c321928712b89b2c25d66|b300224d71e64562a5bff06c2aaa78f8|4d10a4aa-bc91-4e54-b274-9b5f458b8e77
-[2016.03.21-03.31.35:072][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.03.21-03.31.35:079][  0]LogInit: Transaction tracking system initialized
-[2016.03.21-03.31.35:100][  0]BlueprintLog: New page: Editor Load
-[2016.03.21-03.31.35:153][  0]LocalizationService: Info Localization service is disabled
-[2016.03.21-03.31.35:217][  0]LogConsoleResponse:Display: 
-[2016.03.21-03.31.35:307][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.03.21-03.31.35:346][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725-2/HotelBete/Content/' took 0.01s
-[2016.03.21-03.31.35:346][  0]SourceControl: Info Source control is disabled
-[2016.03.21-03.31.35:346][  0]Cmd: MAP LOAD FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.21-03.31.35:346][  0]LightingResults: New page: Lighting Build
-[2016.03.21-03.31.35:348][  0]MapCheck: New page: Map Check
-[2016.03.21-03.31.35:348][  0]LightingResults: New page: Lighting Build
-[2016.03.21-03.31.35:358][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B6D77B6A0
-[2016.03.21-03.31.36:987][  0]LogAIModule: Creating AISystem for world Menu
-[2016.03.21-03.31.36:988][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.21-03.31.36:989][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.21-03.31.37:046][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.29ms to complete.
-[2016.03.21-03.31.37:046][  0]LogFileHelpers: Loading map 'Menu' took 1.700
-[2016.03.21-03.31.37:195][  0]LogCollectionManager: Loaded 0 collections in 0.001532 seconds
-[2016.03.21-03.31.37:246][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/Collections/' took 0.01s
-[2016.03.21-03.31.37:246][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Developers/aehrl/Collections/' took 0.01s
-[2016.03.21-03.31.37:246][  0]LogFileCache: Scanning file cache for directory 'F:/My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Collections/' took 0.01s
-[2016.03.21-03.31.37:246][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.03.21-03.31.37:254][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1908 classes and 344 folders.
-[2016.03.21-03.31.37:259][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.03.21-03.31.37:294][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.03.21-03.31.37:301][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.03.21-03.31.37:314][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.03.21-03.31.37:319][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.03.21-03.31.37:341][  0]LogLoad: Full Startup: 5.64 seconds (BP compile: 0.45 seconds)
-[2016.03.21-03.31.37:681][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.21-03.31.37:731][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.03.21-03.31.37:865][  0]LogRenderer: Reallocating scene render targets to support 1208x608 (Frame:2).
-[2016.03.21-03.31.41:019][ 10]LogAssetRegistry: Asset discovery search completed in 6.6320 seconds
-[2016.03.21-03.31.41:019][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.03.21-03.31.41:019][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
-[2016.03.21-03.32.07:717][194]LogStaticMesh: Building static mesh guest_floor_haunted...
-[2016.03.21-03.32.09:207][194]LogStaticMesh: Built static mesh [1.490090.2s] /Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.guest_floor_haunted
-[2016.03.21-03.32.09:445][194]LogAIModule: Creating AISystem for world World
-[2016.03.21-03.32.09:446][194]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Breath.Breath Component=/Game/Hotel/Levels/World.World:PersistentLevel.Breath.ParticleSystemComponent0
-[2016.03.21-03.32.09:446][194]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker.ParticleSystemComponent0
-[2016.03.21-03.32.09:446][194]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust_2.ParticleSystemComponent0
-[2016.03.21-03.32.09:447][194]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust2.ParticleSystemComponent0
-[2016.03.21-03.32.09:447][194]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust3.ParticleSystemComponent0
-[2016.03.21-03.32.09:508][194]Cmd: MAP LOAD FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Levels/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.21-03.32.09:508][194]LightingResults: New page: Lighting Build
-[2016.03.21-03.32.09:520][194]LoadErrors: New page: Loading map: World.umap
-[2016.03.21-03.32.09:520][194]MapCheck: New page: Map Check
-[2016.03.21-03.32.09:520][194]LightingResults: New page: Lighting Build
-[2016.03.21-03.32.09:530][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B09DDF920
-[2016.03.21-03.32.09:543][194]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.21-03.32.09:567][194]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.21-03.32.09:626][194]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.565ms to complete.
-[2016.03.21-03.32.09:626][194]LogFileHelpers: Loading map 'World' took 0.118
-[2016.03.21-03.32.09:631][194]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Enemy : Failed import for Enemy_C /Game/Hotel/Blueprints/Enemies/Enemy.Default__Enemy_C [redirection] in /Game/FirstPersonBP/Blueprints/Enemy
-[2016.03.21-03.35.13:571][280]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.21-03.35.13:837][280]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
-[2016.03.21-03.35.14:066][280]LogActor:Warning: GameNetworkManager /Engine/Transient.World_4:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.35.24:370][512]BlueprintLog: New page: Compile FirstPersonGameMode
-[2016.03.21-03.35.24:676][512]BlueprintEditorCompileResults: Info [0232.98] Compile of FirstPersonGameMode successful! [in 305 ms]
-[2016.03.21-03.35.25:213][567]LogSavePackage: Save=18.418198ms
-[2016.03.21-03.35.25:213][567]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/FirstPersonGameMode154BC9A847CC1AE08B5BA8AA80C24184.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
-[2016.03.21-03.35.25:214][567]LogSavePackage: Total save time: 22.230331ms
-[2016.03.21-03.35.25:214][567]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
-[2016.03.21-03.35.47:998][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bust)
-[2016.03.21-03.36.06:256][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bust)
-[2016.03.21-03.36.07:739][391]Cmd: DELETE
-[2016.03.21-03.36.07:739][391]Cmd: ACTOR DELETE
-[2016.03.21-03.36.07:739][391]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.03.21-03.36.07:761][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B5B56D4E0
-[2016.03.21-03.36.07:761][391]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2016.03.21-03.36.08:716][504]LogEditorViewport: Clicking on Actor (LMB): Bust_C (Bust2)
-[2016.03.21-03.36.25:934][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.03.21-03.36.26:592][525]LogSavePackage: Save=640.097290ms
-[2016.03.21-03.36.26:592][525]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/WorldCC89537049A55153453EDA8E89728AB8.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Levels/World.umap'
-[2016.03.21-03.36.26:595][525]LogSavePackage: Total save time: 643.118612ms
-[2016.03.21-03.36.26:595][525]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Levels/World.umap
-[2016.03.21-03.36.26:612][525]LogFileHelpers: Saving map 'World' took 0.744
-[2016.03.21-03.36.45:516][667]LogActor:Warning: GameNetworkManager /Engine/Transient.World_6:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.37.39:149][773]BlueprintLog: New page: Compile Ghost
-[2016.03.21-03.37.39:249][773]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B5B56D6C0
-[2016.03.21-03.37.39:250][773]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B5B489DA0
-[2016.03.21-03.37.39:257][773]BlueprintEditorCompileResults: Info [0367.56] Compile of Ghost successful! [in 108 ms]
-[2016.03.21-03.37.39:849][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Blueprints/Enemies/Ghost" FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Enemies/Ghost.uasset" SILENT=true
-[2016.03.21-03.37.40:004][835]LogSavePackage: Save=152.023285ms
-[2016.03.21-03.37.40:004][835]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/Ghost072F804E4AE9BA01C83B818C523B26A3.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Enemies/Ghost.uasset'
-[2016.03.21-03.37.40:005][835]LogSavePackage: Total save time: 155.101355ms
-[2016.03.21-03.37.40:005][835]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Enemies/Ghost.uasset
-[2016.03.21-03.37.55:863][626]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.37.55:864][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.21-03.37.55:864][626]PIE: New page: PIE session: World (Mar 20, 2016, 7:37:55 PM)
-[2016.03.21-03.37.55:864][626]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
-[2016.03.21-03.37.55:886][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022353s)
-[2016.03.21-03.37.55:887][626]LogAIModule: Creating AISystem for world World
-[2016.03.21-03.37.55:887][626]LogPlayLevel: PIE: World Init took: (0.000553s)
-[2016.03.21-03.37.55:887][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.023183s)
-[2016.03.21-03.37.55:905][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B937AE340
-[2016.03.21-03.37.55:905][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B5D4B3420
-[2016.03.21-03.37.55:906][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B5D4B0E00
-[2016.03.21-03.37.55:914][626]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.21-03.37.55:920][626]LogInit: FAudioDevice initialized.
-[2016.03.21-03.37.56:043][626]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.03.21-03.37.56:051][626]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.20-23.37.56
-[2016.03.21-03.37.56:051][626]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.37.56:051][626]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.37.56:052][626]LogWorld: Bringing up level for play took: 0.008227
-[2016.03.21-03.37.56:065][626]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_World 0.651
-[2016.03.21-03.37.56:065][626]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.37.56:095][627]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:24612).
-[2016.03.21-03.38.01:098][155]LogBlueprintUserMessages: [Player_C_0] PuzBook
-[2016.03.21-03.38.10:622][  8]LogBlueprintUserMessages: [Ghost_C_16] 2
-[2016.03.21-03.38.10:731][ 17]LogBlueprintUserMessages: [Ghost_C_16] 4
-[2016.03.21-03.38.10:841][ 26]LogBlueprintUserMessages: [Ghost_C_16] 6
-[2016.03.21-03.38.10:951][ 35]LogBlueprintUserMessages: [Ghost_C_16] 8
-[2016.03.21-03.38.11:059][ 44]LogBlueprintUserMessages: [Ghost_C_16] 10
-[2016.03.21-03.38.11:166][ 53]LogBlueprintUserMessages: [Ghost_C_16] 12
-[2016.03.21-03.38.11:273][ 62]LogBlueprintUserMessages: [Ghost_C_16] 14
-[2016.03.21-03.38.11:379][ 71]LogBlueprintUserMessages: [Ghost_C_16] 16
-[2016.03.21-03.38.11:486][ 80]LogBlueprintUserMessages: [Ghost_C_16] 18
-[2016.03.21-03.38.11:593][ 89]LogBlueprintUserMessages: [Ghost_C_16] 20
-[2016.03.21-03.38.11:699][ 98]LogBlueprintUserMessages: [Ghost_C_16] 22
-[2016.03.21-03.38.11:804][107]LogBlueprintUserMessages: [Ghost_C_16] 24
-[2016.03.21-03.38.11:910][116]LogBlueprintUserMessages: [Ghost_C_16] 26
-[2016.03.21-03.38.12:016][125]LogBlueprintUserMessages: [Ghost_C_16] 28
-[2016.03.21-03.38.12:124][134]LogBlueprintUserMessages: [Ghost_C_16] 30
-[2016.03.21-03.38.12:231][143]LogBlueprintUserMessages: [Ghost_C_16] 32
-[2016.03.21-03.38.12:338][152]LogBlueprintUserMessages: [Ghost_C_16] 34
-[2016.03.21-03.38.12:447][161]LogBlueprintUserMessages: [Ghost_C_16] 36
-[2016.03.21-03.38.12:556][170]LogBlueprintUserMessages: [Ghost_C_16] 38
-[2016.03.21-03.38.12:663][179]LogBlueprintUserMessages: [Ghost_C_16] 40
-[2016.03.21-03.38.15:494][460]LogBlueprintUserMessages: [Player_C_0] KEY
-[2016.03.21-03.38.21:064][ 83]LogBlueprintUserMessages: [Player_C_0] Necklace
-[2016.03.21-03.38.33:693][255]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:694][255]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:701][256]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:702][256]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:711][257]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:712][257]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:722][258]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:724][258]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:733][259]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:734][259]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:744][260]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:745][260]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:755][261]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:757][261]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:766][262]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:768][262]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:777][263]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:778][263]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:788][264]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:789][264]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:798][265]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:800][265]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:809][266]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:811][266]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:821][267]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:822][267]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:831][268]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:833][268]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:842][269]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:844][269]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:854][270]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:855][270]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:864][271]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:866][271]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:876][272]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:877][272]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:886][273]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:888][273]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:897][274]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:898][274]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:908][275]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:909][275]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:919][276]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:921][276]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:930][277]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:932][277]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:941][278]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:942][278]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:952][279]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:954][279]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:963][280]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:964][280]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:974][281]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:976][281]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:985][282]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:987][282]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:996][283]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.33:997][283]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:007][284]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:008][284]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:019][285]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:020][285]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:029][286]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:030][286]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:040][287]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:041][287]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:051][288]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:052][288]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:062][289]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:065][289]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:075][290]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:079][290]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:086][291]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:089][291]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:096][292]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:099][292]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:108][293]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:111][293]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:119][294]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:121][294]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:128][295]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:130][295]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:139][296]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:141][296]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:150][297]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:153][297]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:161][298]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:163][298]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:172][299]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:174][299]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:183][300]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:185][300]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:195][301]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:197][301]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:205][302]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:207][302]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:216][303]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:218][303]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:227][304]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:229][304]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:238][305]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:240][305]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:249][306]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:251][306]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:259][307]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:261][307]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:271][308]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:273][308]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:281][309]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:283][309]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:293][310]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:295][310]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:305][311]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:308][311]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:317][312]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:320][312]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:326][313]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:329][313]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:337][314]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:340][314]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:349][315]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:352][315]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:359][316]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:362][316]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:371][317]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:374][317]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:381][318]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:384][318]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:392][319]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:395][319]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:403][320]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:406][320]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:414][321]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:419][321]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:426][322]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:429][322]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:436][323]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:439][323]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:447][324]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:450][324]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:457][325]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:459][325]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:468][326]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:470][326]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:479][327]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:481][327]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:489][328]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:491][328]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:500][329]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:501][329]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:511][330]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:513][330]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:522][331]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:524][331]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:533][332]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:535][332]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:544][333]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:545][333]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:555][334]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:556][334]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:566][335]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:568][335]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:577][336]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:578][336]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:588][337]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:590][337]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:599][338]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:601][338]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:610][339]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:611][339]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:621][340]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:622][340]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:631][341]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:633][341]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:643][342]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:645][342]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:654][343]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:655][343]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:664][344]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:666][344]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:676][345]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:677][345]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:687][346]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:688][346]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:697][347]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:698][347]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:708][348]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:710][348]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:720][349]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:721][349]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:730][350]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:732][350]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:742][351]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:743][351]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:756][352]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:758][352]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:763][353]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:764][353]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:774][354]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:776][354]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:785][355]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:787][355]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:796][356]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:797][356]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:807][357]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:809][357]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:818][358]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:819][358]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:829][359]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:830][359]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:840][360]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:842][360]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:851][361]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:853][361]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:862][362]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:863][362]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:873][363]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:875][363]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:884][364]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:885][364]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:895][365]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:896][365]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:906][366]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:908][366]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:917][367]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:919][367]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:928][368]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:930][368]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:939][369]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:941][369]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:950][370]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:952][370]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:961][371]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:963][371]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:972][372]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:974][372]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:983][373]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:985][373]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:994][374]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.34:995][374]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:005][375]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:006][375]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:016][376]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:017][376]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:026][377]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:028][377]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:038][378]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:040][378]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:049][379]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:050][379]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:059][380]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:061][380]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:071][381]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:072][381]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:081][382]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:083][382]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:093][383]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:095][383]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:104][384]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:106][384]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:115][385]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:117][385]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:126][386]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:127][386]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:137][387]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:139][387]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:148][388]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:150][388]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:159][389]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:160][389]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:170][390]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:171][390]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:181][391]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:182][391]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:192][392]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:193][392]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:202][393]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:204][393]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:213][394]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:215][394]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:224][395]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:226][395]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:235][396]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:236][396]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:246][397]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:248][397]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:257][398]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:259][398]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:268][399]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:270][399]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:279][400]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:281][400]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:290][401]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:292][401]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:301][402]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:303][402]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:312][403]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:314][403]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:323][404]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:325][404]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:334][405]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:335][405]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:345][406]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:347][406]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:356][407]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:358][407]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:367][408]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:368][408]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:378][409]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:380][409]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:389][410]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:390][410]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:400][411]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:401][411]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:411][412]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:413][412]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:422][413]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:424][413]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:433][414]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:434][414]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:444][415]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:446][415]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:455][416]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:456][416]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:466][417]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:468][417]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:477][418]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:479][418]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:488][419]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:490][419]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:499][420]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:501][420]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:510][421]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:511][421]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:521][422]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:522][422]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:531][423]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:533][423]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:543][424]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:544][424]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:554][425]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:556][425]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:564][426]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:566][426]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:576][427]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:578][427]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:587][428]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:589][428]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:598][429]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:599][429]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:609][430]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:610][430]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:620][431]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:621][431]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:630][432]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:632][432]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:641][433]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:643][433]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:652][434]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:654][434]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:663][435]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:665][435]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:674][436]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:676][436]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:685][437]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:686][437]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:696][438]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.35:697][438]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
-[2016.03.21-03.38.39:747][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.38.39:791][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.38.39:809][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B95133740
-[2016.03.21-03.38.41:158][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.38.41:158][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.21-03.38.41:158][965]PIE: New page: PIE session: World (Mar 20, 2016, 7:38:41 PM)
-[2016.03.21-03.38.41:159][965]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
-[2016.03.21-03.38.41:181][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022588s)
-[2016.03.21-03.38.41:182][965]LogAIModule: Creating AISystem for world World
-[2016.03.21-03.38.41:182][965]LogPlayLevel: PIE: World Init took: (0.000747s)
-[2016.03.21-03.38.41:182][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.023755s)
-[2016.03.21-03.38.41:208][965]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.21-03.38.41:213][965]LogInit: FAudioDevice initialized.
-[2016.03.21-03.38.41:316][965]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.03.21-03.38.41:323][965]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.20-23.38.41
-[2016.03.21-03.38.41:323][965]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.38.41:323][965]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.38.41:324][965]LogWorld: Bringing up level for play took: 0.007737
-[2016.03.21-03.38.41:337][965]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_World -0.077
-[2016.03.21-03.38.41:337][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.38.42:758][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.38.42:804][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.38.42:840][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B9B097560
-[2016.03.21-03.40.08:630][711]BlueprintLog: New page: Compile Player
-[2016.03.21-03.40.08:959][711]BlueprintEditorCompileResults: Info [0517.26] Compile of Player successful! [in 329 ms]
-[2016.03.21-03.40.12:055][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Blueprints/Player/Player" FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset" SILENT=true
-[2016.03.21-03.40.12:361][ 59]LogSavePackage: Save=304.007935ms
-[2016.03.21-03.40.12:361][ 59]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/PlayerC890A786466711FD291E73AB14DD94F1.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset'
-[2016.03.21-03.40.12:363][ 59]LogSavePackage: Total save time: 308.028117ms
-[2016.03.21-03.40.12:363][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Player/Player.uasset
-[2016.03.21-03.40.13:512][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.40.13:512][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.21-03.40.13:512][195]PIE: New page: PIE session: World (Mar 20, 2016, 7:40:13 PM)
-[2016.03.21-03.40.13:512][195]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
-[2016.03.21-03.40.13:534][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021717s)
-[2016.03.21-03.40.13:534][195]LogAIModule: Creating AISystem for world World
-[2016.03.21-03.40.13:534][195]LogPlayLevel: PIE: World Init took: (0.000619s)
-[2016.03.21-03.40.13:535][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.022569s)
-[2016.03.21-03.40.13:562][195]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.21-03.40.13:567][195]LogInit: FAudioDevice initialized.
-[2016.03.21-03.40.13:745][195]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.03.21-03.40.13:766][195]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.20-23.40.13
-[2016.03.21-03.40.13:766][195]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.40.13:766][195]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.21-03.40.13:768][195]LogWorld: Bringing up level for play took: 0.021615
-[2016.03.21-03.40.13:843][195]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_World 0.429
-[2016.03.21-03.40.13:843][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.40.28:069][776]LogBlueprintUserMessages: [Ghost_C_0] 2
-[2016.03.21-03.40.28:179][785]LogBlueprintUserMessages: [Ghost_C_0] 4
-[2016.03.21-03.40.28:289][794]LogBlueprintUserMessages: [Ghost_C_0] 6
-[2016.03.21-03.40.28:399][803]LogBlueprintUserMessages: [Ghost_C_0] 8
-[2016.03.21-03.40.28:512][812]LogBlueprintUserMessages: [Ghost_C_0] 10
-[2016.03.21-03.40.28:623][821]LogBlueprintUserMessages: [Ghost_C_0] 12
-[2016.03.21-03.40.28:733][830]LogBlueprintUserMessages: [Ghost_C_0] 14
-[2016.03.21-03.40.28:841][839]LogBlueprintUserMessages: [Ghost_C_0] 16
-[2016.03.21-03.40.28:949][848]LogBlueprintUserMessages: [Ghost_C_0] 18
-[2016.03.21-03.40.29:058][857]LogBlueprintUserMessages: [Ghost_C_0] 20
-[2016.03.21-03.40.29:169][866]LogBlueprintUserMessages: [Ghost_C_0] 22
-[2016.03.21-03.40.29:277][875]LogBlueprintUserMessages: [Ghost_C_0] 24
-[2016.03.21-03.40.29:378][883]LogBlueprintUserMessages: [Ghost_C_0] 26
-[2016.03.21-03.40.29:479][892]LogBlueprintUserMessages: [Ghost_C_0] 28
-[2016.03.21-03.40.29:587][901]LogBlueprintUserMessages: [Ghost_C_0] 30
-[2016.03.21-03.40.29:698][910]LogBlueprintUserMessages: [Ghost_C_0] 32
-[2016.03.21-03.40.29:801][919]LogBlueprintUserMessages: [Ghost_C_0] 34
-[2016.03.21-03.40.29:908][928]LogBlueprintUserMessages: [Ghost_C_0] 36
-[2016.03.21-03.40.30:016][937]LogBlueprintUserMessages: [Ghost_C_0] 38
-[2016.03.21-03.40.30:124][946]LogBlueprintUserMessages: [Ghost_C_0] 40
-[2016.03.21-03.40.32:634][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.40.32:682][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.40.32:713][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018B725E9300
-[2016.03.21-03.41.38:844][664]BlueprintLog: New page: Compile Ghost
-[2016.03.21-03.41.38:972][664]BlueprintEditorCompileResults: Info [0607.27] Compile of Ghost successful! [in 128 ms]
-[2016.03.21-03.41.39:966][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Blueprints/Enemies/Ghost" FILE="../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Enemies/Ghost.uasset" SILENT=true
-[2016.03.21-03.41.40:121][775]LogSavePackage: Save=152.408264ms
-[2016.03.21-03.41.40:121][775]LogSavePackage: Moving '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Saved/Ghost4DB5D0614B5E2445B8E33AB11E25C66E.tmp' to '../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Enemies/Ghost.uasset'
-[2016.03.21-03.41.40:122][775]LogSavePackage: Total save time: 154.777363ms
-[2016.03.21-03.41.40:122][775]LogSavePackage:Display: Finished SavePackage ../../../../../../My Media/UCF Documents/DIG 4725-2/HotelBete/Content/Hotel/Blueprints/Enemies/Ghost.uasset
-[2016.03.21-03.41.40:608][832]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
-[2016.03.21-03.41.40:608][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.21-03.41.40:608][832]PIE: New page: PIE session: World (Mar 20, 2016, 7:41:40 PM)
-[2016.03.21-03.41.40:608][832]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
-[2016.03.21-03.41.40:631][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022588s)
-[2016.03.21-03.41.40:631][832]LogAIModule: Creating AISystem for world World
-[2016.03.21-03.41.40:631][832]LogPlayLevel: PIE: World Init took: (0.000766s)
-[2016.03.21-03.41.40:632][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.023602s)
-[2016.03.21-03.41.40:660][832]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.21-03.41.40:666][832]LogInit: FAudioDevice initialized.
-[2016.03.21-03.41.40:790][832]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.03.21-03.41.40:801][832]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.20-23.41.40
-[2016.03.21-03.41.40:801][832]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:P
+﻿[2016.03.21-03.45.17:218][  0]Log file open, 03/20/16 23:45:17
+[2016.03.21-03.45.17:218][  0]LogInit:Display: Running engine for game: Hotel
+[2016.03.21-03.45.17:218][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.21-03.45.17:218][  0]LogInit:Display: RandInit(1266214091) SRandInit(1266214092).
+[2016.03.21-03.45.17:218][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.21-03.45.17:218][  0]LogStats: Stats thread started at 0.073241
+[2016.03.21-03.45.17:218][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.21-03.45.17:218][  0]LogInit: API Version: 2758231
+[2016.03.21-03.45.17:218][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.03.21-03.45.17:218][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.21-03.45.17:218][  0]LogInit: Build Configuration: Development
+[2016.03.21-03.45.17:218][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.21-03.45.17:218][  0]LogInit: Command line:  
+[2016.03.21-03.45.17:218][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.21-03.45.17:218][  0]LogInit: Rocket: 1
+[2016.03.21-03.45.17:230][  0]LogInit: Using libcurl 7.41.0
+[2016.03.21-03.45.17:230][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.21-03.45.17:230][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.21-03.45.17:230][  0]LogInit:  - other features:
+[2016.03.21-03.45.17:230][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.21-03.45.17:230][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.21-03.45.17:230][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.21-03.45.17:230][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.21-03.45.17:230][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.21-03.45.17:230][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.21-03.45.17:230][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.21-03.45.17:230][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.21-03.45.17:230][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.21-03.45.17:230][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.21-03.45.17:236][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.21-03.45.17:241][  0]LogInit: Object subsystem initialized
+[2016.03.21-03.45.17:242][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.21-03.45.17:242][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.21-03.45.17:251][  0]LogInit: Computer: MRRBOND-PC
+[2016.03.21-03.45.17:251][  0]LogInit: User: MrrBond
+[2016.03.21-03.45.17:251][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.21-03.45.17:251][  0]LogInit: High frequency timer resolution =3.415987 MHz
+[2016.03.21-03.45.17:251][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.21-03.45.17:251][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.21-03.45.17:251][  0]LogMemory: Process Physical Memory: 56.23 MB used, 56.23 MB peak
+[2016.03.21-03.45.17:251][  0]LogMemory: Process Virtual Memory: 56.72 MB used, 56.72 MB peak
+[2016.03.21-03.45.17:251][  0]LogMemory: Physical Memory: 3337.43 MB used, 8134.92 MB total
+[2016.03.21-03.45.17:251][  0]LogMemory: Virtual Memory: 382.86 MB used, 134217728.00 MB total
+[2016.03.21-03.45.17:309][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.21-03.45.17:684][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2016.03.21-03.45.17:684][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 1 output[s]
+[2016.03.21-03.45.17:685][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.21-03.45.17:685][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 0 output[s]
+[2016.03.21-03.45.17:685][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.21-03.45.17:689][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.21-03.45.17:689][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.21-03.45.17:700][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.21-03.45.17:719][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/5884/).
+[2016.03.21-03.45.17:720][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MrrBond/AppData/Local/Temp/UnrealShaderWorkingDir/70E85BE948123F2D6E97958CCF7CF5DB/'.
+[2016.03.21-03.45.17:720][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.21-03.45.18:447][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.21-03.45.18:451][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.21-03.45.18:455][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.21-03.45.18:460][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.21-03.45.18:470][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.21-03.45.18:477][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.21-03.45.18:481][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.21-03.45.18:485][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.21-03.45.18:488][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.21-03.45.18:490][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.21-03.45.18:493][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.21-03.45.18:498][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.21-03.45.18:498][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.21-03.45.18:498][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.21-03.45.18:514][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.21-03.45.18:519][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.21-03.45.18:522][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.21-03.45.18:526][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.21-03.45.18:526][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.21-03.45.18:624][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.21-03.45.18:667][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.21-03.45.18:667][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.21-03.45.18:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.21-03.45.18:667][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.21-03.45.18:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.21-03.45.18:667][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.21-03.45.18:753][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.21-03.45.18:765][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MrrBond/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.21-03.45.19:104][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.21-03.45.19:106][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.21-03.45.19:300][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.21-03.45.19:301][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.21-03.45.19:735][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.21-03.45.20:999][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2016.03.21-03.45.21:028][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.21-03.45.21:487][  0]SourceControl: Info Source control is disabled
+[2016.03.21-03.45.21:488][  0]SourceControl: Info Source control is disabled
+[2016.03.21-03.45.21:516][  0]SourceControl: Info Source control is disabled
+[2016.03.21-03.45.21:539][  0]SourceControl: Info Source control is disabled
+[2016.03.21-03.45.22:115][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.03.21-03.45.22:115][  0]LogUObjectAllocator: 6129776 out of 0 bytes used by permanent object pool.
+[2016.03.21-03.45.22:186][  0]LogEngine: Initializing Engine...
+[2016.03.21-03.45.22:188][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.21-03.45.22:189][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.21-03.45.22:398][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.21-03.45.22:406][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.21-03.45.22:423][  0]LogInit: FAudioDevice initialized.
+[2016.03.21-03.45.22:481][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.21-03.45.22:489][  0]LogInit: Texture streaming: Enabled
+[2016.03.21-03.45.22:502][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.21-03.45.22:502][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.21-03.45.22:502][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 70d505b9489753c526a513886a8eb1a2|20388df98dc841109316ca5aa4c25788|5df8a1b8-928f-4cc0-8ccd-f95831ba8036
+[2016.03.21-03.45.22:502][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.21-03.45.22:553][  0]LogInit: Transaction tracking system initialized
+[2016.03.21-03.45.22:621][  0]BlueprintLog: New page: Editor Load
+[2016.03.21-03.45.22:770][  0]LocalizationService: Info Localization service is disabled
+[2016.03.21-03.45.22:907][  0]LogConsoleResponse:Display: 
+[2016.03.21-03.45.23:065][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.21-03.45.23:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/' took 0.02s
+[2016.03.21-03.45.23:165][  0]SourceControl: Info Source control is disabled
+[2016.03.21-03.45.23:165][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.21-03.45.23:166][  0]LightingResults: New page: Lighting Build
+[2016.03.21-03.45.23:170][  0]MapCheck: New page: Map Check
+[2016.03.21-03.45.23:170][  0]LightingResults: New page: Lighting Build
+[2016.03.21-03.45.23:187][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EB8DB0BB00
+[2016.03.21-03.45.26:576][  0]LogAIModule: Creating AISystem for world Menu
+[2016.03.21-03.45.26:577][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.21-03.45.26:577][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.21-03.45.26:763][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 186.116ms to complete.
+[2016.03.21-03.45.26:764][  0]LogFileHelpers: Loading map 'Menu' took 3.599
+[2016.03.21-03.45.26:903][  0]LogCollectionManager: Loaded 0 collections in 0.004451 seconds
+[2016.03.21-03.45.26:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
+[2016.03.21-03.45.26:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Developers/MrrBond/Collections/' took 0.01s
+[2016.03.21-03.45.26:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MrrBond/Documents/GitHub/HotelBete/Content/Collections/' took 0.01s
+[2016.03.21-03.45.26:953][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.21-03.45.26:966][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 1908 classes and 344 folders.
+[2016.03.21-03.45.26:979][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2016.03.21-03.45.27:063][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.03.21-03.45.27:070][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.21-03.45.27:102][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.21-03.45.27:106][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.21-03.45.27:133][  0]LogLoad: Full Startup: 10.37 seconds (BP compile: 0.69 seconds)
+[2016.03.21-03.45.27:480][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.21-03.45.27:571][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.21-03.45.27:782][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.03.21-03.45.31:550][ 12]LogAssetRegistry: Asset discovery search completed in 10.5612 seconds
+[2016.03.21-03.45.31:550][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.03.21-03.45.31:550][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2016.03.21-03.45.35:312][124]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh'
+[2016.03.21-03.45.35:312][124]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh' while loading ../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset.
+[2016.03.21-03.45.35:312][124]LoadErrors:Error: Error /Engine/EngineSky/M_Sky_Panning_Clouds2 : Can't find file for asset. /Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh
+[2016.03.21-03.45.35:313][124]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh'
+[2016.03.21-03.45.35:313][124]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh' while loading ../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset.
+[2016.03.21-03.45.35:918][124]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh'
+[2016.03.21-03.45.35:919][124]LoadErrors: Info Failed to load /Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh.skydome_hdri___brooding_clouds_by_ardak-d5zjabh Referenced by MaterialExpressionTextureSample_0
+[2016.03.21-03.45.35:919][124]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/skydome_hdri___brooding_clouds_by_ardak-d5zjabh' while loading NULL.
+[2016.03.21-03.45.36:027][124]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2016.03.21-03.45.36:027][124]LogMaterial:Warning: Failed to compile Material /Engine/EngineSky/M_Sky_Panning_Clouds2.M_Sky_Panning_Clouds2 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.21-03.45.36:027][124]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.03.21-03.45.36:354][124]LogAIModule: Creating AISystem for world World
+[2016.03.21-03.45.36:355][124]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Breath.Breath Component=/Game/Hotel/Levels/World.World:PersistentLevel.Breath.ParticleSystemComponent0
+[2016.03.21-03.45.36:356][124]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker.ParticleSystemComponent0
+[2016.03.21-03.45.36:356][124]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust_2.ParticleSystemComponent0
+[2016.03.21-03.45.36:358][124]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust2.ParticleSystemComponent0
+[2016.03.21-03.45.36:358][124]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust3.ParticleSystemComponent0
+[2016.03.21-03.45.36:518][124]Cmd: MAP LOAD FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.21-03.45.36:518][124]LightingResults: New page: Lighting Build
+[2016.03.21-03.45.36:550][124]LoadErrors: New page: Loading map: World.umap
+[2016.03.21-03.45.36:550][124]MapCheck: New page: Map Check
+[2016.03.21-03.45.36:550][124]LightingResults: New page: Lighting Build
+[2016.03.21-03.45.36:572][124]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EB9A9B9800
+[2016.03.21-03.45.36:606][124]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.21-03.45.36:671][124]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.21-03.45.36:850][124]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 178.495ms to complete.
+[2016.03.21-03.45.36:852][124]LogFileHelpers: Loading map 'World' took 0.335
+[2016.03.21-03.45.36:859][124]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Enemy : Failed import for Enemy_C /Game/Hotel/Blueprints/Enemies/Enemy.Default__Enemy_C [redirection] in /Game/FirstPersonBP/Blueprints/Enemy
+[2016.03.21-03.45.43:154][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.45.43:154][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-03.45.43:155][432]PIE: New page: PIE session: World (Mar 20, 2016, 7:45:43 PM)
+[2016.03.21-03.45.43:155][432]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
+[2016.03.21-03.45.43:209][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054270s)
+[2016.03.21-03.45.43:211][432]LogAIModule: Creating AISystem for world World
+[2016.03.21-03.45.43:212][432]LogPlayLevel: PIE: World Init took: (0.002458s)
+[2016.03.21-03.45.43:212][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.057360s)
+[2016.03.21-03.45.43:258][432]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.21-03.45.43:273][432]LogInit: FAudioDevice initialized.
+[2016.03.21-03.45.43:383][432]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.21-03.45.43:399][432]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.20-23.45.43
+[2016.03.21-03.45.43:400][432]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-03.45.43:400][432]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-03.45.43:401][432]LogWorld: Bringing up level for play took: 0.016123
+[2016.03.21-03.45.43:438][432]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_World 1.241
+[2016.03.21-03.45.43:438][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.45.43:468][433]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:446).
+[2016.03.21-03.45.45:004][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.45.45:061][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.45.45:090][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EBC4822C00
+[2016.03.21-03.45.48:829][908]MapCheck: New page: Map Check
+[2016.03.21-03.45.48:861][908]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-03.45.48:861][908]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-03.45.48:938][908]LightingResults: New page: Lighting Build - Mar 20, 2016, 7:45:48 PM
+[2016.03.21-03.45.53:392][908]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-03.45.53:392][908]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-03.45.53:392][908]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-03.45.53:392][908]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-03.45.53:392][908]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-03.45.53:858][908]LogEditorBuildUtils: Build time 0:00:05
+[2016.03.21-03.45.53:886][908]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_27, compiling. 
+[2016.03.21-03.45.53:994][912]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BrickwallMat, compiling. 
+[2016.03.21-03.45.53:999][912]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BrickwallMat, compiling. 
+[2016.03.21-03.46.19:136][521]LightingResults:Error: Error guest_floor_haunted Object has overlapping UVs.
+[2016.03.21-03.46.19:136][521]LightingResults: Info guest_floor_haunted Lightmap UV are overlapping by 87.5%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.21-03.46.29:145][265]LightingResults:Error: Error Lobby_haunted Object has overlapping UVs.
+[2016.03.21-03.46.29:145][265]LightingResults: Info Lobby_haunted Lightmap UV are overlapping by 96.5%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.21-03.47.03:692][984]Job is a success!
+[2016.03.21-03.47.04:172][985]LogMaterial:Warning: Material /Game/Hotel/Art/Models/brickwall/BrickwallMat.BrickwallMat needed to have new flag set bUsedWithStaticLighting !
+[2016.03.21-03.47.04:177][985]LogMaterial: Missing cached shader map for material BrickwallMat, compiling. 
+[2016.03.21-03.47.04:206][985]LogMaterial: 0.000592 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.21-03.47.06:437][985]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.03.21-03.47.06:770][985]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.03.21-03.47.06:775][985]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.03.21-03.47.06:775][985]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2016.03.21-03.47.06:778][985]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.03.21-03.47.06:788][985]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.03.21-03.47.06:795][985]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2016.03.21-03.47.06:802][985]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.03.21-03.47.06:829][985]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.03.21-03.47.06:857][985]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.03.21-03.47.06:881][985]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.21-03.47.06:895][985]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.21-03.47.06:917][985]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.03.21-03.47.06:945][985]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.21-03.47.06:974][985]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.21-03.47.06:976][985]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.03.21-03.47.06:981][985]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.21-03.47.07:042][985]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.21-03.47.07:112][985]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.21-03.47.07:157][985]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.03.21-03.47.07:162][985]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.03.21-03.47.07:178][985]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.03.21-03.47.07:184][985]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.21-03.47.07:255][985]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.21-03.47.07:329][985]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.03.21-03.47.07:425][985]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.03.21-03.47.07:799][985]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.03.21-03.47.08:411][985]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.03.21-03.47.08:864][985]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.03.21-03.47.09:213][985]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.03.21-03.47.09:718][985]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.03.21-03.47.09:983][985]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.21-03.47.10:337][985]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.21-03.47.10:918][985]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.03.21-03.47.11:220][985]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.21-03.47.11:553][985]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.21-03.47.12:651][985]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.03.21-03.47.13:355][985]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.03.21-03.47.14:028][985]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.03.21-03.47.14:694][985]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.03.21-03.47.14:810][985]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.03.21-03.47.14:853][985]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.03.21-03.47.14:861][985]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.03.21-03.47.14:866][985]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.03.21-03.47.14:877][985]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2016.03.21-03.47.14:882][985]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2016.03.21-03.47.14:883][985]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2016.03.21-03.47.14:962][985]Lightmass on MRRBOND-PC: 1:18 min total, 893 ms importing, 365 ms setup, 4.20 sec photons, 1:13 min processing, 0 ms extra exporting [44/44 mappings]. Threads: 8:33 min total, 4:10 min processing.
+[2016.03.21-03.47.15:018][985]LogStaticLightingSystem: Illumination: 1:26 min (10.6 sec encoding lightmaps)
+[2016.03.21-03.47.15:018][985]LogStaticLightingSystem: Lightmap texture memory:  22.2 MB (22.2 MB streaming, 0.0 MB non-streaming), 24 textures
+[2016.03.21-03.47.15:018][985]LogStaticLightingSystem: Shadowmap texture memory: 11.6 MB (11.6 MB streaming, 0.0 MB non-streaming), 11 textures
+[2016.03.21-03.47.15:480][986]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-03.47.15:481][986]MapCheck: New page: World - Mar 20, 2016, 7:47:15 PM
+[2016.03.21-03.47.15:517][986]MapCheck:Error: Error Lobby__Ceiling_haunted_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.03.21-03.47.15:517][986]MapCheck:Warning: Warning Lobby__Ceiling_haunted_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.21-03.47.15:517][986]MapCheck:Warning: Warning Lobby__Ceiling_haunted_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.21-03.47.15:517][986]MapCheck:Error: Error Lobby_haunted_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.03.21-03.47.15:517][986]MapCheck:Warning: Warning Lobby_haunted_4 Static mesh actor has NULL StaticMesh property 
+[2016.03.21-03.47.15:517][986]MapCheck:Warning: Warning Lobby_haunted_4 Static mesh actor has NULL StaticMesh property 
+[2016.03.21-03.47.15:517][986]MapCheck:Error: Error Sink_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.03.21-03.47.15:517][986]MapCheck:Warning: Warning Sink_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.21-03.47.15:517][986]MapCheck:Warning: Warning Sink_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.21-03.47.15:756][986]MapCheck: Info Map check complete: 3 Error(s), 6 Warning(s), took 275.732ms to complete.
+[2016.03.21-03.47.20:738][376]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.03.21-03.47.27:710][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.21-03.47.28:252][885]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.03.21-03.47.38:358][623]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot8)
+[2016.03.21-03.47.56:660][ 41]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot9)
+[2016.03.21-03.48.15:789][503]LogEditorViewport: Clicking on Actor (LMB): Emitter (Dust2)
+[2016.03.21-03.48.20:360][834]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot10)
+[2016.03.21-03.48.35:724][992]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot11)
+[2016.03.21-03.48.44:219][614]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.03.21-03.48.51:943][156]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot11)
+[2016.03.21-03.49.07:802][333]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door3)
+[2016.03.21-03.49.22:040][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.21-03.49.25:874][700]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot5)
+[2016.03.21-03.49.46:658][265]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot6)
+[2016.03.21-03.49.55:057][908]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot6)
+[2016.03.21-03.50.00:521][320]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot7)
+[2016.03.21-03.50.17:022][579]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.03.21-03.50.23:370][ 62]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.03.21-03.50.40:141][311]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.03.21-03.50.41:456][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.50.41:456][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.21-03.50.41:456][396]PIE: New page: PIE session: World (Mar 20, 2016, 7:50:41 PM)
+[2016.03.21-03.50.41:457][396]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
+[2016.03.21-03.50.41:505][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048800s)
+[2016.03.21-03.50.41:506][396]LogAIModule: Creating AISystem for world World
+[2016.03.21-03.50.41:507][396]LogPlayLevel: PIE: World Init took: (0.001349s)
+[2016.03.21-03.50.41:507][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.050472s)
+[2016.03.21-03.50.41:558][396]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.21-03.50.41:566][396]LogInit: FAudioDevice initialized.
+[2016.03.21-03.50.41:650][396]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.21-03.50.41:662][396]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.20-23.50.41
+[2016.03.21-03.50.41:663][396]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-03.50.41:663][396]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-03.50.41:666][396]LogWorld: Bringing up level for play took: 0.014043
+[2016.03.21-03.50.41:719][396]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_World -0.477
+[2016.03.21-03.50.41:720][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.51.45:741][773]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:743][773]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:754][774]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:759][774]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:767][775]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:774][775]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:779][776]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:785][776]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:792][777]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:794][777]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:804][778]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:808][778]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:814][779]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:824][779]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:839][780]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:845][780]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:854][781]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:856][781]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:863][782]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:870][782]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:874][783]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:876][783]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:882][784]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:885][784]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:896][785]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:901][785]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:906][786]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:908][786]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:921][787]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:923][787]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:934][788]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:937][788]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:947][789]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:952][789]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:956][790]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:960][790]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:971][791]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:975][791]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:987][792]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.45:989][792]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:000][793]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:004][793]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:015][794]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:019][794]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:023][795]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:031][795]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:043][796]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:049][796]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:054][797]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:055][797]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:063][798]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:069][798]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:075][799]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:077][799]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:091][800]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:093][800]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:104][801]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:108][801]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:114][802]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.46:121][802]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:781][559]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:789][559]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:794][560]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:797][560]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:808][561]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:810][561]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:819][562]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:823][562]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:827][563]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:830][563]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:839][564]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:841][564]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:846][565]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:853][565]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:859][566]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:861][566]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:873][567]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:876][567]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:886][568]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:893][568]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:902][569]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:906][569]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:910][570]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:915][570]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:923][571]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:924][571]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:930][572]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:938][572]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:943][573]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:947][573]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:958][574]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:960][574]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:970][575]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:972][575]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:981][576]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:986][576]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.57:997][577]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:002][577]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:006][578]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:007][578]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:021][579]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:024][579]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:029][580]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:037][580]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:042][581]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:044][581]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:057][582]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:059][582]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:069][583]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:074][583]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:078][584]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:085][584]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:092][585]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:094][585]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:106][586]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:108][586]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:114][587]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:122][587]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:127][588]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:131][588]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:140][589]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:142][589]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:149][590]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:155][590]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:159][591]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:161][591]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:175][592]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:176][592]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:187][593]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:190][593]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:194][594]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:200][594]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:207][595]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:209][595]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:216][596]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:223][596]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:227][597]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:233][597]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:242][598]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:244][598]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:255][599]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.51.58:259][599]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/0]!
+[2016.03.21-03.52.07:684][225]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:686][225]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:689][226]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:693][226]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:704][227]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:706][227]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:716][228]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:721][228]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:725][229]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:726][229]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:739][230]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:741][230]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:745][231]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:747][231]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:752][232]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:754][232]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:762][233]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:767][233]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:779][234]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:787][234]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:793][235]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:799][235]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:808][236]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:809][236]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:818][237]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:823][237]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:828][238]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:836][238]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:842][239]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:844][239]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:856][240]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:858][240]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:864][241]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:871][241]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:876][242]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:878][242]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:890][243]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:892][243]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:900][244]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:906][244]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:911][245]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:914][245]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:924][246]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:926][246]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:934][247]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:940][247]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:946][248]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:954][248]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:966][249]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:971][249]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:984][250]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:988][250]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:994][251]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.07:996][251]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:003][252]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:008][252]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:020][253]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:027][253]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:037][254]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:039][254]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:050][255]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:054][255]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:058][256]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:065][256]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:072][257]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:076][257]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:087][258]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:089][258]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:099][259]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:104][259]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:114][260]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:119][260]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:123][261]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:130][261]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:137][262]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:139][262]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:150][263]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:155][263]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:160][264]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:162][264]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:167][265]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:169][265]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:184][266]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:187][266]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:199][267]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:203][267]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:207][268]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:215][268]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:221][269]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:222][269]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:234][270]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:235][270]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:239][271]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:241][271]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:256][272]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:260][272]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:268][273]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:270][273]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:282][274]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:285][274]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:299][275]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:308][275]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:322][276]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:328][276]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:341][277]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:348][277]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:356][278]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:361][278]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:366][279]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:368][279]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:381][280]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:385][280]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:390][281]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:391][281]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:404][282]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:408][282]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:416][283]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:424][283]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:431][284]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:437][284]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:446][285]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:452][285]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:460][286]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:468][286]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:473][287]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:477][287]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:486][288]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:488][288]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:495][289]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:497][289]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:501][290]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.08:504][290]LogScript:Warning: Attempted to get an item from array TextInv out of bounds [-1/1]!
+[2016.03.21-03.52.17:674][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.52.17:740][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.21-03.52.17:771][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EBFE5DEC00
+[2016.03.21-03.52.20:332][141]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.03.21-03.52.21:661][243]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.21-03.52.25:273][523]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.21-03.52.27:976][740]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.21-03.52.29:271][832]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.03.21-03.52.31:600][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.21-03.52.32:924][967]LogSavePackage: Save=1190.130127ms
+[2016.03.21-03.52.32:925][967]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/World8045E63643859336872CCE8989F5977F.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.21-03.52.32:934][967]LogSavePackage: Total save time: 1307.298593ms
+[2016.03.21-03.52.32:934][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.21-03.52.32:978][967]LogFileHelpers: Saving map 'World' took 1.542
+[2016.03.21-03.52.33:057][967]LogSavePackage: Save=22.376842ms
+[2016.03.21-03.52.33:057][967]LogSavePackage: Moving '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Saved/BrickwallMat22147EB94764B340AEDD80AF142E787C.tmp' to '../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/brickwall/BrickwallMat.uasset'
+[2016.03.21-03.52.33:067][967]LogSavePackage: Total save time: 44.507489ms
+[2016.03.21-03.52.33:068][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/brickwall/BrickwallMat.uasset
+[2016.03.21-03.52.39:178][441]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.21-03.52.39:460][442]Cmd: QUIT_EDITOR
+[2016.03.21-03.52.40:002][442]LogExit: Preparing to exit.
+[2016.03.21-03.52.40:541][442]LogExit: Editor shut down
+[2016.03.21-03.52.40:546][442]LogExit: Transaction tracking system shut down
+[2016.03.21-03.52.40:765][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EBA50EB880
+[2016.03.21-03.52.40:768][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EBA503C680
+[2016.03.21-03.52.40:781][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EBA2765C60
+[2016.03.21-03.52.40:782][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EBA26E0EA0
+[2016.03.21-03.52.40:782][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EBA26E09A0
+[2016.03.21-03.52.41:088][442]LogExit: Object subsystem successfully closed.
+[2016.03.21-03.52.41:131][442]LogD3D11RHI: Shutdown
+[2016.03.21-03.52.41:131][442]LogD3D11RHI: CleanupD3DDevice
+[2016.03.21-03.52.41:217][442]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.21-03.52.41:248][442]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.03.21-03.52.41:248][442]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.21-03.52.41:248][442]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.21-03.52.41:248][442]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.21-03.52.41:248][442]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.21-03.52.41:248][442]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.21-03.52.41:255][442]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.21-03.52.41:255][442]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.21-03.52.41:255][442]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.21-03.52.41:256][442]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.21-03.52.41:257][442]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.21-03.52.41:259][442]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.21-03.52.41:260][442]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.21-03.52.41:260][442]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.21-03.52.41:260][442]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.21-03.52.41:260][442]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.21-03.52.41:963][442]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.21-03.52.41:964][442]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.21-03.52.41:965][442]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.21-03.52.41:965][442]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.21-03.52.41:965][442]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.21-03.52.41:965][442]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.21-03.52.41:965][442]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.21-03.52.41:966][442]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.21-03.52.41:967][442]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.21-03.52.41:968][442]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.21-03.52.41:969][442]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.21-03.52.41:969][442]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.21-03.52.41:969][442]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.21-03.52.41:969][442]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.21-03.52.41:969][442]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.21-03.52.41:969][442]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.21-03.52.41:969][442]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.21-03.52.41:970][442]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.21-03.52.41:970][442]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.21-03.52.41:970][442]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.21-03.52.41:970][442]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.21-03.52.41:970][442]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.21-03.52.41:970][442]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.21-03.52.41:970][442]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.03.21-03.52.42:063][442]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.21-03.52.42:073][442]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.21-03.52.42:074][442]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.21-03.52.42:074][442]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.21-03.52.42:074][442]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.21-03.52.42:075][442]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.21-03.52.42:076][442]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.21-03.52.42:077][442]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.21-03.52.42:077][442]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.21-03.52.42:077][442]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.21-03.52.42:078][442]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.21-03.52.42:078][442]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.21-03.52.42:078][442]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.21-03.52.42:079][442]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.21-03.52.42:079][442]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.21-03.52.42:079][442]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.21-03.52.42:081][442]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.03.21-03.52.42:082][442]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.03.21-03.52.42:083][442]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.03.21-03.52.42:184][442]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.03.21-03.52.42:188][442]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.03.21-03.52.42:429][442]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.03.21-03.52.42:433][442]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.21-03.52.42:433][442]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.21-03.52.42:433][442]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.21-03.52.42:438][442]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.21-03.52.42:438][442]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.21-03.52.42:438][442]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.21-03.52.42:438][442]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.21-03.52.42:438][442]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.21-03.52.42:438][442]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.21-03.52.42:440][442]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.21-03.52.42:440][442]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.21-03.52.42:440][442]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.21-03.52.42:440][442]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.21-03.52.42:440][442]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.21-03.52.42:442][442]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.21-03.52.42:443][442]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.21-03.52.42:444][442]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.21-03.52.42:444][442]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.21-03.52.42:444][442]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.21-03.52.42:447][442]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.21-03.52.42:543][442]LogDerivedDataCache: Shutdown
+[2016.03.21-03.52.42:543][442]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.21-03.52.42:544][442]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.21-03.52.42:544][442]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.21-03.52.42:545][442]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.21-03.52.42:546][442]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.21-03.52.42:546][442]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.21-03.52.42:546][442]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.21-03.52.42:546][442]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.21-03.52.42:547][442]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.21-03.52.42:548][442]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.21-03.52.42:548][442]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.21-03.52.42:548][442]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.21-03.52.42:548][442]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.21-03.52.42:548][442]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.21-03.52.42:548][442]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.21-03.52.42:548][442]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.21-03.52.44:551][442]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.21-03.52.44:552][442]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.21-03.52.44:553][442]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.21-03.52.44:553][442]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.21-03.52.44:553][442]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.21-03.52.44:553][442]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.21-03.52.44:553][442]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.21-03.52.44:560][442]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.21-03.52.44:561][442]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.21-03.52.44:561][442]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.21-03.52.44:561][442]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.21-03.52.44:561][442]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.21-03.52.44:561][442]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.21-03.52.44:561][442]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.21-03.52.44:562][442]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.21-03.52.44:562][442]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.21-03.52.44:562][442]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.21-03.52.44:564][442]LogExit: Exiting.
+[2016.03.21-03.52.44:583][442]Log file closed, 03/20/16 23:52:44
