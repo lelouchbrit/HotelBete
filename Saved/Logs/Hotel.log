@@ -191,4 +191,411 @@
 [2016.03.24-23.04.03:843][740]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
 [2016.03.24-23.04.03:844][740]MaterialEditorStats: Info Vertex shader: 31 instructions
 [2016.03.24-23.04.03:844][740]MaterialEditorStats: Info Texture samplers: 2/16
-[2016.
+[2016.03.24-23.04.14:808][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.14:825][985]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.04.15:142][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.15:168][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.15:181][985]LogMaterial: 0.002623 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.04.26:520][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.26:534][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.26:547][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.26:590][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.26:689][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.04.26:700][985]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_0' or package '/Engine/Transient'.
+[2016.03.24-23.04.26:700][985]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_29' or package '/Engine/Transient'.
+[2016.03.24-23.04.26:700][985]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_30' or package '/Engine/Transient'.
+[2016.03.24-23.04.26:700][985]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_1' or package '/Engine/Transient'.
+[2016.03.24-23.04.26:700][985]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_28' or package '/Engine/Transient'.
+[2016.03.24-23.04.28:693][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CDC8C20
+[2016.03.24-23.04.36:959][  2]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Lobby\Lobby_haunted_nodoors_Walls_AmbientOcclusion.png)
+[2016.03.24-23.04.42:349][  2]LogTexture:Display: Building textures: Lobby_haunted_nodoors_Walls_AmbientOcclusion (AutoDXT)
+[2016.03.24-23.04.49:930][  2]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Lobby\Walls_Base_Color.png)
+[2016.03.24-23.04.53:232][  2]LogTexture:Display: Building textures: Walls_Base_Color (AutoDXT)
+[2016.03.24-23.05.20:733][  2]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Lobby\Walls_Normal_DirectX.png)
+[2016.03.24-23.05.28:252][  2]LogTexture:Display: Building textures: Walls_Normal_DirectX (BC5)
+[2016.03.24-23.05.33:591][  2]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Lobby\Walls_Roughness.png)
+[2016.03.24-23.05.33:919][  2]LogTexture:Display: Building textures: Walls_Roughness (AutoDXT)
+[2016.03.24-23.06.00:795][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.24-23.06.09:323][507]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.09:416][507]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.09:424][507]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.11:355][636]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.03.24-23.06.11:355][636]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.24-23.06.11:355][636]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.24-23.06.11:355][636]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.03.24-23.06.20:659][ 27]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.20:666][ 27]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.20:667][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.24-23.06.20:864][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.24-23.06.20:878][ 27]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.20:885][ 27]LogMaterial: 0.000343 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.20:886][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.24-23.06.20:915][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.24-23.06.20:919][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.24-23.06.20:936][ 27]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.20:942][ 27]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.20:943][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.24-23.06.20:972][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.24-23.06.20:976][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.24-23.06.20:979][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.24-23.06.20:993][ 27]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.20:999][ 27]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.21:000][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.24-23.06.21:034][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.24-23.06.21:038][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.24-23.06.21:042][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.24-23.06.21:045][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.24-23.06.22:804][ 84]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.03.24-23.06.22:804][ 84]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.24-23.06.22:804][ 84]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.24-23.06.22:804][ 84]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.03.24-23.06.25:484][200]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.25:492][200]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.25:519][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.03.24-23.06.27:403][261]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.03.24-23.06.27:403][261]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.03.24-23.06.27:403][261]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.06.27:403][261]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.24-23.06.30:176][392]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.30:182][392]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.30:208][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.24-23.06.32:073][459]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.03.24-23.06.32:073][459]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.03.24-23.06.32:073][459]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.06.32:073][459]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.24-23.06.34:920][595]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.34:926][595]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.34:954][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.03.24-23.06.37:164][673]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2016.03.24-23.06.37:164][673]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2016.03.24-23.06.37:164][673]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.06.37:164][673]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.03.24-23.06.43:942][985]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.43:948][985]LogMaterial: 0.000296 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.43:980][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.03.24-23.06.45:589][ 41]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.03.24-23.06.45:589][ 41]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.24-23.06.45:589][ 41]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.06.45:589][ 41]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.24-23.06.50:106][243]LogMaterialEditor: Applying material Walls
+[2016.03.24-23.06.50:830][243]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.50:847][243]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.50:889][243]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.50:913][243]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.06.50:927][243]LogMaterial: 0.002346 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.06.53:082][311]LogMaterialEditor: Saving and Compiling material Walls
+[2016.03.24-23.06.55:925][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Lobby/Walls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Walls.uasset" SILENT=true
+[2016.03.24-23.06.55:983][311]LogSavePackage: Save=38.265339ms
+[2016.03.24-23.06.55:983][311]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/WallsF113F6674F346F80565B0391C95C263F.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Walls.uasset'
+[2016.03.24-23.06.55:984][311]LogSavePackage: Total save time: 57.867341ms
+[2016.03.24-23.06.55:984][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Walls.uasset
+[2016.03.24-23.06.55:991][311]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2016.03.24-23.06.55:991][311]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2016.03.24-23.06.55:991][311]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.06.55:991][311]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.03.24-23.07.56:508][682]Cmd: TRANSACTION UNDO
+[2016.03.24-23.07.56:508][682]LogEditorTransaction: Undo Move Actors
+[2016.03.24-23.07.56:559][682]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.07.56:564][682]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.07.58:802][733]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.03.24-23.07.58:802][733]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.24-23.07.58:802][733]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.07.58:802][733]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.24-23.08.03:592][923]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.24-23.08.49:115][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table_Haunted)
+[2016.03.24-23.08.55:424][990]LogEditorViewport: Clicking on Actor (CTRL LMB): Chair_C (Chair11)
+[2016.03.24-23.08.56:891][ 46]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rubble01)
+[2016.03.24-23.08.58:625][117]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bed2)
+[2016.03.24-23.09.02:580][278]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Desk2)
+[2016.03.24-23.09.03:612][320]LogEditorViewport: Clicking on Actor (CTRL LMB): Chair_C (Chair6)
+[2016.03.24-23.09.04:439][352]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Desk6)
+[2016.03.24-23.09.05:274][384]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bookshelf2)
+[2016.03.24-23.09.06:552][436]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Desk7)
+[2016.03.24-23.09.07:427][471]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bookshelf4)
+[2016.03.24-23.09.10:204][586]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Desk4)
+[2016.03.24-23.09.13:812][738]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Table_Haunted2)
+[2016.03.24-23.09.15:524][809]LogEditorViewport: Clicking on Actor (CTRL LMB): Chair_C (Chair12)
+[2016.03.24-23.09.16:408][844]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.24-23.09.17:403][884]Cmd: TRANSACTION UNDO
+[2016.03.24-23.09.17:403][884]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.24-23.09.17:426][884]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.09.17:434][884]LogMaterial: 0.000210 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.09.18:467][914]LogEditorViewport: Clicking on Actor (CTRL LMB): Chair_C (Chair17)
+[2016.03.24-23.09.19:950][963]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.03.24-23.09.19:950][963]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.24-23.09.19:950][963]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.09.19:950][963]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.24-23.09.21:385][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bookshelf5)
+[2016.03.24-23.09.22:867][ 83]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Sink3)
+[2016.03.24-23.09.25:372][187]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rubble2)
+[2016.03.24-23.09.27:929][293]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rubble02)
+[2016.03.24-23.09.31:810][450]LogEditorViewport: Clicking on Actor (CTRL LMB): Chair_C (Chair9)
+[2016.03.24-23.09.34:532][559]LogEditorViewport: Clicking on Actor (CTRL LMB): Chair_C (Chair10)
+[2016.03.24-23.09.37:033][665]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rubble3)
+[2016.03.24-23.09.37:828][697]LogEditorViewport: Clicking on Actor (CTRL LMB): Chair_C (Chair4)
+[2016.03.24-23.10.43:199][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble3)
+[2016.03.24-23.10.45:739][533]Cmd: TRANSACTION UNDO
+[2016.03.24-23.10.45:739][533]LogEditorTransaction: Undo Move Actors
+[2016.03.24-23.10.45:745][533]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.10.45:751][533]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.10.48:089][607]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.03.24-23.10.48:089][607]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.03.24-23.10.48:089][607]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.24-23.10.48:089][607]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.03.24-23.10.51:890][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.24-23.10.54:726][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble01)
+[2016.03.24-23.11.15:723][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.24-23.11.17:271][681]LogSavePackage: Save=1489.855835ms
+[2016.03.24-23.11.17:271][681]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World51A69FD54A922672FF0AB9844F5F960C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.24-23.11.17:274][681]LogSavePackage: Total save time: 1519.427747ms
+[2016.03.24-23.11.17:274][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.24-23.11.17:319][681]LogFileHelpers: Saving map 'World' took 1.717
+[2016.03.24-23.11.17:384][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Lobby/Lobby_haunted" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Lobby_haunted.uasset" SILENT=true
+[2016.03.24-23.11.17:427][681]LogSavePackage: Save=22.120758ms
+[2016.03.24-23.11.17:427][681]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Lobby_haunted0166157B415588943AFD3DB7327E38B2.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Lobby_haunted.uasset'
+[2016.03.24-23.11.17:429][681]LogSavePackage: Total save time: 44.437561ms
+[2016.03.24-23.11.17:429][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Lobby_haunted.uasset
+[2016.03.24-23.11.18:657][681]LogSavePackage: Save=1192.239746ms
+[2016.03.24-23.11.18:657][681]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Roughness79191890488521AA16AE9F8FF89A30F0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Walls_Roughness.uasset'
+[2016.03.24-23.11.18:658][681]LogSavePackage: Total save time: 1193.873174ms
+[2016.03.24-23.11.18:658][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Walls_Roughness.uasset
+[2016.03.24-23.11.27:564][681]LogSavePackage: Save=8875.076172ms
+[2016.03.24-23.11.27:564][681]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Normal_DirectXC681FB694910AD0F3696D2A1B46C084F.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Walls_Normal_DirectX.uasset'
+[2016.03.24-23.11.27:565][681]LogSavePackage: Total save time: 8876.590461ms
+[2016.03.24-23.11.27:565][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Walls_Normal_DirectX.uasset
+[2016.03.24-23.11.30:968][681]LogSavePackage: Save=3370.885986ms
+[2016.03.24-23.11.30:968][681]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls_Base_Color13D0173147276DC72B79C587EF95D093.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Walls_Base_Color.uasset'
+[2016.03.24-23.11.30:969][681]LogSavePackage: Total save time: 3372.405361ms
+[2016.03.24-23.11.30:969][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Walls_Base_Color.uasset
+[2016.03.24-23.11.36:017][681]LogSavePackage: Save=5013.254883ms
+[2016.03.24-23.11.36:018][681]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Lobby_haunted_nodoors_Walls_AmbientOcclusion165132F447C4E4477CF795946583D38E.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Lobby_haunted_nodoors_Walls_AmbientOcclusion.uasset'
+[2016.03.24-23.11.36:019][681]LogSavePackage: Total save time: 5014.856149ms
+[2016.03.24-23.11.36:019][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/Lobby_haunted_nodoors_Walls_AmbientOcclusion.uasset
+[2016.03.24-23.15.49:187][422]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.15.49:207][422]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.15.49:244][422]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.15.49:283][422]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.24-23.15.49:310][422]LogMaterial: 0.007881 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.24-23.15.56:164][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Lobby/Walls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Walls.uasset" SILENT=true
+[2016.03.24-23.15.56:186][422]LogSavePackage: Save=17.841513ms
+[2016.03.24-23.15.56:186][422]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Walls0DD5A79148DA3862AC82FB8C4065E8D3.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Walls.uasset'
+[2016.03.24-23.15.56:188][422]LogSavePackage: Total save time: 22.977781ms
+[2016.03.24-23.15.56:188][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/Walls.uasset
+[2016.03.24-23.15.56:680][423]Cmd: QUIT_EDITOR
+[2016.03.24-23.15.56:962][423]LogExit: Preparing to exit.
+[2016.03.24-23.15.57:450][423]LogExit: Editor shut down
+[2016.03.24-23.15.57:451][423]LogExit: Transaction tracking system shut down
+[2016.03.24-23.15.57:533][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044A92E80
+[2016.03.24-23.15.57:533][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044CFFB00
+[2016.03.24-23.15.57:570][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020C2E700
+[2016.03.24-23.15.57:571][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C3AAC0
+[2016.03.24-23.15.57:571][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020DE3BA0
+[2016.03.24-23.15.57:571][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020DE3560
+[2016.03.24-23.15.57:575][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D4EE660
+[2016.03.24-23.15.58:665][423]LogExit: Object subsystem successfully closed.
+[2016.03.24-23.15.58:704][423]LogD3D11RHI: Shutdown
+[2016.03.24-23.15.58:704][423]LogD3D11RHI: CleanupD3DDevice
+[2016.03.24-23.15.58:718][423]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.24-23.15.59:247][423]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.03.24-23.15.59:247][423]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2016.03.24-23.15.59:247][423]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.24-23.15.59:247][423]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.24-23.15.59:248][423]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.24-23.15.59:248][423]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.24-23.15.59:248][423]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.24-23.15.59:250][423]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.24-23.15.59:250][423]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.24-23.15.59:251][423]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.24-23.15.59:251][423]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.24-23.15.59:251][423]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.24-23.15.59:252][423]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.24-23.15.59:273][423]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.24-23.15.59:274][423]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.24-23.15.59:274][423]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.24-23.15.59:274][423]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.24-23.15.59:274][423]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.24-23.15.59:808][423]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.24-23.15.59:808][423]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.24-23.15.59:808][423]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.24-23.15.59:808][423]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.24-23.15.59:808][423]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.24-23.15.59:808][423]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.24-23.15.59:809][423]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.24-23.15.59:809][423]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.24-23.15.59:809][423]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.24-23.15.59:819][423]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.24-23.15.59:819][423]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.24-23.15.59:819][423]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.24-23.15.59:819][423]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.24-23.15.59:820][423]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.24-23.15.59:820][423]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.24-23.15.59:820][423]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.24-23.15.59:820][423]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.24-23.15.59:820][423]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.24-23.15.59:820][423]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.24-23.15.59:823][423]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.24-23.15.59:823][423]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.24-23.15.59:823][423]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.24-23.15.59:834][423]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.24-23.15.59:834][423]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.24-23.15.59:862][423]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.24-23.15.59:862][423]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.24-23.15.59:862][423]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.24-23.15.59:862][423]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.24-23.15.59:879][423]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.24-23.15.59:900][423]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.24-23.15.59:900][423]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.24-23.15.59:900][423]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.24-23.15.59:900][423]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.24-23.15.59:920][423]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.24-23.15.59:920][423]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.24-23.15.59:920][423]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.24-23.15.59:920][423]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.24-23.15.59:920][423]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.24-23.15.59:947][423]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.24-23.15.59:947][423]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.24-23.15.59:947][423]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.24-23.15.59:954][423]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.24-23.15.59:955][423]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.24-23.16.00:203][423]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.24-23.16.00:214][423]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.03.24-23.16.00:227][423]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.24-23.16.00:227][423]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.24-23.16.00:227][423]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.24-23.16.00:228][423]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.24-23.16.00:228][423]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.03.24-23.16.00:228][423]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.03.24-23.16.00:228][423]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.24-23.16.00:236][423]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.24-23.16.00:236][423]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.24-23.16.00:236][423]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.24-23.16.00:236][423]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.24-23.16.00:266][423]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.24-23.16.00:278][423]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.24-23.16.00:278][423]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.24-23.16.00:278][423]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.24-23.16.00:280][423]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.24-23.16.00:280][423]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.24-23.16.00:280][423]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.24-23.16.00:280][423]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.24-23.16.00:280][423]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.24-23.16.00:280][423]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.24-23.16.00:280][423]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.24-23.16.00:288][423]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.24-23.16.00:288][423]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.24-23.16.00:288][423]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.24-23.16.00:288][423]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.24-23.16.00:288][423]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.24-23.16.00:288][423]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.24-23.16.00:299][423]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.24-23.16.00:299][423]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.24-23.16.00:299][423]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.24-23.16.00:300][423]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.03.24-23.16.00:301][423]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.03.24-23.16.00:320][423]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.03.24-23.16.00:421][423]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.03.24-23.16.00:422][423]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.03.24-23.16.00:587][423]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.03.24-23.16.00:600][423]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.24-23.16.00:600][423]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.24-23.16.00:600][423]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.24-23.16.00:600][423]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.24-23.16.00:600][423]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.24-23.16.00:602][423]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.24-23.16.00:602][423]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.24-23.16.00:602][423]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.24-23.16.00:602][423]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.24-23.16.00:611][423]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.24-23.16.00:612][423]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.24-23.16.00:612][423]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.24-23.16.00:612][423]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.24-23.16.00:612][423]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.24-23.16.00:613][423]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.24-23.16.00:613][423]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.24-23.16.00:623][423]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.24-23.16.00:633][423]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.24-23.16.00:633][423]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.24-23.16.00:635][423]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.24-23.16.00:636][423]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.24-23.16.00:638][423]LogDerivedDataCache: Shutdown
+[2016.03.24-23.16.00:638][423]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.24-23.16.00:664][423]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.24-23.16.00:664][423]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.24-23.16.00:686][423]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.24-23.16.00:687][423]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.24-23.16.01:687][423]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.24-23.16.01:721][423]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.24-23.16.01:744][423]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.24-23.16.01:745][423]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.24-23.16.01:745][423]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.24-23.16.01:745][423]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.24-23.16.01:745][423]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.24-23.16.01:751][423]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.24-23.16.01:754][423]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.24-23.16.01:754][423]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.24-23.16.01:765][423]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.24-23.16.01:765][423]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.24-23.16.01:765][423]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.24-23.16.01:765][423]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.24-23.16.01:774][423]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.24-23.16.01:774][423]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.24-23.16.01:774][423]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.24-23.16.01:783][423]LogExit: Exiting.
+[2016.03.24-23.16.01:807][423]Log file closed, 03/24/16 19:16:01
