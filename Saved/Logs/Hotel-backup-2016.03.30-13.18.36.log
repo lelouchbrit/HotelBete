@@ -1,0 +1,1041 @@
+﻿[2016.03.28-00.44.04:752][  0]Log file open, 03/27/16 20:44:04
+[2016.03.28-00.44.04:752][  0]LogInit:Display: Running engine for game: Hotel
+[2016.03.28-00.44.04:752][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.28-00.44.04:752][  0]LogInit:Display: RandInit(-2138088105) SRandInit(-2138088104).
+[2016.03.28-00.44.04:752][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.28-00.44.04:752][  0]LogStats: Stats thread started at 0.073192
+[2016.03.28-00.44.04:752][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.28-00.44.04:752][  0]LogInit: API Version: 2758231
+[2016.03.28-00.44.04:752][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.28-00.44.04:752][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.28-00.44.04:752][  0]LogInit: Build Configuration: Development
+[2016.03.28-00.44.04:752][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.28-00.44.04:752][  0]LogInit: Command line: -EpicPortal 
+[2016.03.28-00.44.04:752][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.28-00.44.04:752][  0]LogInit: Rocket: 1
+[2016.03.28-00.44.04:760][  0]LogInit: Using libcurl 7.41.0
+[2016.03.28-00.44.04:760][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.28-00.44.04:760][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.28-00.44.04:760][  0]LogInit:  - other features:
+[2016.03.28-00.44.04:760][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.28-00.44.04:760][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.28-00.44.04:760][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.28-00.44.04:760][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.28-00.44.04:760][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.28-00.44.04:760][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.28-00.44.04:760][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.28-00.44.04:760][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.28-00.44.04:760][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.28-00.44.04:760][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.28-00.44.04:769][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.28-00.44.04:774][  0]LogInit: Object subsystem initialized
+[2016.03.28-00.44.04:775][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.28-00.44.04:775][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.28-00.44.04:798][  0]LogInit: Computer: RIN
+[2016.03.28-00.44.04:799][  0]LogInit: User: Remy
+[2016.03.28-00.44.04:799][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.28-00.44.04:799][  0]LogInit: High frequency timer resolution =2.338332 MHz
+[2016.03.28-00.44.04:799][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2016.03.28-00.44.04:799][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.28-00.44.04:799][  0]LogMemory: Process Physical Memory: 54.53 MB used, 54.53 MB peak
+[2016.03.28-00.44.04:799][  0]LogMemory: Process Virtual Memory: 56.59 MB used, 56.59 MB peak
+[2016.03.28-00.44.04:799][  0]LogMemory: Physical Memory: 5412.77 MB used, 7912.27 MB total
+[2016.03.28-00.44.04:799][  0]LogMemory: Virtual Memory: 360.72 MB used, 134217728.00 MB total
+[2016.03.28-00.44.04:849][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.28-00.44.05:335][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.03.28-00.44.05:335][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.03.28-00.44.05:351][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M  (Feature Level 11_0)
+[2016.03.28-00.44.05:351][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2016.03.28-00.44.05:353][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.28-00.44.05:353][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.28-00.44.05:353][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.28-00.44.05:359][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.28-00.44.05:359][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.28-00.44.05:371][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.28-00.44.05:389][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (F:/HotelBete/Intermediate/Shaders/WorkingDirectory/8964/).
+[2016.03.28-00.44.05:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Remy/AppData/Local/Temp/UnrealShaderWorkingDir/0D09FD7447AEB4AC2429449B6AFC2F4C/'.
+[2016.03.28-00.44.05:389][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.28-00.44.08:640][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.28-00.44.08:645][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.28-00.44.08:650][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.28-00.44.08:656][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.28-00.44.08:661][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.28-00.44.08:665][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.28-00.44.08:669][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.28-00.44.08:674][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.28-00.44.08:678][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.28-00.44.08:682][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.28-00.44.08:687][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.28-00.44.08:695][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.28-00.44.08:695][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.28-00.44.08:697][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.28-00.44.08:719][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.28-00.44.08:724][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.28-00.44.08:728][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.28-00.44.08:733][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.28-00.44.08:733][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.28-00.44.08:826][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.28-00.44.08:871][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Remy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.28-00.44.08:871][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Remy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.28-00.44.08:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.28-00.44.08:871][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.28-00.44.08:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.28-00.44.08:871][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.28-00.44.08:926][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.28-00.44.08:939][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Remy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.28-00.44.09:096][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.28-00.44.09:098][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.28-00.44.09:277][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.28-00.44.09:277][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.28-00.44.09:540][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.28-00.44.10:254][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.03.28-00.44.10:266][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.28-00.44.10:533][  0]SourceControl: Info Source control is disabled
+[2016.03.28-00.44.10:533][  0]SourceControl: Info Source control is disabled
+[2016.03.28-00.44.10:543][  0]SourceControl: Info Source control is disabled
+[2016.03.28-00.44.10:553][  0]SourceControl: Info Source control is disabled
+[2016.03.28-00.44.10:802][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.03.28-00.44.10:802][  0]LogUObjectAllocator: 6129768 out of 0 bytes used by permanent object pool.
+[2016.03.28-00.44.10:856][  0]LogEngine: Initializing Engine...
+[2016.03.28-00.44.10:858][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.28-00.44.10:861][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.28-00.44.10:959][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.28-00.44.10:965][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.28-00.44.10:984][  0]LogInit: FAudioDevice initialized.
+[2016.03.28-00.44.11:004][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Remy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.28-00.44.11:008][  0]LogInit: Texture streaming: Enabled
+[2016.03.28-00.44.11:016][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.28-00.44.11:016][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.28-00.44.11:016][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d52e816941dbf0637428bb95ca07ac1c|f94c9e9f838341078d64538a1626dc19|682a59f0-aee4-4349-aded-c354cacba2b4
+[2016.03.28-00.44.11:016][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.28-00.44.11:027][  0]LogInit: Transaction tracking system initialized
+[2016.03.28-00.44.11:054][  0]BlueprintLog: New page: Editor Load
+[2016.03.28-00.44.11:148][  0]LocalizationService: Info Localization service is disabled
+[2016.03.28-00.44.11:222][  0]LogConsoleResponse:Display: 
+[2016.03.28-00.44.11:320][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.28-00.44.11:374][  0]LogFileCache: Scanning file cache for directory 'F:/HotelBete/Content/' took 0.02s
+[2016.03.28-00.44.11:374][  0]SourceControl: Info Source control is disabled
+[2016.03.28-00.44.11:374][  0]Cmd: MAP LOAD FILE="F:/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.28-00.44.11:405][  0]LightingResults: New page: Lighting Build
+[2016.03.28-00.44.11:408][  0]MapCheck: New page: Map Check
+[2016.03.28-00.44.11:408][  0]LightingResults: New page: Lighting Build
+[2016.03.28-00.44.11:417][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC25BDEAC0
+[2016.03.28-00.44.16:338][  0]LogTexture:Display: Building textures: Doors_Normal_DirectX (BC5)
+[2016.03.28-00.44.17:090][  0]LogTexture:Display: Building textures: Doors_Metallic (AutoDXT)
+[2016.03.28-00.44.18:221][  0]LogTexture:Display: Building textures: Doors_Base_Color (AutoDXT)
+[2016.03.28-00.44.21:147][  0]LogTexture:Display: Building textures: Doors_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.44.21:685][  0]LogTexture:Display: Building textures: Doors_Roughness (AutoDXT)
+[2016.03.28-00.44.23:580][  0]LogMaterial: Missing cached shader map for material Doors, compiling. 
+[2016.03.28-00.44.23:773][  0]LogStaticMesh: Building static mesh Door...
+[2016.03.28-00.44.23:820][  0]LogStaticMesh: Built static mesh [0.047737.2s] /Game/Hotel/Art/Models/Door/Door.Door
+[2016.03.28-00.44.23:845][  0]LogMaterial: Missing cached shader map for material GhostRefraction, compiling. 
+[2016.03.28-00.44.23:926][  0]LogStaticMesh: Building static mesh Bookshelf...
+[2016.03.28-00.44.23:958][  0]LogStaticMesh: Built static mesh [0.032072.2s] /Game/Hotel/Art/Models/Bookshelf/Bookshelf.Bookshelf
+[2016.03.28-00.44.24:071][  0]LogTexture:Display: Building textures: blinn1_Base_Color (AutoDXT)
+[2016.03.28-00.44.25:011][  0]LogTexture:Display: Building textures: blinn1_Normal_DirectX (BC5)
+[2016.03.28-00.44.25:199][  0]LogTexture:Display: Building textures: blinn1_Roughness (AutoDXT)
+[2016.03.28-00.44.25:828][  0]LogTexture:Display: Building textures: Bust_blinn1_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.44.26:015][  0]LogMaterial: Missing cached shader map for material bustMat, compiling. 
+[2016.03.28-00.44.26:026][  0]LogStaticMesh: Building static mesh Bust...
+[2016.03.28-00.44.26:040][  0]LogStaticMesh: Built static mesh [0.013834.2s] /Game/Hotel/Art/Models/BustAndNecklace/Bust.Bust
+[2016.03.28-00.44.26:042][  0]LogStaticMesh: Building static mesh Bust_Necklace...
+[2016.03.28-00.44.26:101][  0]LogStaticMesh: Built static mesh [0.059273.2s] /Game/Hotel/Art/Models/BustAndNecklace/Bust_Necklace.Bust_Necklace
+[2016.03.28-00.44.26:222][  0]LogTexture:Display: Building textures: blinn1_Normal_DirectX (BC5)
+[2016.03.28-00.44.26:391][  0]LogTexture:Display: Building textures: blinn1_Metallic (AutoDXT)
+[2016.03.28-00.44.26:658][  0]LogTexture:Display: Building textures: blinn1_Base_Color (AutoDXT)
+[2016.03.28-00.44.27:750][  0]LogTexture:Display: Building textures: blinn1_Roughness (AutoDXT)
+[2016.03.28-00.44.28:248][  0]LogTexture:Display: Building textures: Necklace_blinn1_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.44.28:620][  0]LogMaterial: Missing cached shader map for material Necklacemat, compiling. 
+[2016.03.28-00.44.29:883][  0]LogTexture:Display: Building textures: box_reference (BGRA8)
+[2016.03.28-00.44.33:724][  0]LogTexture:Display: Building textures: button_MouseOver__Main (BGRA8)
+[2016.03.28-00.44.34:086][  0]LogTexture:Display: Building textures: button_Main (BGRA8)
+[2016.03.28-00.44.34:415][  0]LogTexture:Display: Building textures: button_CONTROLS (BGRA8)
+[2016.03.28-00.44.34:761][  0]LogTexture:Display: Building textures: 3_David_copper (BGRA8)
+[2016.03.28-00.44.34:805][  0]LogTexture:Display: Building textures: 2_Oliver_Twist (BGRA8)
+[2016.03.28-00.44.34:852][  0]LogTexture:Display: Building textures: 1_Pickwick (BGRA8)
+[2016.03.28-00.44.34:924][  0]LogTexture:Display: Building textures: 6_Nicholas_Nickleby (BGRA8)
+[2016.03.28-00.44.34:963][  0]LogTexture:Display: Building textures: 5_Great_expect (BGRA8)
+[2016.03.28-00.44.35:000][  0]LogTexture:Display: Building textures: 4_Tale_TwoCities (BGRA8)
+[2016.03.28-00.44.35:052][  0]LogTexture:Display: Building textures: 1_Pickwick_OUT (BGRA8)
+[2016.03.28-00.44.35:110][  0]LogStaticMesh: Building static mesh KeyWithRoomNum...
+[2016.03.28-00.44.35:180][  0]LogStaticMesh: Built static mesh [0.070767.2s] /Game/Hotel/Art/Models/Key/KeyWithRoomNum.KeyWithRoomNum
+[2016.03.28-00.44.36:328][  0]LogTexture:Display: Building textures: KeyPic (AutoDXT)
+[2016.03.28-00.44.36:412][  0]LogTexture:Display: Building textures: blinn2_Normal_DirectX (BC5)
+[2016.03.28-00.44.36:479][  0]LogTexture:Display: Building textures: blinn2_Metallic (AutoDXT)
+[2016.03.28-00.44.36:737][  0]LogTexture:Display: Building textures: blinn2_Base_Color (AutoDXT)
+[2016.03.28-00.44.36:977][  0]LogTexture:Display: Building textures: blinn2_Roughness (AutoDXT)
+[2016.03.28-00.44.37:187][  0]LogMaterial: Missing cached shader map for material Key, compiling. 
+[2016.03.28-00.44.37:295][  0]LogTexture:Display: Building textures: blinn2_Base_Color (AutoDXT)
+[2016.03.28-00.44.38:830][  0]LogTexture:Display: Building textures: blinn2_Normal_DirectX (BC5)
+[2016.03.28-00.44.39:088][  0]LogTexture:Display: Building textures: blinn2_Roughness (AutoDXT)
+[2016.03.28-00.44.39:703][  0]LogTexture:Display: Building textures: Bookshelf_blinn2_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.44.39:987][  0]LogMaterial: Missing cached shader map for material bookshelfMat, compiling. 
+[2016.03.28-00.44.40:129][  0]LogTexture:Display: Building textures: CameraView (AutoDXT)
+[2016.03.28-00.44.40:666][  0]LogTexture:Display: Building textures: 5_Great_Expect_OUT (BGRA8)
+[2016.03.28-00.44.40:736][  0]LogTexture:Display: Building textures: 4_Tale_TwoCites_OUT (BGRA8)
+[2016.03.28-00.44.40:809][  0]LogTexture:Display: Building textures: 3_David_Copper_OUT (BGRA8)
+[2016.03.28-00.44.40:881][  0]LogTexture:Display: Building textures: 2_Oliver_Twist_OUT (BGRA8)
+[2016.03.28-00.44.41:051][  0]LogTexture:Display: Building textures: BOOKSHELF_BKGRND (AutoDXT)
+[2016.03.28-00.44.44:906][  0]LogTexture:Display: Building textures: 6_Nicholas_Nickleby_OUT (BGRA8)
+[2016.03.28-00.44.45:007][  0]LogTexture:Display: Building textures: CONTROLS_Hover (BGRA8)
+[2016.03.28-00.44.45:045][  0]LogTexture:Display: Building textures: button_Resume (BGRA8)
+[2016.03.28-00.44.45:319][  0]LogTexture:Display: Building textures: button_MouseOver__Resume (BGRA8)
+[2016.03.28-00.44.45:690][  0]LogTexture:Display: Building textures: Background (AutoDXT)
+[2016.03.28-00.44.46:328][  0]LogTexture:Display: Building textures: NeckLacePic (AutoDXT)
+[2016.03.28-00.44.46:401][  0]LogTexture:Display: Building textures: BookPic (AutoDXT)
+[2016.03.28-00.44.46:527][  0]LogTexture:Display: Building textures: FOG_SWIRL_07 (AutoDXT)
+[2016.03.28-00.44.50:433][  0]LogTexture:Display: Building textures: FOG_SWIRL_06 (AutoDXT)
+[2016.03.28-00.44.54:322][  0]LogTexture:Display: Building textures: FOG_SWIRL_05 (AutoDXT)
+[2016.03.28-00.44.58:227][  0]LogTexture:Display: Building textures: FOG_SWIRL_04 (AutoDXT)
+[2016.03.28-00.45.02:150][  0]LogTexture:Display: Building textures: FOG_SWIRL_03 (AutoDXT)
+[2016.03.28-00.45.05:993][  0]LogTexture:Display: Building textures: fog (AutoDXT)
+[2016.03.28-00.45.06:658][  0]LogMaterial: Missing cached shader map for material fog_Mat, compiling. 
+[2016.03.28-00.45.06:853][  0]LogTexture:Display: Building textures: FOG_SWIRL_11 (AutoDXT)
+[2016.03.28-00.45.10:967][  0]LogTexture:Display: Building textures: FOG_SWIRL_10 (AutoDXT)
+[2016.03.28-00.45.14:859][  0]LogTexture:Display: Building textures: FOG_SWIRL_09 (AutoDXT)
+[2016.03.28-00.45.18:742][  0]LogTexture:Display: Building textures: FOG_SWIRL_08 (AutoDXT)
+[2016.03.28-00.45.22:516][  0]LogTexture:Display: Building textures: button_START (BGRA8)
+[2016.03.28-00.45.22:738][  0]LogTexture:Display: Building textures: button_QUIT (BGRA8)
+[2016.03.28-00.45.23:085][  0]LogTexture:Display: Building textures: FOG_SWIRL_01 (AutoDXT)
+[2016.03.28-00.45.27:022][  0]LogTexture:Display: Building textures: FOG_SWIRL_02 (AutoDXT)
+[2016.03.28-00.45.30:805][  0]LogTexture:Display: Building textures: Hotel_Betê_Noire (BGRA8)
+[2016.03.28-00.45.30:951][  0]LogTexture:Display: Building textures: FOG_SWIRL_15 (AutoDXT)
+[2016.03.28-00.45.34:821][  0]LogTexture:Display: Building textures: FOG_SWIRL_14 (AutoDXT)
+[2016.03.28-00.45.38:691][  0]LogTexture:Display: Building textures: FOG_SWIRL_13 (AutoDXT)
+[2016.03.28-00.45.42:047][  0]LogTexture:Display: Building textures: FOG_SWIRL_12 (AutoDXT)
+[2016.03.28-00.45.44:901][  0]LogTexture:Display: Building textures: START_Hover (BGRA8)
+[2016.03.28-00.45.44:912][  0]LogTexture:Display: Building textures: QUIT_Hover (BGRA8)
+[2016.03.28-00.45.44:996][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave setuniman_haunted_place...
+[2016.03.28-00.45.46:518][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Hotel_Beta_Noire_-_Lauren...
+[2016.03.28-00.45.49:304][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Hotel_Beta_Noire_-_Evelyn...
+[2016.03.28-00.45.52:454][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave heartbeat...
+[2016.03.28-00.45.52:489][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave ollieollie_haunting_ambiance...
+[2016.03.28-00.45.54:146][  0]LogAIModule: Creating AISystem for world Menu
+[2016.03.28-00.45.54:196][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.28-00.45.54:196][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.28-00.45.54:254][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.474ms to complete.
+[2016.03.28-00.45.54:254][  0]LogFileHelpers: Loading map 'Menu' took 102.879
+[2016.03.28-00.45.54:540][  0]LogCollectionManager: Loaded 0 collections in 0.002275 seconds
+[2016.03.28-00.45.54:686][  0]LogFileCache: Scanning file cache for directory 'F:/HotelBete/Saved/Collections/' took 0.01s
+[2016.03.28-00.45.54:686][  0]LogFileCache: Scanning file cache for directory 'F:/HotelBete/Content/Developers/Remy/Collections/' took 0.01s
+[2016.03.28-00.45.54:686][  0]LogFileCache: Scanning file cache for directory 'F:/HotelBete/Content/Collections/' took 0.01s
+[2016.03.28-00.45.54:686][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.03.28-00.45.54:703][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 1908 classes and 344 folders.
+[2016.03.28-00.45.54:712][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.28-00.45.55:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.28-00.45.55:716][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.28-00.45.55:794][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.28-00.45.55:863][  0]LogLoad: Full Startup: 111.50 seconds (BP compile: 0.72 seconds)
+[2016.03.28-00.45.56:207][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.28-00.45.56:805][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.28-00.45.57:217][  0]LogRenderer: Reallocating scene render targets to support 856x368 (Frame:2).
+[2016.03.28-00.45.58:677][ 11]LogAssetRegistry: Asset discovery search completed in 108.4345 seconds
+[2016.03.28-00.45.58:677][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.28-00.45.58:677][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.03.28-00.47.57:302][ 93]LogTexture:Display: Building textures: Diary_MovieStar_combined (AutoDXT)
+[2016.03.28-00.48.00:313][ 93]LogTexture:Display: Building textures: Diary2Pic (AutoDXT)
+[2016.03.28-00.48.00:331][ 93]LogStaticMesh: Building static mesh Diary...
+[2016.03.28-00.48.00:345][ 93]LogStaticMesh: Built static mesh [0.013787.2s] /Game/Hotel/Art/Models/Diary/Diary.Diary
+[2016.03.28-00.48.00:467][ 93]LogTexture:Display: Building textures: Diary_blinn1_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.48.00:761][ 93]LogTexture:Display: Building textures: Diary_Base_Color_movieStar (AutoDXT)
+[2016.03.28-00.48.01:703][ 93]LogTexture:Display: Building textures: Diary_Base_Color_BookWorm (AutoDXT)
+[2016.03.28-00.48.02:548][ 93]LogStaticMesh: Building static mesh Book...
+[2016.03.28-00.48.02:556][ 93]LogStaticMesh: Built static mesh [0.008818.2s] /Game/Hotel/Art/Models/Book/Book.Book
+[2016.03.28-00.48.02:989][ 93]LogTexture:Display: Building textures: Windows_AO (AutoDXT)
+[2016.03.28-00.48.04:113][ 93]LogTexture:Display: Building textures: Windows_Base_Color (AutoDXT)
+[2016.03.28-00.48.06:791][ 93]LogTexture:Display: Building textures: Windows_Metallic (AutoDXT)
+[2016.03.28-00.48.08:266][ 93]LogTexture:Display: Building textures: Windows_Normal_DirectX (BC5)
+[2016.03.28-00.48.08:999][ 93]LogTexture:Display: Building textures: Windows_Roughness (AutoDXT)
+[2016.03.28-00.48.10:337][ 93]LogMaterial: Missing cached shader map for material Windows, compiling. 
+[2016.03.28-00.48.10:722][ 93]LogTexture:Display: Building textures: Walls_Roughness (AutoDXT)
+[2016.03.28-00.48.24:985][ 93]LogTexture:Display: Building textures: Walls_Normal_DirectX (BC5)
+[2016.03.28-00.48.29:403][ 93]LogTexture:Display: Building textures: Walls_Base_Color (AutoDXT)
+[2016.03.28-00.48.49:534][ 93]LogTexture:Display: Building textures: Lobby_haunted_nodoors_Walls_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.48.53:897][ 93]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.28-00.48.54:034][ 93]LogTexture:Display: Building textures: Stairs_Roughness (AutoDXT)
+[2016.03.28-00.48.57:839][ 93]LogTexture:Display: Building textures: Stairs_Normal_DirectX (BC5)
+[2016.03.28-00.48.58:915][ 93]LogTexture:Display: Building textures: Stairs_Base_Color (AutoDXT)
+[2016.03.28-00.49.03:247][ 93]LogTexture:Display: Building textures: Stairs_AO (AutoDXT)
+[2016.03.28-00.49.04:995][ 93]LogMaterial: Missing cached shader map for material Stairs, compiling. 
+[2016.03.28-00.49.05:876][ 93]LogTexture:Display: Building textures: Lobby_Roughness (AutoDXT)
+[2016.03.28-00.49.18:071][ 93]LogTexture:Display: Building textures: Lobby_Normal (BC5)
+[2016.03.28-00.49.20:953][ 93]LogTexture:Display: Building textures: Lobby_Metallic (AutoDXT)
+[2016.03.28-00.49.24:352][ 93]LogTexture:Display: Building textures: Lobby_Base_Color (AutoDXT)
+[2016.03.28-00.49.37:380][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.28-00.49.37:833][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.03.28-00.49.37:841][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.03.28-00.49.37:907][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.28-00.49.38:580][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.03.28-00.49.39:073][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.28-00.49.39:180][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.28-00.49.39:258][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.28-00.49.39:260][ 93]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.28-00.49.39:288][ 93]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.03.28-00.49.39:376][ 93]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.03.28-00.49.40:158][ 93]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.03.28-00.49.40:215][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.28-00.49.40:456][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.03.28-00.49.40:467][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.03.28-00.49.40:519][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.28-00.49.40:806][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.03.28-00.49.41:073][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.28-00.49.41:164][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.28-00.49.41:236][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.28-00.49.41:255][ 93]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.28-00.49.41:278][ 93]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.03.28-00.49.41:352][ 93]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.03.28-00.49.41:595][ 93]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.03.28-00.49.41:619][ 93]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.03.28-00.49.41:845][ 93]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2016.03.28-00.49.41:852][ 93]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2016.03.28-00.49.41:879][ 93]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.03.28-00.49.42:154][ 93]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.03.28-00.49.42:603][ 93]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.03.28-00.49.42:690][ 93]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.28-00.49.42:730][ 93]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.03.28-00.49.42:735][ 93]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.03.28-00.49.42:766][ 93]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.03.28-00.49.42:806][ 93]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.03.28-00.49.43:015][ 93]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.03.28-00.49.43:300][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.03.28-00.49.43:400][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.03.28-00.49.43:491][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2016.03.28-00.49.43:491][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2016.03.28-00.49.43:499][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.03.28-00.49.43:599][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.03.28-00.49.43:701][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.03.28-00.49.43:706][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.03.28-00.49.43:713][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.03.28-00.49.43:714][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.03.28-00.49.43:715][ 93]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2016.03.28-00.49.44:240][ 93]LogStaticMesh: Building static mesh Bathtub...
+[2016.03.28-00.49.44:282][ 93]LogStaticMesh: Built static mesh [0.042497.2s] /Game/Hotel/Art/Models/Tub/Bathtub.Bathtub
+[2016.03.28-00.49.44:284][ 93]LogStaticMesh: Building static mesh Bed...
+[2016.03.28-00.49.44:513][ 93]LogStaticMesh: Built static mesh [0.229273.2s] /Game/Hotel/Art/Models/Bed/Bed.Bed
+[2016.03.28-00.49.44:517][ 93]LogStaticMesh: Building static mesh brickwall...
+[2016.03.28-00.49.44:518][ 93]LogStaticMesh: Built static mesh [0.001555.2s] /Game/Hotel/Art/Models/brickwall/brickwall.brickwall
+[2016.03.28-00.49.44:519][ 93]LogStaticMesh: Building static mesh Desk...
+[2016.03.28-00.49.44:543][ 93]LogStaticMesh: Built static mesh [0.023728.2s] /Game/Hotel/Art/Models/Desk/Desk.Desk
+[2016.03.28-00.49.44:619][ 93]LogStaticMesh: Building static mesh guest_floor_haunted...
+[2016.03.28-00.49.47:934][ 93]LogStaticMesh: Built static mesh [3.315826.2s] /Game/Hotel/Art/Models/Guest_Floor/guest_floor_haunted.guest_floor_haunted
+[2016.03.28-00.49.47:938][ 93]LogStaticMesh: Building static mesh Lobby__Ceiling_haunted...
+[2016.03.28-00.49.47:941][ 93]LogStaticMesh: Built static mesh [0.003218.2s] /Game/Hotel/Art/Models/Lobby/Lobby__Ceiling_haunted.Lobby__Ceiling_haunted
+[2016.03.28-00.49.47:941][ 93]LogStaticMesh: Building static mesh Lobby_haunted...
+[2016.03.28-00.49.53:266][ 93]LogStaticMesh: Built static mesh [5.323999.2s] /Game/Hotel/Art/Models/Lobby/Lobby_haunted.Lobby_haunted
+[2016.03.28-00.49.53:270][ 93]LogStaticMesh: Building static mesh Rubble01...
+[2016.03.28-00.49.53:284][ 93]LogStaticMesh: Built static mesh [0.014053.2s] /Game/Hotel/Art/Models/Rubble1/Rubble01.Rubble01
+[2016.03.28-00.49.53:285][ 93]LogStaticMesh: Building static mesh Rubble02...
+[2016.03.28-00.49.53:297][ 93]LogStaticMesh: Built static mesh [0.011558.2s] /Game/Hotel/Art/Models/Rubble2/Rubble02.Rubble02
+[2016.03.28-00.49.53:298][ 93]LogStaticMesh: Building static mesh Sink...
+[2016.03.28-00.49.53:319][ 93]LogStaticMesh: Built static mesh [0.021033.2s] /Game/Hotel/Art/Models/Sink/Sink.Sink
+[2016.03.28-00.49.53:322][ 93]LogStaticMesh: Building static mesh Table_Haunted...
+[2016.03.28-00.49.53:454][ 93]LogStaticMesh: Built static mesh [0.133300.2s] /Game/Hotel/Art/Models/Table/Table_Haunted.Table_Haunted
+[2016.03.28-00.49.53:464][ 93]LogStaticMesh: Building static mesh Toilet...
+[2016.03.28-00.49.53:803][ 93]LogStaticMesh: Built static mesh [0.339446.2s] /Game/Hotel/Art/Models/Toilet/Toilet.Toilet
+[2016.03.28-00.49.54:254][ 93]LogTexture:Display: Building textures: Lobby_AO (AutoDXT)
+[2016.03.28-00.49.57:687][ 93]LogMaterial: Missing cached shader map for material LobbyFloor, compiling. 
+[2016.03.28-00.49.57:741][ 93]LogTexture:Display: Building textures: Frames_Roughness (AutoDXT)
+[2016.03.28-00.49.58:234][ 93]LogTexture:Display: Building textures: Frames_Normal_DirectX (BC5)
+[2016.03.28-00.49.58:386][ 93]LogTexture:Display: Building textures: Frames_Metallic (AutoDXT)
+[2016.03.28-00.49.58:667][ 93]LogTexture:Display: Building textures: Frames_Base_Color (AutoDXT)
+[2016.03.28-00.49.59:318][ 93]LogTexture:Display: Building textures: Frames_AO (AutoDXT)
+[2016.03.28-00.49.59:639][ 93]LogMaterial: Missing cached shader map for material Frames, compiling. 
+[2016.03.28-00.49.59:799][ 93]LogTexture:Display: Building textures: Columns_AO (AutoDXT)
+[2016.03.28-00.50.00:158][ 93]LogTexture:Display: Building textures: Columns_Base_Color (AutoDXT)
+[2016.03.28-00.50.01:385][ 93]LogTexture:Display: Building textures: Columns_Metallic (AutoDXT)
+[2016.03.28-00.50.01:758][ 93]LogTexture:Display: Building textures: Columns_Normal_DirectX (BC5)
+[2016.03.28-00.50.02:007][ 93]LogTexture:Display: Building textures: Columns_Roughness (AutoDXT)
+[2016.03.28-00.50.02:664][ 93]LogMaterial: Missing cached shader map for material Columns, compiling. 
+[2016.03.28-00.50.03:258][ 93]LogTexture:Display: Building textures: blinn1_Base_Color (AutoDXT)
+[2016.03.28-00.50.04:928][ 93]LogTexture:Display: Building textures: blinn1_Normal_DirectX (BC5)
+[2016.03.28-00.50.05:214][ 93]LogTexture:Display: Building textures: blinn1_Roughness (AutoDXT)
+[2016.03.28-00.50.06:263][ 93]LogTexture:Display: Building textures: Book_blinn1_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.50.06:517][ 93]LogMaterial: Missing cached shader map for material bookMat, compiling. 
+[2016.03.28-00.50.06:757][ 93]LogTexture:Display: Building textures: blinn1_Roughness (AutoDXT)
+[2016.03.28-00.50.07:673][ 93]LogTexture:Display: Building textures: blinn1_Normal_DirectX (BC5)
+[2016.03.28-00.50.07:875][ 93]LogMaterial: Missing cached shader map for material DiaryMat, compiling. 
+[2016.03.28-00.50.08:057][ 93]LogTexture:Display: Building textures: Diary_bookworm_Combined (AutoDXT)
+[2016.03.28-00.50.11:574][ 93]LogTexture:Display: Building textures: Diary1Pic (AutoDXT)
+[2016.03.28-00.50.12:655][ 93]LogTexture:Display: Building textures: chair_haunted_albedo (AutoDXT)
+[2016.03.28-00.50.34:955][ 93]LogTexture:Display: Building textures: chair_haunted_normal (BC5)
+[2016.03.28-00.50.39:262][ 93]LogTexture:Display: Building textures: chair_haunted_specular (AutoDXT)
+[2016.03.28-00.50.41:981][ 93]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2016.03.28-00.50.43:733][ 93]LogTexture:Display: Building textures: guest_floor_haunted_lambert2_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.50.45:046][ 93]LogTexture:Display: Building textures: lambert2_Base_Color (AutoDXT)
+[2016.03.28-00.50.51:846][ 93]LogTexture:Display: Building textures: lambert2_Metallic (AutoDXT)
+[2016.03.28-00.50.53:016][ 93]LogTexture:Display: Building textures: lambert2_Normal_DirectX (BC5)
+[2016.03.28-00.50.54:061][ 93]LogTexture:Display: Building textures: lambert2_Roughness (AutoDXT)
+[2016.03.28-00.50.56:501][ 93]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.28-00.50.56:552][ 93]LogMaterial: Missing cached shader map for material CamTarget_Mat, compiling. 
+[2016.03.28-00.50.58:218][ 93]LogTexture:Display: Building textures: Floor_Normal_DirectX (BC5)
+[2016.03.28-00.51.03:041][ 93]LogTexture:Display: Building textures: Floor_Base_Color (AutoDXT)
+[2016.03.28-00.51.16:765][ 93]LogTexture:Display: Building textures: Floor_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.51.21:629][ 93]LogTexture:Display: Building textures: Floor_Roughness (AutoDXT)
+[2016.03.28-00.51.28:305][ 93]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2016.03.28-00.51.28:380][ 93]LogTexture:Display: Building textures: Frames_Base_Color (AutoDXT)
+[2016.03.28-00.51.28:955][ 93]LogTexture:Display: Building textures: Frames_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.51.29:436][ 93]LogTexture:Display: Building textures: Frames_Normal_DirectX (BC5)
+[2016.03.28-00.51.29:671][ 93]LogTexture:Display: Building textures: Frames_Roughness (AutoDXT)
+[2016.03.28-00.51.29:965][ 93]LogMaterial: Missing cached shader map for material Frames, compiling. 
+[2016.03.28-00.51.30:156][ 93]LogTexture:Display: Building textures: Railing_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.51.30:511][ 93]LogTexture:Display: Building textures: Railing_Base_Color (AutoDXT)
+[2016.03.28-00.51.31:252][ 93]LogTexture:Display: Building textures: Railing_Normal_DirectX (BC5)
+[2016.03.28-00.51.31:475][ 93]LogTexture:Display: Building textures: Railing_Roughness (AutoDXT)
+[2016.03.28-00.51.32:136][ 93]LogMaterial: Missing cached shader map for material Railing, compiling. 
+[2016.03.28-00.51.33:385][ 93]LogTexture:Display: Building textures: Walls_Base_Color_Alpha (AutoDXT)
+[2016.03.28-00.51.48:684][ 93]LogTexture:Display: Building textures: Walls_Roughness (AutoDXT)
+[2016.03.28-00.51.55:168][ 93]LogTexture:Display: Building textures: Walls_Normal_DirectX (BC5)
+[2016.03.28-00.51.58:500][ 93]LogTexture:Display: Building textures: Walls_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.52.06:554][ 93]LogTexture:Display: Building textures: Walls_Base_Color (AutoDXT)
+[2016.03.28-00.52.20:236][ 93]LogMaterial: Missing cached shader map for material Walls, compiling. 
+[2016.03.28-00.52.20:331][ 93]LogTexture:Display: Building textures: Windows_Base_Color (AutoDXT)
+[2016.03.28-00.52.21:443][ 93]LogTexture:Display: Building textures: Windows_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.52.21:893][ 93]LogTexture:Display: Building textures: Windows_Metallic (AutoDXT)
+[2016.03.28-00.52.22:526][ 93]LogTexture:Display: Building textures: Windows_Normal_DirectX (BC5)
+[2016.03.28-00.52.22:813][ 93]LogTexture:Display: Building textures: Windows_Roughness (AutoDXT)
+[2016.03.28-00.52.23:254][ 93]LogMaterial: Missing cached shader map for material Windows, compiling. 
+[2016.03.28-00.52.23:539][ 93]LogTexture:Display: Building textures: Bed_Bed_redwood1_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.52.25:809][ 93]LogTexture:Display: Building textures: Bed_redwood1_Base_Color (AutoDXT)
+[2016.03.28-00.52.31:611][ 93]LogTexture:Display: Building textures: Bed_redwood1_Normal_DirectX (BC5)
+[2016.03.28-00.52.32:381][ 93]LogTexture:Display: Building textures: Bed_redwood1_Roughness (AutoDXT)
+[2016.03.28-00.52.34:516][ 93]LogMaterial: Missing cached shader map for material bedmat, compiling. 
+[2016.03.28-00.52.34:794][ 93]LogTexture:Display: Building textures: lambert1_Base_Color (AutoDXT)
+[2016.03.28-00.52.36:918][ 93]LogTexture:Display: Building textures: lambert1_Normal_DirectX (BC5)
+[2016.03.28-00.52.37:191][ 93]LogTexture:Display: Building textures: lambert1_Roughness (AutoDXT)
+[2016.03.28-00.52.38:203][ 93]LogMaterial: Missing cached shader map for material BrickwallMat, compiling. 
+[2016.03.28-00.52.38:219][ 93]LogTexture:Display: Building textures: blinn1_Metallic (AutoDXT)
+[2016.03.28-00.52.39:031][ 93]LogTexture:Display: Building textures: blinn1_Base_Color (AutoDXT)
+[2016.03.28-00.52.44:164][ 93]LogTexture:Display: Building textures: blinn1_Normal_DirectX (BC5)
+[2016.03.28-00.52.44:981][ 93]LogTexture:Display: Building textures: blinn1_Roughness (AutoDXT)
+[2016.03.28-00.52.47:429][ 93]LogTexture:Display: Building textures: Desk_blinn1_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.52.48:394][ 93]LogMaterial: Missing cached shader map for material Deskmat, compiling. 
+[2016.03.28-00.52.48:838][ 93]LogTexture:Display: Building textures: Columns_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.52.49:242][ 93]LogMaterial: Missing cached shader map for material Columns, compiling. 
+[2016.03.28-00.52.49:256][ 93]LogMaterial: Missing cached shader map for material Material__39, compiling. 
+[2016.03.28-00.52.49:270][ 93]LogMaterial: Missing cached shader map for material Doors, compiling. 
+[2016.03.28-00.52.51:316][ 93]LogTexture:Display: Building textures: Ceiling_Normal_DirectX (BC5)
+[2016.03.28-00.52.55:754][ 93]LogTexture:Display: Building textures: Ceiling_Base_Color (AutoDXT)
+[2016.03.28-00.53.06:656][ 93]LogTexture:Display: Building textures: Ceiling_Roughness (AutoDXT)
+[2016.03.28-00.53.14:201][ 93]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2016.03.28-00.53.14:268][ 93]LogTexture:Display: Building textures: Rubble_Normal_DirectX (BC5)
+[2016.03.28-00.53.14:362][ 93]LogTexture:Display: Building textures: Rubble_Base_Color (AutoDXT)
+[2016.03.28-00.53.14:906][ 93]LogTexture:Display: Building textures: Rubble_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.53.14:991][ 93]LogTexture:Display: Building textures: Rubble_Roughness (AutoDXT)
+[2016.03.28-00.53.15:175][ 93]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.28-00.53.15:258][ 93]LogTexture:Display: Building textures: Rubble2_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.53.15:371][ 93]LogTexture:Display: Building textures: Rubble2_Base_Color (AutoDXT)
+[2016.03.28-00.53.15:847][ 93]LogTexture:Display: Building textures: Rubble2_Normal_DirectX (BC5)
+[2016.03.28-00.53.15:924][ 93]LogTexture:Display: Building textures: Rubble2_Roughness (AutoDXT)
+[2016.03.28-00.53.16:411][ 93]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.03.28-00.53.16:471][ 93]LogTexture:Display: Building textures: Sink_Roughness (AutoDXT)
+[2016.03.28-00.53.18:676][ 93]LogTexture:Display: Building textures: Sink_Normal_DirectX (BC5)
+[2016.03.28-00.53.18:946][ 93]LogTexture:Display: Building textures: Sink_Base_Color (AutoDXT)
+[2016.03.28-00.53.20:801][ 93]LogTexture:Display: Building textures: Sink_Sink_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.53.21:030][ 93]LogMaterial: Missing cached shader map for material SinkMat, compiling. 
+[2016.03.28-00.53.21:157][ 93]LogTexture:Display: Building textures: Table_Base_Color (AutoDXT)
+[2016.03.28-00.53.22:006][ 93]LogTexture:Display: Building textures: Table_Roughness (AutoDXT)
+[2016.03.28-00.53.22:694][ 93]LogTexture:Display: Building textures: Table_Normal_DirectX (BC5)
+[2016.03.28-00.53.22:947][ 93]LogTexture:Display: Building textures: Table_Haunted_Table_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.53.23:217][ 93]LogMaterial: Missing cached shader map for material Table, compiling. 
+[2016.03.28-00.53.23:332][ 93]LogTexture:Display: Building textures: Toilet_Base_Color (AutoDXT)
+[2016.03.28-00.53.24:905][ 93]LogTexture:Display: Building textures: Toilet_Metallic (AutoDXT)
+[2016.03.28-00.53.25:286][ 93]LogTexture:Display: Building textures: Toilet_Roughness (AutoDXT)
+[2016.03.28-00.53.26:543][ 93]LogTexture:Display: Building textures: Toilet_Normal_DirectX (BC5)
+[2016.03.28-00.53.26:950][ 93]LogTexture:Display: Building textures: Toilet_Toilet_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.53.27:466][ 93]LogMaterial: Missing cached shader map for material Toilet2, compiling. 
+[2016.03.28-00.53.27:634][ 93]LogTexture:Display: Building textures: Bathtub_blinn1_AmbientOcclusion (AutoDXT)
+[2016.03.28-00.53.29:002][ 93]LogTexture:Display: Building textures: blinn1_Base_Color (AutoDXT)
+[2016.03.28-00.53.32:999][ 93]LogTexture:Display: Building textures: blinn1_Metallic (AutoDXT)
+[2016.03.28-00.53.34:092][ 93]LogTexture:Display: Building textures: blinn1_Normal_DirectX (BC5)
+[2016.03.28-00.53.34:875][ 93]LogTexture:Display: Building textures: blinn1_Roughness (AutoDXT)
+[2016.03.28-00.53.37:119][ 93]LogMaterial: Missing cached shader map for material tub, compiling. 
+[2016.03.28-00.53.42:322][ 93]LogAIModule: Creating AISystem for world World
+[2016.03.28-00.53.51:684][ 93]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Breath.Breath Component=/Game/Hotel/Levels/World.World:PersistentLevel.Breath.ParticleSystemComponent0
+[2016.03.28-00.53.52:231][ 93]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker.ParticleSystemComponent0
+[2016.03.28-00.53.52:231][ 93]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust_2.ParticleSystemComponent0
+[2016.03.28-00.53.52:314][ 93]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust2.ParticleSystemComponent0
+[2016.03.28-00.53.52:314][ 93]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust3.ParticleSystemComponent0
+[2016.03.28-00.54.00:697][ 93]Cmd: MAP LOAD FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.28-00.54.00:786][ 93]LightingResults: New page: Lighting Build
+[2016.03.28-00.54.03:646][ 93]LoadErrors: New page: Loading map: World.umap
+[2016.03.28-00.54.03:813][ 93]MapCheck: New page: Map Check
+[2016.03.28-00.54.03:813][ 93]LightingResults: New page: Lighting Build
+[2016.03.28-00.54.05:215][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC2D834AE0
+[2016.03.28-00.54.09:280][ 93]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.28-00.54.10:389][ 93]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.28-00.54.13:310][ 93]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,862.032ms to complete.
+[2016.03.28-00.54.13:312][ 93]LogFileHelpers: Loading map 'World' took 12.868
+[2016.03.28-00.54.13:634][ 93]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Enemy : Failed import for Enemy_C /Game/Hotel/Blueprints/Enemies/Enemy.Default__Enemy_C [redirection] in /Game/FirstPersonBP/Blueprints/Enemy
+[2016.03.28-00.54.17:192][ 95]LogHttp:Warning: Timeout processing Http request. 000000DC856D1500
+[2016.03.28-01.01.21:510][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.28-01.02.05:544][271]LogRenderer: Reallocating scene render targets to support 1076x368 (Frame:7557).
+[2016.03.28-01.02.11:006][569]LogRenderer: Reallocating scene render targets to support 1076x384 (Frame:7672).
+[2016.03.28-01.02.50:816][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.02.52:514][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.02.53:885][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.02.54:778][974]LogEditorViewport: Clicking on Actor (LMB): BookShelf_C (BookShelf3)
+[2016.03.28-01.02.59:772][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.03.00:516][150]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair13)
+[2016.03.28-01.03.03:147][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed3)
+[2016.03.28-01.03.09:311][515]Cmd: TRANSACTION UNDO
+[2016.03.28-01.03.09:311][515]LogEditorTransaction: Undo Move Actors
+[2016.03.28-01.03.15:299][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed3)
+[2016.03.28-01.03.34:489][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.28-01.03.53:675][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2016.03.28-01.04.12:005][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.04.14:707][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.04.15:259][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.04.15:674][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.04.27:472][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.04.28:187][557]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot11)
+[2016.03.28-01.04.43:044][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TempPic)
+[2016.03.28-01.04.44:355][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.28-01.04.45:640][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TempPic)
+[2016.03.28-01.04.46:376][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.03.28-01.05.16:989][112]LogActorFactory: Actor Factory created Bookshelf
+[2016.03.28-01.05.17:359][112]LogActorFactory: Actor Factory created Bookshelf
+[2016.03.28-01.05.34:514][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.28-01.05.39:137][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf6)
+[2016.03.28-01.05.46:807][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf6)
+[2016.03.28-01.05.50:581][109]Cmd: TRANSACTION UNDO
+[2016.03.28-01.05.50:581][109]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.28-01.05.52:297][187]Cmd: TRANSACTION UNDO
+[2016.03.28-01.05.52:297][187]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.28-01.05.53:551][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf6)
+[2016.03.28-01.05.54:413][288]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bookshelf6)
+[2016.03.28-01.06.04:907][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf6)
+[2016.03.28-01.06.07:550][411]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bookshelf6)
+[2016.03.28-01.06.15:130][263]Cmd: DELETE
+[2016.03.28-01.06.15:130][263]Cmd: ACTOR DELETE
+[2016.03.28-01.06.16:785][263]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.28-01.06.16:888][263]LogEditorActor: Deleted 1 Actors (0.177 secs)
+[2016.03.28-01.11.08:089][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.28-01.11.12:070][712]LogSavePackage: Save=3264.757568ms
+[2016.03.28-01.11.12:073][712]LogSavePackage: Moving 'F:/HotelBete/Saved/World_Auto11DB02E7348F819FA0D6836B973FBEA53.tmp' to 'F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto1.umap'
+[2016.03.28-01.11.12:085][712]LogSavePackage: Total save time: 3951.638605ms
+[2016.03.28-01.11.12:085][712]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto1.umap
+[2016.03.28-01.11.12:163][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 4.358
+[2016.03.28-01.11.12:163][712]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.358
+[2016.03.28-01.16.48:370][364]LogActorFactory: Actor Factory created Bookshelf
+[2016.03.28-01.16.49:277][424]LogActorFactory: Actor Factory created Bookshelf
+[2016.03.28-01.17.13:149][900]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bookshelf6)
+[2016.03.28-01.17.16:751][321]Cmd: DELETE
+[2016.03.28-01.17.16:751][321]Cmd: ACTOR DELETE
+[2016.03.28-01.17.16:752][321]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.28-01.17.16:770][321]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.03.28-01.21.15:889][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.28-01.21.17:266][977]LogSavePackage: Save=1146.491577ms
+[2016.03.28-01.21.17:268][977]LogSavePackage: Moving 'F:/HotelBete/Saved/World_Auto29706B1D54794DA3EA66BE5BF2C582E59.tmp' to 'F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto2.umap'
+[2016.03.28-01.21.17:304][977]LogSavePackage: Total save time: 1413.029887ms
+[2016.03.28-01.21.17:304][977]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto2.umap
+[2016.03.28-01.21.17:306][977]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 1.438
+[2016.03.28-01.21.17:306][977]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.438
+[2016.03.28-01.23.18:427][865]LogStaticMesh: Building static mesh BrokenChair...
+[2016.03.28-01.23.18:509][865]LogStaticMesh: Built static mesh [0.119119.2s] /Game/Hotel/Art/Models/Broken_Chair/BrokenChair.BrokenChair
+[2016.03.28-01.23.18:515][865]LogMaterial: Missing cached shader map for material brokenChairMat, compiling. 
+[2016.03.28-01.23.18:532][865]LogActorFactory: Actor Factory created BrokenChair
+[2016.03.28-01.23.18:940][890]LogActorFactory: Actor Factory created BrokenChair
+[2016.03.28-01.23.23:545][172]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BrokenChair)
+[2016.03.28-01.23.37:191][618]Cmd: DELETE
+[2016.03.28-01.23.37:191][618]Cmd: ACTOR DELETE
+[2016.03.28-01.23.37:192][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.28-01.23.37:209][618]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.03.28-01.23.53:216][157]LogActorFactory: Actor Factory created Bed
+[2016.03.28-01.23.54:707][252]LogActorFactory: Actor Factory created Bed
+[2016.03.28-01.25.03:321][250]LogActorFactory: Actor Factory created Book
+[2016.03.28-01.25.04:157][278]LogActorFactory: Actor Factory created Book
+[2016.03.28-01.25.07:568][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.28-01.25.08:551][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed4)
+[2016.03.28-01.25.11:911][581]Cmd: TRANSACTION UNDO
+[2016.03.28-01.25.11:911][581]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-01.25.17:227][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.28-01.25.17:746][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book)
+[2016.03.28-01.25.30:015][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.28-01.25.35:686][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book)
+[2016.03.28-01.25.47:687][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed4)
+[2016.03.28-01.25.48:419][437]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bed4)
+[2016.03.28-01.25.50:930][724]Cmd: DELETE
+[2016.03.28-01.25.50:930][724]Cmd: ACTOR DELETE
+[2016.03.28-01.25.50:931][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.28-01.25.50:949][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC280EB1A0
+[2016.03.28-01.25.50:951][724]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.03.28-01.25.52:103][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.28-01.25.52:577][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book)
+[2016.03.28-01.25.53:103][853]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Book)
+[2016.03.28-01.25.56:109][197]Cmd: DELETE
+[2016.03.28-01.25.56:109][197]Cmd: ACTOR DELETE
+[2016.03.28-01.25.56:110][197]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.28-01.25.56:129][197]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.03.28-01.26.32:829][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Desk8)
+[2016.03.28-01.26.35:027][562]LogEditorViewport: Clicking on Actor (LMB): BookForPuz_C (BookForPuz)
+[2016.03.28-01.26.42:934][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed3)
+[2016.03.28-01.26.45:556][976]LogEditorViewport: Clicking on Actor (LMB): BookForPuz_C (BookForPuz)
+[2016.03.28-01.26.55:773][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed3)
+[2016.03.28-01.26.57:013][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.27.04:317][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Desk9)
+[2016.03.28-01.27.13:970][159]LogRenderer: Reallocating scene render targets to support 1076x460 (Frame:37673).
+[2016.03.28-01.27.21:914][791]LogRenderer: Reallocating scene render targets to support 1340x460 (Frame:37825).
+[2016.03.28-01.27.27:504][ 56]LogRenderer: Reallocating scene render targets to support 1340x600 (Frame:37973).
+[2016.03.28-01.27.51:184][ 33]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-01.27.52:584][ 77]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-01.27.55:951][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.27.56:873][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble5)
+[2016.03.28-01.28.25:115][210]Cmd: TRANSACTION UNDO
+[2016.03.28-01.28.25:115][210]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-01.30.39:252][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-01.30.39:272][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.28-01.30.39:364][258]PIE: New page: PIE session: World (Mar 27, 2016, 5:30:39 PM)
+[2016.03.28-01.30.39:395][258]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
+[2016.03.28-01.30.39:610][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.214972s)
+[2016.03.28-01.30.39:614][258]LogAIModule: Creating AISystem for world World
+[2016.03.28-01.30.39:614][258]LogPlayLevel: PIE: World Init took: (0.003375s)
+[2016.03.28-01.30.39:623][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.228505s)
+[2016.03.28-01.30.39:859][258]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.28-01.30.39:973][258]LogInit: FAudioDevice initialized.
+[2016.03.28-01.30.40:395][258]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.28-01.30.40:578][258]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.27-21.30.40
+[2016.03.28-01.30.40:578][258]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.28-01.30.40:595][258]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.28-01.30.40:697][258]LogWorld: Bringing up level for play took: 0.132033
+[2016.03.28-01.30.41:310][258]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_World 1.474
+[2016.03.28-01.30.41:310][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-01.30.42:032][259]LogRenderer: Reallocating scene render targets to support 1340x720 (Frame:41974).
+[2016.03.28-01.32.46:728][106]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-01.32.46:857][106]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-01.32.46:886][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC77316200
+[2016.03.28-01.33.04:968][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble5)
+[2016.03.28-01.33.11:306][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed3)
+[2016.03.28-01.33.17:473][166]Cmd: TRANSACTION UNDO
+[2016.03.28-01.33.17:473][166]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-01.33.34:743][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.34.18:291][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Desk9)
+[2016.03.28-01.34.19:497][272]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair15)
+[2016.03.28-01.34.48:377][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.34.48:887][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.35.13:481][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.35.37:958][869]LogEditorViewport: Clicking on Actor (LMB): DoorWithBetterPivot_C (DoorWithBetterPivot)
+[2016.03.28-01.35.50:096][266]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door3)
+[2016.03.28-01.35.58:417][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-01.35.58:867][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2016.03.28-01.37.15:739][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.28-01.37.17:554][254]LogSavePackage: Save=1593.065918ms
+[2016.03.28-01.37.17:554][254]LogSavePackage: Moving 'F:/HotelBete/Saved/World_Auto3E034B13A431B1A050FB217B97C002E34.tmp' to 'F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto3.umap'
+[2016.03.28-01.37.17:555][254]LogSavePackage: Total save time: 1813.456342ms
+[2016.03.28-01.37.17:555][254]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto3.umap
+[2016.03.28-01.37.17:557][254]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 1.869
+[2016.03.28-01.37.17:557][254]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.869
+[2016.03.28-02.00.18:639][767]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.00.19:714][799]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.00.22:883][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble6)
+[2016.03.28-02.00.53:503][947]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.00.57:840][101]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.00.59:422][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.01.01:697][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble7)
+[2016.03.28-02.01.09:262][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.01.16:380][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble6)
+[2016.03.28-02.01.29:918][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble7)
+[2016.03.28-02.01.49:169][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.02.01:184][473]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-02.02.03:528][551]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-02.02.07:880][715]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.02.11:702][832]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.02.12:556][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble8)
+[2016.03.28-02.02.29:141][410]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.02.31:237][479]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.02.32:324][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble10)
+[2016.03.28-02.02.39:868][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.02.42:204][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble10)
+[2016.03.28-02.02.47:269][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.02.48:646][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble10)
+[2016.03.28-02.02.56:745][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble8)
+[2016.03.28-02.03.09:376][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.03.22:183][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble8)
+[2016.03.28-02.03.38:558][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.04.06:194][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.28-02.04.08:249][828]LogSavePackage: Save=1622.063110ms
+[2016.03.28-02.04.08:250][828]LogSavePackage: Moving 'F:/HotelBete/Saved/World_Auto464C883234B348286565A8F8229E43A0F.tmp' to 'F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto4.umap'
+[2016.03.28-02.04.08:252][828]LogSavePackage: Total save time: 2057.262186ms
+[2016.03.28-02.04.08:252][828]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto4.umap
+[2016.03.28-02.04.08:284][828]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 2.118
+[2016.03.28-02.04.08:284][828]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.118
+[2016.03.28-02.07.02:591][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.28-02.07.03:858][420]LogSavePackage: Save=1202.324951ms
+[2016.03.28-02.07.03:858][420]LogSavePackage: Moving 'F:/HotelBete/Saved/WorldEFD3325F4FB477BA95CB7C8090F25303.tmp' to 'F:/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.28-02.07.03:896][420]LogSavePackage: Total save time: 1243.739981ms
+[2016.03.28-02.07.03:896][420]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.28-02.07.25:708][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble5)
+[2016.03.28-02.07.31:037][229]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-02.07.32:828][296]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-02.07.42:395][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.07.43:232][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble11)
+[2016.03.28-02.07.49:180][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble11)
+[2016.03.28-02.08.34:059][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.12.14:955][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble11)
+[2016.03.28-02.12.15:618][528]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair13)
+[2016.03.28-02.12.21:467][703]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair13)
+[2016.03.28-02.12.39:620][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.12.45:271][402]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair14)
+[2016.03.28-02.12.50:388][564]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair13)
+[2016.03.28-02.12.57:139][782]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair14)
+[2016.03.28-02.16.40:484][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.28-02.16.45:123][686]LogSavePackage: Save=1181.133789ms
+[2016.03.28-02.16.45:125][686]LogSavePackage: Moving 'F:/HotelBete/Saved/World4B523B0B4FBFD46F0B792C952E93EC85.tmp' to 'F:/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.28-02.16.45:136][686]LogSavePackage: Total save time: 1462.654147ms
+[2016.03.28-02.16.45:136][686]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.28-02.16.56:734][ 78]LogEditorViewport: Clicking on Actor (LMB): BookShelf_C (BookShelf3)
+[2016.03.28-02.16.58:814][150]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair15)
+[2016.03.28-02.20.47:544][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.20.54:097][868]Cmd: TRANSACTION UNDO
+[2016.03.28-02.20.54:097][868]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.28-02.20.57:391][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.20.58:547][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.20.59:068][ 85]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.21.02:669][499]Cmd: ACTOR HIDE SELECTED
+[2016.03.28-02.21.26:227][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bathtub)
+[2016.03.28-02.21.30:023][432]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.28-02.21.32:962][537]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2016.03.28-02.21.35:412][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bathtub)
+[2016.03.28-02.22.19:560][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toilet)
+[2016.03.28-02.22.22:131][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bathtub)
+[2016.03.28-02.22.25:774][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toilet)
+[2016.03.28-02.22.37:414][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sink2)
+[2016.03.28-02.22.48:247][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bathtub)
+[2016.03.28-02.22.50:666][699]Cmd: TRANSACTION UNDO
+[2016.03.28-02.22.50:666][699]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.28-02.22.51:013][711]Cmd: TRANSACTION UNDO
+[2016.03.28-02.22.51:013][711]LogEditorTransaction: Undo Move Actors
+[2016.03.28-02.22.51:403][724]Cmd: TRANSACTION UNDO
+[2016.03.28-02.22.51:403][724]LogEditorTransaction: Undo Move Actors
+[2016.03.28-02.22.53:467][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bathtub)
+[2016.03.28-02.23.00:976][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toilet)
+[2016.03.28-02.23.06:581][293]Cmd: TRANSACTION UNDO
+[2016.03.28-02.23.06:581][293]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-02.23.10:154][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bathtub)
+[2016.03.28-02.23.12:194][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sink2)
+[2016.03.28-02.23.29:263][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble4)
+[2016.03.28-02.23.53:034][826]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Rubble4)
+[2016.03.28-02.24.03:222][607]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-02.24.05:740][687]LogActorFactory: Actor Factory created Rubble02
+[2016.03.28-02.24.10:482][895]Cmd: TRANSACTION UNDO
+[2016.03.28-02.24.10:482][895]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-02.24.11:983][ 10]Cmd: TRANSACTION UNDO
+[2016.03.28-02.24.11:983][ 10]LogEditorTransaction: Undo Create Actors
+[2016.03.28-02.24.24:975][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble11)
+[2016.03.28-02.24.30:192][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble5)
+[2016.03.28-02.24.38:676][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble8)
+[2016.03.28-02.24.49:106][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble10)
+[2016.03.28-02.24.53:066][373]Cmd: TRANSACTION UNDO
+[2016.03.28-02.24.53:066][373]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-02.24.53:713][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble9)
+[2016.03.28-02.25.02:785][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble6)
+[2016.03.28-02.25.04:815][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble7)
+[2016.03.28-02.25.11:147][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble6)
+[2016.03.28-02.25.21:477][432]Cmd: TRANSACTION UNDO
+[2016.03.28-02.25.21:477][432]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-02.25.36:575][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2016.03.28-02.26.05:173][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble7)
+[2016.03.28-02.26.12:747][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble8)
+[2016.03.28-02.26.15:980][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble10)
+[2016.03.28-02.26.19:160][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble8)
+[2016.03.28-02.26.21:721][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble10)
+[2016.03.28-02.26.24:066][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble9)
+[2016.03.28-02.27.26:398][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.28-02.27.28:358][663]LogSavePackage: Save=1497.563599ms
+[2016.03.28-02.27.28:358][663]LogSavePackage: Moving 'F:/HotelBete/Saved/World_Auto5EC4833774ECF6ECC06610189045CB7AD.tmp' to 'F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto5.umap'
+[2016.03.28-02.27.28:360][663]LogSavePackage: Total save time: 1960.271250ms
+[2016.03.28-02.27.28:360][663]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Saved/Autosaves/Game/Hotel/Levels/World_Auto5.umap
+[2016.03.28-02.27.28:361][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Hotel/Levels/World' took 2.015
+[2016.03.28-02.27.28:361][663]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.015
+[2016.03.28-02.27.41:296][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.28-02.27.42:670][ 47]LogSavePackage: Save=1348.140503ms
+[2016.03.28-02.27.42:670][ 47]LogSavePackage: Moving 'F:/HotelBete/Saved/World681C603A4B75D77D467209AD62F8AC34.tmp' to 'F:/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.28-02.27.42:675][ 47]LogSavePackage: Total save time: 1354.001913ms
+[2016.03.28-02.27.42:675][ 47]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.28-02.28.01:492][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble11)
+[2016.03.28-02.28.07:431][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble5)
+[2016.03.28-02.28.16:276][136]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.03.28-02.28.17:448][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.28-02.28.20:012][280]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.28-02.29.52:007][548]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.29.53:671][616]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.29.59:855][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.28-02.30.01:356][976]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2016.03.28-02.30.04:815][130]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2016.03.28-02.30.13:184][981]Cmd: ACTOR UNHIDE ALL
+[2016.03.28-02.30.15:450][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.30.15:913][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.03.28-02.30.18:626][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble12)
+[2016.03.28-02.30.50:676][314]Cmd: TRANSACTION UNDO
+[2016.03.28-02.30.50:676][314]LogEditorTransaction: Undo Scale Actors
+[2016.03.28-02.31.08:351][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble12)
+[2016.03.28-02.31.37:315][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.28-02.31.38:993][945]LogSavePackage: Save=1651.676514ms
+[2016.03.28-02.31.38:994][945]LogSavePackage: Moving 'F:/HotelBete/Saved/World9AFD0D7743A77F860A7E0C9269BDFCA7.tmp' to 'F:/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.28-02.31.38:998][945]LogSavePackage: Total save time: 1658.003654ms
+[2016.03.28-02.31.38:998][945]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.28-02.32.01:548][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed2)
+[2016.03.28-02.34.09:435][504]LogEditorViewport: Clicking on Actor (LMB): Key_C (Key)
+[2016.03.28-02.35.19:648][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.28-02.35.24:573][464]LogSavePackage: Save=1468.165771ms
+[2016.03.28-02.35.24:573][464]LogSavePackage: Moving 'F:/HotelBete/Saved/World4A1F76974650784862556CB1F0049147.tmp' to 'F:/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.28-02.35.24:577][464]LogSavePackage: Total save time: 1705.685075ms
+[2016.03.28-02.35.24:577][464]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.28-02.35.25:207][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-02.35.25:207][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.28-02.35.25:207][488]PIE: New page: PIE session: World (Mar 27, 2016, 6:35:25 PM)
+[2016.03.28-02.35.25:207][488]LogPlayLevel: Creating play world package: /Game/Hotel/Levels/UEDPIE_0_World
+[2016.03.28-02.35.25:274][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067472s)
+[2016.03.28-02.35.25:278][488]LogAIModule: Creating AISystem for world World
+[2016.03.28-02.35.25:278][488]LogPlayLevel: PIE: World Init took: (0.004086s)
+[2016.03.28-02.35.25:278][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hotel/Levels/World.World to /Game/Hotel/Levels/UEDPIE_0_World.World (0.071871s)
+[2016.03.28-02.35.25:306][488]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.28-02.35.25:317][488]LogInit: FAudioDevice initialized.
+[2016.03.28-02.35.25:417][488]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.28-02.35.25:431][488]LogWorld: Bringing World /Game/Hotel/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2016.03.27-22.35.25
+[2016.03.28-02.35.25:431][488]LogActor:Warning: GameSession /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.28-02.35.25:432][488]LogActor:Warning: GameNetworkManager /Game/Hotel/Levels/UEDPIE_0_World.World:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.28-02.35.25:433][488]LogWorld: Bringing up level for play took: 0.014263
+[2016.03.28-02.35.25:466][488]PIE: Info Play in editor start time for /Game/Hotel/Levels/UEDPIE_0_World -0.359
+[2016.03.28-02.35.25:466][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-02.36.30:012][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-02.36.30:078][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Hotel/Levels/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Hotel/Levels/World.World:PersistentLevel.World' with GeneratedClass '/Game/Hotel/Levels/World.World_C' with ClassGeneratedBy '/Game/Hotel/Levels/World.World:PersistentLevel.World'
+[2016.03.28-02.36.30:100][ 19]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC280B37E0
+[2016.03.28-02.36.38:339][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble11)
+[2016.03.28-02.36.59:689][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.28-02.37.01:865][927]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.37.03:382][963]LogActorFactory: Actor Factory created Rubble01
+[2016.03.28-02.37.19:652][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble13)
+[2016.03.28-02.37.21:803][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble13)
+[2016.03.28-02.37.22:794][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.03.28-02.37.23:433][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble13)
+[2016.03.28-02.38.10:271][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble01)
+[2016.03.28-02.38.11:059][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble01)
+[2016.03.28-02.38.11:865][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rubble13)
+[2016.03.28-02.38.57:514][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.28-02.38.58:977][766]LogSavePackage: Save=1436.473511ms
+[2016.03.28-02.38.58:977][766]LogSavePackage: Moving 'F:/HotelBete/Saved/World8603BF224323828E4109D0AAFA5903FD.tmp' to 'F:/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.28-02.38.58:981][766]LogSavePackage: Total save time: 1442.050572ms
+[2016.03.28-02.38.58:981][766]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.28-02.43.08:698][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="F:/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.28-02.43.10:045][730]LogSavePackage: Save=1112.970703ms
+[2016.03.28-02.43.10:045][730]LogSavePackage: Moving 'F:/HotelBete/Saved/WorldD08EC0B849B15A35598E4CB14699148A.tmp' to 'F:/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.03.28-02.43.10:047][730]LogSavePackage: Total save time: 1329.021282ms
+[2016.03.28-02.43.10:047][730]LogSavePackage:Display: Finished SavePackage F:/HotelBete/Content/Hotel/Levels/World.umap
+[2016.03.28-02.43.13:074][804]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.28-02.43.15:006][805]Cmd: QUIT_EDITOR
+[2016.03.28-02.43.17:525][805]LogExit: Preparing to exit.
+[2016.03.28-02.43.28:678][805]LogExit: Editor shut down
+[2016.03.28-02.43.28:911][805]LogExit: Transaction tracking system shut down
+[2016.03.28-02.43.42:079][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC2C8F3880
+[2016.03.28-02.43.42:095][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC2C7F2F20
+[2016.03.28-02.44.06:229][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC41C74C20
+[2016.03.28-02.44.06:229][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC77316160
+[2016.03.28-02.44.06:229][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC3A987240
+[2016.03.28-02.44.06:229][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DC3A986520
+[2016.03.28-02.44.06:229][805]LogExit: Object subsystem successfully closed.
+[2016.03.28-02.44.10:098][805]LogD3D11RHI: Shutdown
+[2016.03.28-02.44.10:099][805]LogD3D11RHI: CleanupD3DDevice
+[2016.03.28-02.44.11:418][805]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.28-02.44.14:865][805]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (202)
+[2016.03.28-02.44.14:865][805]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.03.28-02.44.14:865][805]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.28-02.44.14:865][805]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.28-02.44.14:865][805]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.28-02.44.14:865][805]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.28-02.44.14:897][805]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.28-02.44.15:774][805]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.28-02.44.15:775][805]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.28-02.44.15:817][805]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.28-02.44.15:852][805]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.28-02.44.15:869][805]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.28-02.44.15:986][805]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.28-02.44.15:986][805]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.28-02.44.16:001][805]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.28-02.44.16:001][805]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.28-02.44.16:001][805]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.28-02.44.16:001][805]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.28-02.44.16:020][805]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.28-02.44.16:035][805]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.28-02.44.16:049][805]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.28-02.44.16:059][805]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.28-02.44.16:192][805]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.28-02.44.16:255][805]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.28-02.44.16:303][805]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.28-02.44.16:317][805]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.28-02.44.16:371][805]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.28-02.44.16:371][805]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.28-02.44.17:063][805]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.28-02.44.17:070][805]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.28-02.44.17:070][805]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.28-02.44.17:070][805]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.28-02.44.17:085][805]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.28-02.44.17:144][805]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.28-02.44.17:167][805]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.28-02.44.17:167][805]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.28-02.44.17:186][805]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.28-02.44.17:264][805]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.28-02.44.17:264][805]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.28-02.44.17:297][805]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.28-02.44.17:313][805]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.28-02.44.17:329][805]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.28-02.44.17:329][805]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.28-02.44.17:359][805]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.28-02.44.17:359][805]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.28-02.44.17:422][805]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.28-02.44.17:437][805]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.28-02.44.17:495][805]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.28-02.44.17:517][805]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.28-02.44.17:575][805]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.28-02.44.17:613][805]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.28-02.44.17:647][805]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.28-02.44.17:662][805]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.28-02.44.17:662][805]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.28-02.44.17:751][805]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.28-02.44.17:774][805]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.28-02.44.17:803][805]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.28-02.44.17:850][805]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.28-02.44.17:850][805]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.28-02.44.17:875][805]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.28-02.44.17:875][805]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.28-02.44.17:932][805]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.28-02.44.17:987][805]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.28-02.44.18:124][805]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.28-02.44.18:179][805]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.28-02.44.18:179][805]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.28-02.44.18:189][805]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.28-02.44.18:356][805]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.28-02.44.18:379][805]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.28-02.44.18:396][805]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.28-02.44.18:396][805]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.28-02.44.18:411][805]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.28-02.44.18:452][805]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.28-02.44.18:452][805]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.28-02.44.18:453][805]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.28-02.44.18:481][805]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.28-02.44.18:487][805]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.28-02.44.18:487][805]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.28-02.44.18:608][805]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.28-02.44.18:647][805]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.03.28-02.44.18:695][805]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.28-02.44.18:711][805]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.28-02.44.18:711][805]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.28-02.44.18:726][805]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.28-02.44.18:726][805]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.03.28-02.44.18:743][805]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.03.28-02.44.18:743][805]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.28-02.44.19:205][805]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.28-02.44.19:223][805]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.28-02.44.19:229][805]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.28-02.44.19:229][805]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.28-02.44.19:313][805]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.28-02.44.19:403][805]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.28-02.44.19:403][805]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.28-02.44.19:403][805]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.28-02.44.19:446][805]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.28-02.44.19:483][805]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.28-02.44.19:494][805]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.28-02.44.19:516][805]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.28-02.44.19:516][805]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.28-02.44.19:545][805]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.28-02.44.19:604][805]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.28-02.44.19:650][805]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.28-02.44.19:668][805]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.28-02.44.19:680][805]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.28-02.44.19:696][805]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.28-02.44.19:710][805]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.28-02.44.19:720][805]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.28-02.44.19:745][805]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.28-02.44.19:761][805]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.28-02.44.19:761][805]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.28-02.44.20:034][805]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.03.28-02.44.20:396][805]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.03.28-02.44.20:474][805]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.03.28-02.44.20:613][805]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.03.28-02.44.20:751][805]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.03.28-02.44.27:649][805]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.03.28-02.44.27:719][805]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.28-02.44.27:719][805]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.28-02.44.27:737][805]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.28-02.44.28:251][805]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.28-02.44.28:255][805]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.28-02.44.28:311][805]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.28-02.44.28:311][805]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.28-02.44.28:311][805]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.28-02.44.28:386][805]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.28-02.44.28:404][805]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.28-02.44.28:432][805]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.28-02.44.28:479][805]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.28-02.44.28:542][805]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.28-02.44.28:542][805]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.28-02.44.28:646][805]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.28-02.44.28:741][805]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.28-02.44.28:777][805]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.28-02.44.28:832][805]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.28-02.44.28:832][805]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.28-02.44.29:105][805]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.28-02.44.29:105][805]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.28-02.44.29:126][805]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.28-02.44.29:127][805]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.28-02.44.29:127][805]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.28-02.44.29:148][805]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.28-02.44.29:148][805]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.28-02.44.29:148][805]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.28-02.44.29:196][805]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.28-02.44.29:208][805]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.28-02.44.29:353][805]LogDerivedDataCache: Shutdown
+[2016.03.28-02.44.29:353][805]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.28-02.44.29:388][805]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.28-02.44.29:443][805]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.28-02.44.29:485][805]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.28-02.44.29:493][805]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.28-02.44.29:493][805]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.28-02.44.29:506][805]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.28-02.44.29:506][805]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.28-02.44.29:506][805]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.28-02.44.29:526][805]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.28-02.44.29:543][805]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.28-02.44.29:559][805]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.28-02.44.29:560][805]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.28-02.44.29:561][805]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.28-02.44.29:609][805]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.28-02.44.29:621][805]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.28-02.44.29:623][805]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.28-02.44.29:623][805]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.28-02.44.29:641][805]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.28-02.44.29:683][805]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.28-02.44.29:683][805]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.28-02.44.29:683][805]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.28-02.44.29:683][805]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.28-02.44.29:683][805]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.28-02.44.29:683][805]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.28-02.44.29:703][805]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.28-02.44.29:703][805]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.28-02.44.29:703][805]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.28-02.44.29:838][805]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.28-02.44.29:868][805]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.28-02.44.29:885][805]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.28-02.44.29:918][805]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.28-02.44.29:918][805]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.28-02.44.29:982][805]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.28-02.44.29:998][805]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.28-02.44.29:998][805]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.28-02.44.29:998][805]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.28-02.44.32:053][805]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.28-02.44.32:076][805]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.28-02.44.32:097][805]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.28-02.44.32:119][805]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.28-02.44.32:124][805]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.28-02.44.32:124][805]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.28-02.44.32:124][805]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.28-02.44.32:487][805]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.28-02.44.32:523][805]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.28-02.44.32:523][805]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.28-02.44.32:523][805]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.28-02.44.32:523][805]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.28-02.44.32:523][805]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.28-02.44.32:523][805]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.28-02.44.32:541][805]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.28-02.44.32:555][805]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.28-02.44.32:566][805]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.28-02.44.32:746][805]LogExit: Exiting.
+[2016.03.28-02.44.33:387][805]Log file closed, 03/27/16 22:44:33
