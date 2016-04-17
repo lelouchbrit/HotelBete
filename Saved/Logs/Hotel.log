@@ -1,216 +1,220 @@
-﻿[2016.04.16-23.28.40:060][  0]Log file open, 04/16/16 19:28:40
-[2016.04.16-23.28.40:060][  0]LogInit:Display: Running engine for game: Hotel
-[2016.04.16-23.28.40:060][  0]LogPlatformFile: Not using cached read wrapper
-[2016.04.16-23.28.40:060][  0]LogInit:Display: RandInit(1459869909) SRandInit(1459869965).
-[2016.04.16-23.28.40:060][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.04.16-23.28.40:060][  0]LogStats: Stats thread started at 3.069025
-[2016.04.16-23.28.40:060][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.04.16-23.28.40:060][  0]LogInit: API Version: 2758231
-[2016.04.16-23.28.40:060][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.04.16-23.28.40:060][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.04.16-23.28.40:060][  0]LogInit: Build Configuration: Development
-[2016.04.16-23.28.40:060][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.04.16-23.28.40:060][  0]LogInit: Command line:  
-[2016.04.16-23.28.40:060][  0]LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.04.16-23.28.40:060][  0]LogInit: Rocket: 1
-[2016.04.16-23.28.40:168][  0]LogInit: Using libcurl 7.41.0
-[2016.04.16-23.28.40:168][  0]LogInit:  - built for x86_64-pc-win32
-[2016.04.16-23.28.40:168][  0]LogInit:  - supports SSL with WinSSL
-[2016.04.16-23.28.40:168][  0]LogInit:  - other features:
-[2016.04.16-23.28.40:168][  0]LogInit:      CURL_VERSION_SSL
-[2016.04.16-23.28.40:168][  0]LogInit:      CURL_VERSION_IPV6
-[2016.04.16-23.28.40:169][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.04.16-23.28.40:169][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.04.16-23.28.40:169][  0]LogInit:      CURL_VERSION_IDN
-[2016.04.16-23.28.40:169][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.04.16-23.28.40:169][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.04.16-23.28.40:169][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.04.16-23.28.40:169][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.04.16-23.28.40:170][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.04.16-23.28.40:306][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.04.16-23.28.40:492][  0]LogInit: Object subsystem initialized
-[2016.04.16-23.28.40:640][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.16-23.28.40:640][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.04.16-23.28.40:719][  0]LogInit: Computer: MANDY-PC
-[2016.04.16-23.28.40:719][  0]LogInit: User: Mandy
-[2016.04.16-23.28.40:719][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.04.16-23.28.40:719][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2016.04.16-23.28.40:719][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2016.04.16-23.28.40:719][  0]LogMemory: Platform Memory Stats for Windows
-[2016.04.16-23.28.40:719][  0]LogMemory: Process Physical Memory: 56.46 MB used, 56.46 MB peak
-[2016.04.16-23.28.40:719][  0]LogMemory: Process Virtual Memory: 57.75 MB used, 57.75 MB peak
-[2016.04.16-23.28.40:719][  0]LogMemory: Physical Memory: 3103.92 MB used, 16383.18 MB total
-[2016.04.16-23.28.40:719][  0]LogMemory: Virtual Memory: 352.66 MB used, 8388608.00 MB total
-[2016.04.16-23.28.41:351][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.04.16-23.28.42:401][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 (Feature Level 11_0)
-[2016.04.16-23.28.42:401][  0]LogD3D11RHI: Adapter has 972MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 2 output[s]
-[2016.04.16-23.28.42:401][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.04.16-23.28.42:407][  0]LogD3D11RHI: !Direct3DDevice
-[2016.04.16-23.28.42:408][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
-[2016.04.16-23.28.42:419][  0]LogD3D11RHI: Async texture creation enabled
-[2016.04.16-23.28.42:777][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/6688/).
-[2016.04.16-23.28.42:778][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mandy/AppData/Local/Temp/UnrealShaderWorkingDir/6F88CB364BE6C79E25F1FD8C4A256BB9/'.
-[2016.04.16-23.28.42:778][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.04.16-23.28.45:140][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.04.16-23.28.45:148][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.04.16-23.28.45:156][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.04.16-23.28.45:164][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.04.16-23.28.45:171][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.04.16-23.28.45:178][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.04.16-23.28.45:182][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.04.16-23.28.45:187][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.04.16-23.28.45:191][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.04.16-23.28.45:199][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.04.16-23.28.45:203][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.04.16-23.28.45:212][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.04.16-23.28.45:212][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.04.16-23.28.45:213][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.04.16-23.28.45:281][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.04.16-23.28.45:286][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.04.16-23.28.45:290][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.04.16-23.28.45:319][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.04.16-23.28.45:319][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.04.16-23.28.45:886][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.04.16-23.28.46:199][  0]LogDerivedDataCache: Loaded boot cache 0.31s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.04.16-23.28.46:199][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.04.16-23.28.46:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.04.16-23.28.46:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.04.16-23.28.46:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.04.16-23.28.46:199][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.04.16-23.28.46:331][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.04.16-23.28.46:343][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mandy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.04.16-23.28.51:202][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.16-23.28.51:212][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.04.16-23.28.51:959][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.04.16-23.28.51:959][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.04.16-23.28.55:006][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.04.16-23.29.01:709][  0]LogAssetRegistry: FAssetRegistry took 0.0138 seconds to start up
-[2016.04.16-23.29.01:821][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.04.16-23.29.05:122][  0]SourceControl: Info Source control is disabled
-[2016.04.16-23.29.05:139][  0]SourceControl: Info Source control is disabled
-[2016.04.16-23.29.05:568][  0]SourceControl: Info Source control is disabled
-[2016.04.16-23.29.05:707][  0]SourceControl: Info Source control is disabled
-[2016.04.16-23.29.08:392][  0]LogObj: 28802 objects as part of root set at end of initial load.
-[2016.04.16-23.29.08:392][  0]LogUObjectAllocator: 6129776 out of 0 bytes used by permanent object pool.
-[2016.04.16-23.29.09:733][  0]LogEngine: Initializing Engine...
-[2016.04.16-23.29.09:752][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.04.16-23.29.09:859][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.04.16-23.29.10:884][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.04.16-23.29.11:340][  0]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.04.16-23.29.11:409][  0]LogInit: FAudioDevice initialized.
-[2016.04.16-23.29.11:451][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.04.16-23.29.11:467][  0]LogInit: Texture streaming: Enabled
-[2016.04.16-23.29.11:529][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.04.16-23.29.11:565][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.04.16-23.29.11:566][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e0d98b0e467b55d21c5013962f69b996|a1543627d61e4593a39d507d0813b255|cef8b6ba-01d0-47b7-a028-3b7e918a90c5
-[2016.04.16-23.29.11:572][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.04.16-23.29.11:804][  0]LogInit: Transaction tracking system initialized
-[2016.04.16-23.29.12:984][  0]BlueprintLog: New page: Editor Load
-[2016.04.16-23.29.16:099][  0]LocalizationService: Info Localization service is disabled
-[2016.04.16-23.29.18:312][  0]LogConsoleResponse:Display: 
-[2016.04.16-23.29.20:740][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.04.16-23.29.20:946][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/' took 0.05s
-[2016.04.16-23.29.23:935][  0]SourceControl: Info Source control is disabled
-[2016.04.16-23.29.23:995][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.04.16-23.29.24:018][  0]LightingResults: New page: Lighting Build
-[2016.04.16-23.29.24:423][  0]MapCheck: New page: Map Check
-[2016.04.16-23.29.24:423][  0]LightingResults: New page: Lighting Build
-[2016.04.16-23.29.24:981][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000254A2AC0
-[2016.04.16-23.29.29:796][  0]LogAIModule: Creating AISystem for world Menu
-[2016.04.16-23.29.29:964][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.04.16-23.29.30:007][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.04.16-23.29.30:087][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.712ms to complete.
-[2016.04.16-23.29.30:087][  0]LogFileHelpers: Loading map 'Menu' took 6.112
-[2016.04.16-23.29.31:333][  0]LogCollectionManager: Loaded 0 collections in 0.007074 seconds
-[2016.04.16-23.29.31:537][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
-[2016.04.16-23.29.31:537][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Developers/Mandy/Collections/' took 0.01s
-[2016.04.16-23.29.31:537][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Collections/' took 0.01s
-[2016.04.16-23.29.31:537][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
-[2016.04.16-23.29.31:569][  0]LogContentBrowser: Native class hierarchy populated in 0.0284 seconds. Added 1908 classes and 344 folders.
-[2016.04.16-23.29.31:627][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2016.04.16-23.29.32:544][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
-[2016.04.16-23.29.32:591][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.04.16-23.29.33:238][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.04.16-23.29.33:414][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.04.16-23.29.33:480][  0]LogLoad: Full Startup: 58.51 seconds (BP compile: 0.74 seconds)
-[2016.04.16-23.29.33:511][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.04.16-23.29.33:721][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.04.16-23.29.34:174][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
-[2016.04.16-23.29.34:631][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2016.04.16-23.29.35:007][ 10]LogAssetRegistry: Asset discovery search completed in 33.3104 seconds
-[2016.04.16-23.29.35:008][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2016.04.16-23.29.39:836][454]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'KeyWithRoomNum' in BlueprintGeneratedClass 'REINST_Key_C_31' (it may have been removed)
-[2016.04.16-23.29.47:858][454]LogAudioDerivedData:Display: Building compressed audio format OGG wave Door_Unlocking...
-[2016.04.16-23.29.48:731][454]LogAIModule: Creating AISystem for world World
-[2016.04.16-23.29.48:733][454]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Breath.Breath Component=/Game/Hotel/Levels/World.World:PersistentLevel.Breath.ParticleSystemComponent0
-[2016.04.16-23.29.48:755][454]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker.ParticleSystemComponent0
-[2016.04.16-23.29.48:755][454]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust_2.ParticleSystemComponent0
-[2016.04.16-23.29.48:757][454]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust2.ParticleSystemComponent0
-[2016.04.16-23.29.48:757][454]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust3.ParticleSystemComponent0
-[2016.04.16-23.29.48:760][454]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker2_5.ParticleSystemComponent0
-[2016.04.16-23.29.48:857][454]LogAudioDerivedData:Display: Building compressed audio format OGG wave Camera_Flash...
-[2016.04.16-23.29.48:929][454]LogAudioDerivedData:Display: Building compressed audio format OGG wave Ghost_Noise...
-[2016.04.16-23.29.52:907][454]Cmd: MAP LOAD FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.04.16-23.29.52:908][454]LightingResults: New page: Lighting Build
-[2016.04.16-23.29.52:940][454]LoadErrors: New page: Loading map: World.umap
-[2016.04.16-23.29.52:942][454]MapCheck: New page: Map Check
-[2016.04.16-23.29.52:942][454]LightingResults: New page: Lighting Build
-[2016.04.16-23.29.52:994][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029A00180
-[2016.04.16-23.29.53:271][454]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.04.16-23.29.53:360][454]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.04.16-23.29.53:478][454]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.223ms to complete.
-[2016.04.16-23.29.53:478][454]LogFileHelpers: Loading map 'World' took 0.577
-[2016.04.16-23.29.53:538][454]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Enemy : Failed import for Enemy_C /Game/Hotel/Blueprints/Enemies/Enemy.Default__Enemy_C [redirection] in /Game/FirstPersonBP/Blueprints/Enemy
-[2016.04.16-23.31.02:944][894]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Bar\01 - Default_Base_Color.png)
-[2016.04.16-23.31.03:380][894]LogTexture:Display: Building textures: 01_-_Default_Base_Color (AutoDXT)
-[2016.04.16-23.31.07:269][894]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Bar\01 - Default_Normal_DirectX.png)
-[2016.04.16-23.31.08:218][894]LogTexture:Display: Building textures: 01_-_Default_Normal_DirectX (BC5)
-[2016.04.16-23.31.09:137][894]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Bar\Bar_01 - Default_AmbientOcclusion.png)
-[2016.04.16-23.31.09:507][894]LogTexture:Display: Building textures: Bar_01_-_Default_AmbientOcclusion (AutoDXT)
-[2016.04.16-23.31.24:898][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Textures/Bar/Bar_Base_Color" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Bar/Bar_Base_Color.uasset" SILENT=true
-[2016.04.16-23.31.25:565][214]LogSavePackage: Save=663.251221ms
-[2016.04.16-23.31.25:565][214]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Bar_Base_Color3E1DF06F444B634EE27BEBB4A54F6481.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Bar/Bar_Base_Color.uasset'
-[2016.04.16-23.31.25:566][214]LogSavePackage: Total save time: 667.209730ms
-[2016.04.16-23.31.25:566][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Bar/Bar_Base_Color.uasset
-[2016.04.16-23.31.39:863][691]LogSavePackage: Save=1528.889160ms
-[2016.04.16-23.31.39:863][691]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Bar_Normal_DirectXD5C6B964432F8C0729EC3E8699D2E0E0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Bar/Bar_Normal_DirectX.uasset'
-[2016.04.16-23.31.39:865][691]LogSavePackage: Total save time: 1530.330464ms
-[2016.04.16-23.31.39:865][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Bar/Bar_Normal_DirectX.uasset
-[2016.04.16-23.31.53:455][242]LogSavePackage: Save=364.628052ms
-[2016.04.16-23.31.53:455][242]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Bar_AmbientOcclusionC6620492474E443B247BF286386DC649.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Bar/Bar_AmbientOcclusion.uasset'
-[2016.04.16-23.31.53:456][242]LogSavePackage: Total save time: 366.061468ms
-[2016.04.16-23.31.53:456][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Bar/Bar_AmbientOcclusion.uasset
-[2016.04.16-23.31.59:305][864]LogMaterial: Missing cached shader map for material BarMat, compiling. 
-[2016.04.16-23.31.59:646][864]LogMaterial: Missing cached shader map for material BarMat, compiling. 
-[2016.04.16-23.31.59:652][864]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.04.16-23.31.59:675][864]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling. 
-[2016.04.16-23.32.02:175][958]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2016.04.16-23.32.02:175][958]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.04.16-23.32.02:175][958]MaterialEditorStats: Info Texture samplers: 0/16
-[2016.04.16-23.32.07:428][282]LogMaterial: Missing cached shader map for material BarMat, compiling. 
-[2016.04.16-23.32.07:434][282]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.04.16-23.32.07:435][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.04.16-23.32.07:470][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling. 
-[2016.04.16-23.32.07:474][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.04.16-23.32.07:488][282]LogMaterial: Missing cached shader map for material BarMat, compiling. 
-[2016.04.16-23.32.07:494][282]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.04.16-23.32.07:495][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.04.16-23.32.07:557][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling. 
-[2016.04.16-23.32.07:562][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.04.16-23.32.07:566][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.04.16-23.32.07:581][282]LogMaterial: Missing cached shader map for material BarMat, compiling. 
-[2016.04.16-23.32.07:587][282]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.04.16-23.32.07:590][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2016.04.16-23.32.07:618][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_9, compiling. 
-[2016.04.16-23.32.07:622][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.04.16-23.32.07:626][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.04.16-23.32.07:631][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2016.04.16-23.32.09:598][366]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2016.04.16-23.32.09:598][366]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.04.16-23.32.09:598][366]MaterialEditorStats: Info Texture samplers: 0/16
-[2016.04.16-23.32.10:327][396]LogMaterial: Missing cached shader map for material BarMat, compiling. 
-[2016.04.16-23.32.10:332][396]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.04.16-23.32.11:708][464]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2016.04.16-23.32.11:709][464]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.04.16-23.32.11:709][464]MaterialEditorStats: Info Texture samplers: 0/16
-[2016.04.16-23.32.13:247][569]LogMaterial: Missing cached shader m
+﻿[2016.04.17-01.24.55:374][  0]Log file open, 04/16/16 21:24:55
+[2016.04.17-01.24.55:374][  0]LogInit:Display: Running engine for game: Hotel
+[2016.04.17-01.24.55:374][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.17-01.24.55:374][  0]LogInit:Display: RandInit(-1728200240) SRandInit(-1728200212).
+[2016.04.17-01.24.55:374][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.17-01.24.55:374][  0]LogStats: Stats thread started at 0.670341
+[2016.04.17-01.24.55:374][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.17-01.24.55:374][  0]LogInit: API Version: 2758231
+[2016.04.17-01.24.55:374][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.17-01.24.55:374][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.17-01.24.55:374][  0]LogInit: Build Configuration: Development
+[2016.04.17-01.24.55:374][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.17-01.24.55:374][  0]LogInit: Command line:  
+[2016.04.17-01.24.55:374][  0]LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.17-01.24.55:374][  0]LogInit: Rocket: 1
+[2016.04.17-01.24.55:396][  0]LogInit: Using libcurl 7.41.0
+[2016.04.17-01.24.55:396][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.17-01.24.55:396][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.17-01.24.55:396][  0]LogInit:  - other features:
+[2016.04.17-01.24.55:396][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.17-01.24.55:396][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.17-01.24.55:396][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.17-01.24.55:396][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.17-01.24.55:396][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.17-01.24.55:396][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.17-01.24.55:396][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.17-01.24.55:396][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.17-01.24.55:396][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.17-01.24.55:396][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.17-01.24.55:427][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.17-01.24.55:435][  0]LogInit: Object subsystem initialized
+[2016.04.17-01.24.55:437][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-01.24.55:437][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.17-01.24.55:446][  0]LogInit: Computer: MANDY-PC
+[2016.04.17-01.24.55:446][  0]LogInit: User: Mandy
+[2016.04.17-01.24.55:446][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.17-01.24.55:446][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.04.17-01.24.55:446][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.04.17-01.24.55:446][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.17-01.24.55:446][  0]LogMemory: Process Physical Memory: 56.54 MB used, 56.54 MB peak
+[2016.04.17-01.24.55:446][  0]LogMemory: Process Virtual Memory: 59.68 MB used, 59.68 MB peak
+[2016.04.17-01.24.55:446][  0]LogMemory: Physical Memory: 3116.05 MB used, 16383.18 MB total
+[2016.04.17-01.24.55:446][  0]LogMemory: Virtual Memory: 354.59 MB used, 8388608.00 MB total
+[2016.04.17-01.24.55:618][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.17-01.24.56:279][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 (Feature Level 11_0)
+[2016.04.17-01.24.56:279][  0]LogD3D11RHI: Adapter has 972MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 2 output[s]
+[2016.04.17-01.24.56:279][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.17-01.24.56:284][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.17-01.24.56:285][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2016.04.17-01.24.56:295][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.17-01.24.56:309][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/7740/).
+[2016.04.17-01.24.56:310][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mandy/AppData/Local/Temp/UnrealShaderWorkingDir/A48852B74BA1E63C13A219A5C1C0C718/'.
+[2016.04.17-01.24.56:310][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.17-01.24.57:818][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.17-01.24.57:836][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.17-01.24.57:845][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.17-01.24.57:852][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.17-01.24.57:859][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.17-01.24.57:865][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.17-01.24.57:869][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.17-01.24.57:873][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.17-01.24.57:877][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.17-01.24.57:883][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.17-01.24.57:886][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.17-01.24.57:894][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.17-01.24.57:894][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.17-01.24.57:895][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.17-01.24.57:929][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.17-01.24.57:932][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.17-01.24.57:936][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.17-01.24.57:953][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.17-01.24.57:953][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.17-01.24.58:335][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.17-01.24.58:623][  0]LogDerivedDataCache: Loaded boot cache 0.29s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.17-01.24.58:623][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.17-01.24.58:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.17-01.24.58:623][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.17-01.24.58:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.17-01.24.58:623][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.17-01.24.58:740][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.17-01.24.58:752][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mandy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.17-01.25.01:603][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-01.25.01:603][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.17-01.25.01:661][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.17-01.25.01:661][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.17-01.25.02:287][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.17-01.25.06:411][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2016.04.17-01.25.06:443][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.17-01.25.07:392][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.25.07:393][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.25.07:419][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.25.07:464][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.25.08:721][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.04.17-01.25.08:721][  0]LogUObjectAllocator: 6129776 out of 0 bytes used by permanent object pool.
+[2016.04.17-01.25.08:871][  0]LogEngine: Initializing Engine...
+[2016.04.17-01.25.08:873][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.17-01.25.08:929][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.17-01.25.09:105][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.17-01.25.09:113][  0]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-01.25.09:132][  0]LogInit: FAudioDevice initialized.
+[2016.04.17-01.25.09:172][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.17-01.25.09:187][  0]LogInit: Texture streaming: Enabled
+[2016.04.17-01.25.09:202][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.17-01.25.09:202][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.17-01.25.09:202][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e0d98b0e467b55d21c5013962f69b996|a1543627d61e4593a39d507d0813b255|cef8b6ba-01d0-47b7-a028-3b7e918a90c5
+[2016.04.17-01.25.09:202][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.17-01.25.09:217][  0]LogInit: Transaction tracking system initialized
+[2016.04.17-01.25.09:288][  0]BlueprintLog: New page: Editor Load
+[2016.04.17-01.25.09:618][  0]LocalizationService: Info Localization service is disabled
+[2016.04.17-01.25.09:960][  0]LogConsoleResponse:Display: 
+[2016.04.17-01.25.11:112][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.17-01.25.11:420][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/' took 0.02s
+[2016.04.17-01.25.11:420][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.25.11:420][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.17-01.25.11:445][  0]LightingResults: New page: Lighting Build
+[2016.04.17-01.25.11:449][  0]MapCheck: New page: Map Check
+[2016.04.17-01.25.11:449][  0]LightingResults: New page: Lighting Build
+[2016.04.17-01.25.11:469][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024506AC0
+[2016.04.17-01.25.14:167][  0]LogAIModule: Creating AISystem for world Menu
+[2016.04.17-01.25.14:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.17-01.25.14:169][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.17-01.25.14:220][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.74ms to complete.
+[2016.04.17-01.25.14:220][  0]LogFileHelpers: Loading map 'Menu' took 2.800
+[2016.04.17-01.25.14:414][  0]LogCollectionManager: Loaded 0 collections in 0.001781 seconds
+[2016.04.17-01.25.14:455][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
+[2016.04.17-01.25.14:455][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Developers/Mandy/Collections/' took 0.01s
+[2016.04.17-01.25.14:455][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Collections/' took 0.01s
+[2016.04.17-01.25.14:455][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.17-01.25.14:466][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 1908 classes and 344 folders.
+[2016.04.17-01.25.14:471][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.17-01.25.15:397][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.04.17-01.25.15:419][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2016.04.17-01.25.15:574][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.17-01.25.15:579][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.17-01.25.15:600][  0]LogLoad: Full Startup: 21.77 seconds (BP compile: 0.14 seconds)
+[2016.04.17-01.25.15:611][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.17-01.25.15:684][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.17-01.25.15:899][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2016.04.17-01.25.16:315][  7]LogAssetRegistry: Asset discovery search completed in 9.9146 seconds
+[2016.04.17-01.25.16:315][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.04.17-01.25.16:315][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2016.04.17-01.25.27:723][284]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'KeyWithRoomNum' in BlueprintGeneratedClass 'REINST_Key_C_31' (it may have been removed)
+[2016.04.17-01.25.33:054][284]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2016.04.17-01.25.33:055][284]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Wood_Oak.M_Wood_Oak for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.17-01.25.33:055][284]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.04.17-01.25.33:082][284]LogMaterial: Missing cached shader map for material brokenChairMat, compiling. 
+[2016.04.17-01.25.33:796][284]LogAIModule: Creating AISystem for world World
+[2016.04.17-01.25.33:798][284]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Breath.Breath Component=/Game/Hotel/Levels/World.World:PersistentLevel.Breath.ParticleSystemComponent0
+[2016.04.17-01.25.33:799][284]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker.ParticleSystemComponent0
+[2016.04.17-01.25.33:799][284]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust_2.ParticleSystemComponent0
+[2016.04.17-01.25.33:801][284]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust2.ParticleSystemComponent0
+[2016.04.17-01.25.33:801][284]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust3.ParticleSystemComponent0
+[2016.04.17-01.25.33:804][284]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker2_5.ParticleSystemComponent0
+[2016.04.17-01.25.34:628][284]Cmd: MAP LOAD FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.17-01.25.34:632][284]LightingResults: New page: Lighting Build
+[2016.04.17-01.25.34:702][284]LoadErrors: New page: Loading map: World.umap
+[2016.04.17-01.25.34:702][284]MapCheck: New page: Map Check
+[2016.04.17-01.25.34:702][284]LightingResults: New page: Lighting Build
+[2016.04.17-01.25.34:759][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118749A0
+[2016.04.17-01.25.34:911][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.17-01.25.35:023][284]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.17-01.25.35:290][284]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 267.182ms to complete.
+[2016.04.17-01.25.35:296][284]LogFileHelpers: Loading map 'World' took 0.669
+[2016.04.17-01.25.35:352][284]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Enemy : Failed import for Enemy_C /Game/Hotel/Blueprints/Enemies/Enemy.Default__Enemy_C [redirection] in /Game/FirstPersonBP/Blueprints/Enemy
+[2016.04.17-01.26.13:322][583]LogEditorFactories: Performing atomic reimport of [C:/Users/Mandy/Documents/maya/projects/default/scenes/Lobby_haunted.fbx]
+[2016.04.17-01.26.13:433][583]LogFbx: Loading FBX Scene from C:/Users/Mandy/Documents/maya/projects/default/scenes/Lobby_haunted.fbx
+[2016.04.17-01.26.13:860][583]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.17-01.26.13:923][583]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.04.17-01.26.13:963][583]LogFbx:Warning: Triangulating static mesh Cylinder025
+[2016.04.17-01.26.15:061][583]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Lobby/LobbyWalls'
+[2016.04.17-01.26.15:062][583]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Lobby/LobbyWalls'
+[2016.04.17-01.26.15:070][583]LogMaterial: Missing cached shader map for material LobbyWalls, compiling. 
+[2016.04.17-01.26.15:088][583]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Lobby/LobbyGlass'
+[2016.04.17-01.26.15:089][583]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Lobby/LobbyGlass'
+[2016.04.17-01.26.15:099][583]LogMaterial: Missing cached shader map for material LobbyGlass, compiling. 
+[2016.04.17-01.26.15:163][583]LogFbx:Warning: Triangulating static mesh Line0010
+[2016.04.17-01.26.21:024][583]LogStaticMesh: Building static mesh Lobby_haunted...
+[2016.04.17-01.26.26:842][583]LogStaticMesh: Built static mesh [5.817006.2s] /Game/Hotel/Art/Models/Lobby/Lobby_haunted.Lobby_haunted
+[2016.04.17-01.26.27:105][583]LogStaticMesh:Warning: Lobby_haunted has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.17-01.26.27:109][583]LogFbx:Warning: Warning Lobby_haunted has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.17-01.26.27:404][583]LogEditorFactories: -- imported successfully
+[2016.04.17-01.26.47:478][400]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.04.17-01.26.51:235][602]LogActorFactory: Actor Factory created Lobby_haunted
+[2016.04.17-01.26.53:455][810]LogActorFactory: Actor Factory created Lobby_haunted
+[2016.04.17-01.26.55:345][924]LogActorFactory: Actor Factory created Lobby_haunted
+[2016.04.17-01.27.00:650][353]Cmd: TRANSACTION UNDO
+[2016.04.17-01.27.00:650][353]LogEditorTransaction: Undo Create Actors
+[2016.04.17-01.27.04:083][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.04.17-01.29.03:766][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.04.17-01.29.06:860][553]Cmd: TRANSACTION UNDO
+[2016.04.17-01.29.06:861][553]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.17-01.29.11:928][986]Cmd: TRANSACTION UNDO
+[2016.04.17-01.29.11:928][986]LogEditorTransaction: Undo Create Actors
+[2016.04.17-01.29.51:978][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (balcony_haunted)
+[2016.04.17-01.30.13:361][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.04.17-01.30.18:270][348]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.04.17-01.30.28:080][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.04.17-01.31.18:442][303]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.04.17-01.31.48:840][231]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Hotel\HotelOutside\LobbyWalls_Base_Color.png)
+[2016.04.17-01.31.51:297][231]LogTexture:Display: Building textures: LobbyWalls_Base_Color (AutoDXT)
+[2016.04.17-01.32.15:794][231]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\Hotel\HotelOutside\LobbyWalls_Normal_DirectX.png)
+[2016.04.17-01.32.21:061][231]LogTexture:Display: Building textures: LobbyWalls_Normal_DirectX (BC5)
+[2016.04.17-01.32.30:948][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.17-01.32.33:141][325]LogSavePackage: Save=2128.423096ms
+[2016.04.17-01.32.33:141][325]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/WorldF028706146493EA8854E12BA4484EDCC.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.04.17-01.32.33:145][325]LogSavePackage: Total save time: 2167.395789ms
+[2016.04.17-01.32.33:145][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap
+[2016.04.17-01.32.33:194][325]LogFileHelpers: Saving map 'World' took 2.367
+[2016.04.17-01.32.36:198][325]LogSavePackage: Save=2975.176758ms
+[2016.04.17-01.32.36:198][325]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/LobbyWalls_Base_Color5F8A5FBE4D4ED5A1C7600999B7A878D4.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/LobbyWalls_Base_Color.uasset'
+[2016.04.17-01.32.36:200][325]LogSavePackage: Total save time: 2976.838466ms
+[2016.04.17-01.32.36:200][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/Lobby/Walls/LobbyWalls_Base_Color.uasset
+[2016.04.17-01.32.36:250][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Lobby/LobbyGlass" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/LobbyGlass.uasset" SILENT=true
+[2016.04.17-01.32.36:265][325]LogSavePackage: Save=13.727024ms
+[2016.04.17-01.32.36:265][325]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/LobbyGlass74D89CC842A6E2809C551CB541B787B8.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/LobbyGlass.uasset'
+[2016.04.17-01.32.36:266][325]LogSavePackage: Total save time: 15.221070ms
+[2016.04.17-01.32.36:266][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/LobbyGlass.uasset
+[2016.04.17-01.32.36:316][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Lobby/LobbyWalls" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Lobby/LobbyWalls.uasset" SILENT=true
+[2016.04.17-01.32.36:330][325]LogSavePackage: Save=13.336890ms
+[2016.04.17-01.32.36:330][325]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/LobbyWalls594B2B434BAD76
