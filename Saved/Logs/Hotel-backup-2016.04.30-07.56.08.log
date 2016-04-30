@@ -1,0 +1,870 @@
+﻿[2016.04.30-11.15.27:253][  0]Log file open, 04/30/16 07:15:27
+[2016.04.30-11.15.27:253][  0]LogInit:Display: Running engine for game: Hotel
+[2016.04.30-11.15.27:253][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.30-11.15.27:253][  0]LogInit:Display: RandInit(1225290479) SRandInit(1225290528).
+[2016.04.30-11.15.27:253][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.30-11.15.27:253][  0]LogStats: Stats thread started at 3.055819
+[2016.04.30-11.15.27:253][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.30-11.15.27:253][  0]LogInit: API Version: 2758231
+[2016.04.30-11.15.27:253][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.30-11.15.27:253][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.30-11.15.27:253][  0]LogInit: Build Configuration: Development
+[2016.04.30-11.15.27:253][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.30-11.15.27:253][  0]LogInit: Command line:  
+[2016.04.30-11.15.27:253][  0]LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.30-11.15.27:253][  0]LogInit: Rocket: 1
+[2016.04.30-11.15.27:341][  0]LogInit: Using libcurl 7.41.0
+[2016.04.30-11.15.27:341][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.30-11.15.27:341][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.30-11.15.27:341][  0]LogInit:  - other features:
+[2016.04.30-11.15.27:341][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.30-11.15.27:341][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.30-11.15.27:341][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.30-11.15.27:341][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.30-11.15.27:341][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.30-11.15.27:342][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.30-11.15.27:342][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.30-11.15.27:342][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.30-11.15.27:342][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.30-11.15.27:342][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.30-11.15.27:481][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.30-11.15.27:763][  0]LogInit: Object subsystem initialized
+[2016.04.30-11.15.27:920][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.30-11.15.27:921][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.30-11.15.28:017][  0]LogInit: Computer: MANDY-PC
+[2016.04.30-11.15.28:017][  0]LogInit: User: Mandy
+[2016.04.30-11.15.28:017][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.30-11.15.28:017][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.04.30-11.15.28:017][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.04.30-11.15.28:017][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.30-11.15.28:017][  0]LogMemory: Process Physical Memory: 56.11 MB used, 56.11 MB peak
+[2016.04.30-11.15.28:017][  0]LogMemory: Process Virtual Memory: 59.69 MB used, 59.69 MB peak
+[2016.04.30-11.15.28:017][  0]LogMemory: Physical Memory: 2951.27 MB used, 16383.18 MB total
+[2016.04.30-11.15.28:017][  0]LogMemory: Virtual Memory: 354.59 MB used, 8388608.00 MB total
+[2016.04.30-11.15.28:706][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.30-11.15.30:043][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 (Feature Level 11_0)
+[2016.04.30-11.15.30:043][  0]LogD3D11RHI: Adapter has 972MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 2 output[s]
+[2016.04.30-11.15.30:043][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.30-11.15.30:050][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.30-11.15.30:050][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2016.04.30-11.15.30:063][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.30-11.15.30:408][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/5096/).
+[2016.04.30-11.15.30:408][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mandy/AppData/Local/Temp/UnrealShaderWorkingDir/CFF273844EBA6A0CE8E20D9D1081C81B/'.
+[2016.04.30-11.15.30:409][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.30-11.15.48:137][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.30-11.15.48:156][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.30-11.15.48:172][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.30-11.15.48:179][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.30-11.15.48:186][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.30-11.15.48:206][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.30-11.15.48:211][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.30-11.15.48:217][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.30-11.15.48:223][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.30-11.15.48:245][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.30-11.15.48:249][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.30-11.15.48:258][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.30-11.15.48:258][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.30-11.15.48:262][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.30-11.15.48:328][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.30-11.15.48:342][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.30-11.15.48:355][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.30-11.15.48:396][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.30-11.15.48:396][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.30-11.15.48:942][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.30-11.15.49:230][  0]LogDerivedDataCache: Loaded boot cache 0.29s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.30-11.15.49:230][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.30-11.15.49:230][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.30-11.15.49:230][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.30-11.15.49:230][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.30-11.15.49:230][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.30-11.15.49:359][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.30-11.15.49:371][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mandy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.30-11.15.54:133][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.30-11.15.54:143][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.30-11.15.55:040][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.30-11.15.55:040][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.30-11.15.58:645][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.30-11.16.07:405][  0]LogAssetRegistry: FAssetRegistry took 0.0136 seconds to start up
+[2016.04.30-11.16.07:500][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.30-11.16.11:136][  0]SourceControl: Info Source control is disabled
+[2016.04.30-11.16.11:161][  0]SourceControl: Info Source control is disabled
+[2016.04.30-11.16.11:545][  0]SourceControl: Info Source control is disabled
+[2016.04.30-11.16.11:688][  0]SourceControl: Info Source control is disabled
+[2016.04.30-11.16.14:966][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.04.30-11.16.14:966][  0]LogUObjectAllocator: 6129776 out of 0 bytes used by permanent object pool.
+[2016.04.30-11.16.16:794][  0]LogEngine: Initializing Engine...
+[2016.04.30-11.16.16:861][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.30-11.16.16:940][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.30-11.16.18:006][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.30-11.16.18:236][  0]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.30-11.16.18:265][  0]LogInit: FAudioDevice initialized.
+[2016.04.30-11.16.18:304][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.30-11.16.18:319][  0]LogInit: Texture streaming: Enabled
+[2016.04.30-11.16.18:396][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.30-11.16.18:403][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.30-11.16.18:403][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e0d98b0e467b55d21c5013962f69b996|a1543627d61e4593a39d507d0813b255|cef8b6ba-01d0-47b7-a028-3b7e918a90c5
+[2016.04.30-11.16.18:410][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.30-11.16.18:671][  0]LogInit: Transaction tracking system initialized
+[2016.04.30-11.16.19:846][  0]BlueprintLog: New page: Editor Load
+[2016.04.30-11.16.23:402][  0]LocalizationService: Info Localization service is disabled
+[2016.04.30-11.16.25:491][  0]LogConsoleResponse:Display: 
+[2016.04.30-11.16.27:583][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.30-11.16.29:533][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/' took 0.05s
+[2016.04.30-11.16.30:654][  0]SourceControl: Info Source control is disabled
+[2016.04.30-11.16.30:749][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-11.16.30:809][  0]LightingResults: New page: Lighting Build
+[2016.04.30-11.16.31:220][  0]MapCheck: New page: Map Check
+[2016.04.30-11.16.31:220][  0]LightingResults: New page: Lighting Build
+[2016.04.30-11.16.31:783][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026506AC0
+[2016.04.30-11.16.39:940][  0]LogAIModule: Creating AISystem for world Menu
+[2016.04.30-11.16.40:093][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-11.16.40:153][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-11.16.40:294][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.563ms to complete.
+[2016.04.30-11.16.40:295][  0]LogFileHelpers: Loading map 'Menu' took 9.582
+[2016.04.30-11.16.43:028][  0]LogCollectionManager: Loaded 0 collections in 0.006747 seconds
+[2016.04.30-11.16.43:383][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
+[2016.04.30-11.16.43:383][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Developers/Mandy/Collections/' took 0.01s
+[2016.04.30-11.16.43:383][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Collections/' took 0.01s
+[2016.04.30-11.16.43:383][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.04.30-11.16.43:460][  0]LogContentBrowser: Native class hierarchy populated in 0.0659 seconds. Added 1908 classes and 344 folders.
+[2016.04.30-11.16.43:632][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.04.30-11.16.45:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.04.30-11.16.45:348][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2016.04.30-11.16.46:194][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.30-11.16.46:365][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.30-11.16.46:418][  0]LogLoad: Full Startup: 85.09 seconds (BP compile: 1.22 seconds)
+[2016.04.30-11.16.46:769][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.30-11.16.47:275][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.30-11.16.47:702][  0]LogRenderer: Reallocating scene render targets to support 1036x568 (Frame:2).
+[2016.04.30-11.16.51:708][ 12]LogAssetRegistry: Asset discovery search completed in 44.3144 seconds
+[2016.04.30-11.16.51:708][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.04.30-11.16.51:708][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2016.04.30-11.17.10:506][293]LogTexture:Display: Building textures: Playing_Card_BANISHED (AutoDXT)
+[2016.04.30-11.17.10:933][293]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2016.04.30-11.17.10:951][293]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Wood_Oak.M_Wood_Oak for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.30-11.17.10:951][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.04.30-11.17.11:466][293]LogAIModule: Creating AISystem for world World
+[2016.04.30-11.17.11:468][293]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Breath.Breath Component=/Game/Hotel/Levels/World.World:PersistentLevel.Breath.ParticleSystemComponent0
+[2016.04.30-11.17.11:485][293]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/ItemMarker.ItemMarker Component=/Game/Hotel/Levels/World.World:PersistentLevel.ItemMarker.ParticleSystemComponent0
+[2016.04.30-11.17.11:485][293]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust_2.ParticleSystemComponent0
+[2016.04.30-11.17.11:487][293]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust2.ParticleSystemComponent0
+[2016.04.30-11.17.11:487][293]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/Dust.Dust Component=/Game/Hotel/Levels/World.World:PersistentLevel.Dust3.ParticleSystemComponent0
+[2016.04.30-11.17.11:952][293]Cmd: MAP LOAD FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-11.17.11:954][293]LightingResults: New page: Lighting Build
+[2016.04.30-11.17.11:984][293]LoadErrors: New page: Loading map: World.umap
+[2016.04.30-11.17.11:988][293]MapCheck: New page: Map Check
+[2016.04.30-11.17.11:988][293]LightingResults: New page: Lighting Build
+[2016.04.30-11.17.12:040][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000311C7920
+[2016.04.30-11.17.12:374][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-11.17.12:495][293]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-11.17.12:631][293]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.576ms to complete.
+[2016.04.30-11.17.12:631][293]LogFileHelpers: Loading map 'World' took 0.685
+[2016.04.30-11.17.12:683][293]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Enemy : Failed import for Enemy_C /Game/Hotel/Blueprints/Enemies/Enemy.Default__Enemy_C [redirection] in /Game/FirstPersonBP/Blueprints/Enemy
+[2016.04.30-11.17.38:015][376]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair7)
+[2016.04.30-11.19.29:154][404]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.04.30-11.19.29:464][404]LogRenderer: Reallocating scene render targets to support 1036x736 (Frame:3449).
+[2016.04.30-11.21.32:152][410]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Mandy/Documents/HauntedModelFiles/Broken Chairs DONE/BrokenChair.fbx)
+[2016.04.30-11.21.32:271][410]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.30-11.21.32:271][410]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.30-11.21.32:271][410]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.30-11.21.32:271][410]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.30-11.21.32:271][410]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.30-11.21.32:271][410]LogFbx: ItemName: Material, ItemCount : 1
+[2016.04.30-11.21.32:427][410]LogFbx: Loading FBX Scene from ../../../../../../Users/Mandy/Documents/HauntedModelFiles/Broken Chairs DONE/BrokenChair.fbx
+[2016.04.30-11.21.32:532][410]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.30-11.21.34:910][410]LogFbx: Loading FBX Scene from ../../../../../../Users/Mandy/Documents/HauntedModelFiles/Broken Chairs DONE/BrokenChair.fbx
+[2016.04.30-11.21.34:982][410]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.30-11.21.35:021][410]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Broken_Chair/lambert1'
+[2016.04.30-11.21.35:021][410]LogLinker:Warning: Can't find file '/Game/Hotel/Art/Models/Broken_Chair/lambert1'
+[2016.04.30-11.21.35:059][410]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.30-11.21.35:110][410]LogFbx:Warning: Triangulating static mesh pCube21
+[2016.04.30-11.21.35:291][410]LogStaticMesh: Building static mesh BrokenChair...
+[2016.04.30-11.21.35:504][410]LogStaticMesh: Built static mesh [0.213226.2s] /Game/Hotel/Art/Models/Broken_Chair/BrokenChair.BrokenChair
+[2016.04.30-11.21.35:614][410]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.30-11.21.54:436][982]LogRenderer: Reallocating scene render targets to support 1192x780 (Frame:7382).
+[2016.04.30-11.22.13:172][758]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair7)
+[2016.04.30-11.22.13:249][758]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2016.04.30-11.22.17:013][890]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.04.30-11.22.45:122][328]LogEditorFactories: Performing atomic reimport of [E:/Users/Mandy/Documents/HauntedModelFiles/Broken Chairs DONE/BrokenChair.fbx]
+[2016.04.30-11.22.45:258][328]LogFbx: Loading FBX Scene from E:/Users/Mandy/Documents/HauntedModelFiles/Broken Chairs DONE/BrokenChair.fbx
+[2016.04.30-11.22.45:330][328]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.30-11.22.45:352][328]LogFbx: =================================================
+[2016.04.30-11.22.45:352][328]LogFbx: Dumping Node START [pCube21] 
+[2016.04.30-11.22.45:352][328]LogFbx: 	Total Deformer Count -1260075344.
+[2016.04.30-11.22.45:352][328]LogFbx: 	Attribute () Type (4).
+[2016.04.30-11.22.45:352][328]LogFbx: 		[Node Attribute Child 1] pCube21 (Type Mesh).
+[2016.04.30-11.22.45:352][328]LogFbx: Dumping Node END [pCube21]
+[2016.04.30-11.22.45:352][328]LogFbx: =================================================
+[2016.04.30-11.22.45:352][328]LogFbx: Dumping Node START [pCube21] 
+[2016.04.30-11.22.45:352][328]LogFbx: 	Total Deformer Count -1260074616.
+[2016.04.30-11.22.45:352][328]LogFbx: 	Attribute () Type (4).
+[2016.04.30-11.22.45:352][328]LogFbx: 		[Node Attribute Child 1] pCube21 (Type Mesh).
+[2016.04.30-11.22.45:352][328]LogFbx: Dumping Node END [pCube21]
+[2016.04.30-11.22.45:352][328]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2016.04.30-11.22.45:359][328]LogFbx:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose.
+[2016.04.30-11.22.45:372][328]LogFbx: Triangulating skeletal mesh pCube21
+[2016.04.30-11.22.45:416][328]LogUObjectHash:Warning: Ambiguous search, could be Material /Game/Hotel/Art/Models/Broken_Chair/lambert1.lambert1 or Material /Game/Hotel/Art/Models/Rubble1/lambert1.lambert1
+[2016.04.30-11.22.45:416][328]LogUObjectHash:Warning: Ambiguous search, could be Material /Game/Hotel/Art/Models/Broken_Chair/lambert1.lambert1 or Material /Game/Hotel/Art/Models/Rubble2/lambert1.lambert1
+[2016.04.30-11.22.45:416][328]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2016.04.30-11.22.45:455][328]LogSkeletalMesh: Chunk 0: 877 rigid vertices, 0 soft vertices, 1 active bones
+[2016.04.30-11.22.45:457][328]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 804 triangles
+[2016.04.30-11.22.45:461][328]LogEditorFactories: -- imported successfully
+[2016.04.30-11.22.55:141][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000309CB060
+[2016.04.30-11.22.55:141][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D3F1B20
+[2016.04.30-11.22.55:142][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120D25C0
+[2016.04.30-11.22.55:143][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120D3EC0
+[2016.04.30-11.22.55:419][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.30-11.23.00:855][605]LogSavePackage: Save=5334.974121ms
+[2016.04.30-11.23.00:855][605]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/World9DCA9AA94AD395E4CC39E49089A131D8.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.04.30-11.23.00:862][605]LogSavePackage: Total save time: 5403.478865ms
+[2016.04.30-11.23.00:862][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap
+[2016.04.30-11.23.00:901][605]LogFileHelpers: Saving map 'World' took 5.644
+[2016.04.30-11.23.00:972][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/Chair" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Chair.uasset" SILENT=true
+[2016.04.30-11.23.01:012][605]LogSavePackage: Save=37.989605ms
+[2016.04.30-11.23.01:012][605]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Chair55D761AA4B5490AE645EF7B9F92480AB.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Chair.uasset'
+[2016.04.30-11.23.01:013][605]LogSavePackage: Total save time: 40.844228ms
+[2016.04.30-11.23.01:013][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Chair.uasset
+[2016.04.30-11.23.01:157][605]LogSavePackage: Save=18.214046ms
+[2016.04.30-11.23.01:157][605]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/BrokenChair38F6172C4FBCC0E7EFA4CEA9A8998BF7.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Broken_Chair/BrokenChair.uasset'
+[2016.04.30-11.23.01:159][605]LogSavePackage: Total save time: 22.387203ms
+[2016.04.30-11.23.01:159][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Broken_Chair/BrokenChair.uasset
+[2016.04.30-11.23.01:236][605]LogSavePackage: Save=12.088268ms
+[2016.04.30-11.23.01:236][605]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/lambert1D7A7FA88404406491004959B74B591A9.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Broken_Chair/lambert1.uasset'
+[2016.04.30-11.23.01:237][605]LogSavePackage: Total save time: 13.457157ms
+[2016.04.30-11.23.01:237][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Broken_Chair/lambert1.uasset
+[2016.04.30-11.23.07:063][746]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair17)
+[2016.04.30-11.24.41:013][765]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair16)
+[2016.04.30-11.24.49:186][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.04.30-11.24.50:005][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenChair3)
+[2016.04.30-11.25.03:373][419]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair17)
+[2016.04.30-11.25.13:326][684]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair6)
+[2016.04.30-11.25.26:114][ 36]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair12)
+[2016.04.30-11.25.35:677][335]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair17)
+[2016.04.30-11.25.42:967][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lobby_haunted2)
+[2016.04.30-11.25.43:600][553]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair16)
+[2016.04.30-11.25.54:808][908]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair13)
+[2016.04.30-11.26.44:446][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf5)
+[2016.04.30-11.26.50:231][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenChair8)
+[2016.04.30-11.27.28:727][184]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair3)
+[2016.04.30-11.27.37:891][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.27.39:744][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.27.42:933][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.27.43:539][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table_Haunted5)
+[2016.04.30-11.27.45:281][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.27.46:063][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.27.47:564][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.27.52:365][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.28.07:161][531]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.28.07:427][531]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.28.07:434][531]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.28.07:472][531]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.30-11.28.11:551][690]MaterialEditorStats: Info Base pass shader with static lighting: 50 instructions
+[2016.04.30-11.28.11:551][690]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.04.30-11.28.11:551][690]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2016.04.30-11.28.11:551][690]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.04.30-11.28.11:551][690]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.28.11:677][697]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.28.11:687][697]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.28.11:692][697]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.28.13:624][777]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.28.13:624][777]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.28.13:624][777]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.28.13:624][777]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.28.14:491][822]LogMaterialEditor: Applying material Large_Wine_Jugbrown
+[2016.04.30-11.28.15:169][822]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.28.15:184][822]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.28.15:252][822]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.28.15:278][822]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.28.15:296][822]LogMaterial: 0.007363 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.28.17:767][908]LogMaterialEditor: Saving and Compiling material Large_Wine_Jugbrown
+[2016.04.30-11.28.19:479][908]LogSavePackage: Save=13.682046ms
+[2016.04.30-11.28.19:479][908]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Large_Wine_Jugbrown9A33A1AA451143E5D67675AC8371C7B2.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/WineJugs/Large/Large_Wine_Jugbrown.uasset'
+[2016.04.30-11.28.19:481][908]LogSavePackage: Total save time: 16.545467ms
+[2016.04.30-11.28.19:481][908]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/WineJugs/Large/Large_Wine_Jugbrown.uasset
+[2016.04.30-11.28.19:486][908]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2016.04.30-11.28.19:486][908]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.30-11.28.19:486][908]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.28.19:486][908]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.30-11.28.22:168][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate17)
+[2016.04.30-11.28.22:922][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate21)
+[2016.04.30-11.28.23:480][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table_Haunted5)
+[2016.04.30-11.28.24:604][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.28.25:283][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.28.25:855][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.28.26:408][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.28.26:832][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (attic_haunted)
+[2016.04.30-11.28.32:061][452]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair3)
+[2016.04.30-11.28.42:103][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenChair23)
+[2016.04.30-11.28.52:709][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenChair8)
+[2016.04.30-11.28.54:830][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenChair6)
+[2016.04.30-11.28.58:739][541]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair14)
+[2016.04.30-11.30.54:546][463]Cmd: TRANSACTION UNDO
+[2016.04.30-11.30.54:546][463]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.30.54:591][463]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair17.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.30.54:601][463]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.30.54:607][463]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.30.56:362][523]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.30.56:362][523]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.30.56:362][523]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.30.56:362][523]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.30.57:822][565]Cmd: TRANSACTION UNDO
+[2016.04.30-11.30.57:822][565]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.30.57:859][565]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair17.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.30.57:863][565]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.30.57:869][565]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.30.58:256][577]Cmd: TRANSACTION UNDO
+[2016.04.30-11.30.58:256][577]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.30.58:297][577]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair17.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.30.58:301][577]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.30.58:307][577]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.31.00:002][628]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.31.00:002][628]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.31.00:002][628]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.31.00:002][628]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.31.24:198][327]Cmd: TRANSACTION UNDO
+[2016.04.30-11.31.24:198][327]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.31.24:230][327]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair7.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.31.24:232][327]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.31.24:235][327]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.31.24:241][327]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.31.24:732][341]Cmd: TRANSACTION UNDO
+[2016.04.30-11.31.24:732][341]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.31.24:749][341]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair7.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.31.24:751][341]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.31.24:754][341]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.31.24:760][341]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.31.25:635][368]Cmd: TRANSACTION UNDO
+[2016.04.30-11.31.25:635][368]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.31.25:640][368]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair7.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.31.25:644][368]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.31.25:648][368]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.31.25:654][368]LogMaterial: 0.000514 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.31.27:268][409]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.31.27:268][409]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.31.27:268][409]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.31.27:268][409]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.32.56:307][ 17]Cmd: TRANSACTION UNDO
+[2016.04.30-11.32.56:307][ 17]LogEditorTransaction: Undo Move Actors
+[2016.04.30-11.32.56:339][ 17]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair13.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:339][ 17]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:340][ 17]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair11.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:340][ 17]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair4.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:344][ 17]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.32.56:350][ 17]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.32.56:779][ 25]Cmd: TRANSACTION UNDO
+[2016.04.30-11.32.56:779][ 25]LogEditorTransaction: Undo Move Actors
+[2016.04.30-11.32.56:836][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair13.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:837][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:840][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair11.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:841][ 25]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair4.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.56:846][ 25]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.32.56:852][ 25]LogMaterial: 0.000529 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.32.57:106][ 32]Cmd: TRANSACTION UNDO
+[2016.04.30-11.32.57:107][ 32]LogEditorTransaction: Undo Move Actors
+[2016.04.30-11.32.57:114][ 32]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair13.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:114][ 32]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:115][ 32]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair11.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:115][ 32]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair4.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:119][ 32]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.32.57:126][ 32]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.32.57:672][ 50]Cmd: TRANSACTION UNDO
+[2016.04.30-11.32.57:672][ 50]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.32.57:700][ 50]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair13.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:700][ 50]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:701][ 50]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair11.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:702][ 50]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair4.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.57:707][ 50]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.32.57:714][ 50]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.32.58:636][ 75]Cmd: TRANSACTION UNDO
+[2016.04.30-11.32.58:636][ 75]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.32.58:645][ 75]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair13.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.58:646][ 75]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.58:647][ 75]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair11.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.58:647][ 75]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair4.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.58:650][ 75]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.32.58:656][ 75]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.32.59:161][ 87]Cmd: TRANSACTION UNDO
+[2016.04.30-11.32.59:161][ 87]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.32.59:174][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair13.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.59:174][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.59:175][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair11.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.59:176][ 87]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair4.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.32.59:180][ 87]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.32.59:186][ 87]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.33.00:643][124]Cmd: TRANSACTION UNDO
+[2016.04.30-11.33.00:643][124]LogEditorTransaction: Undo Set actor scale
+[2016.04.30-11.33.00:688][124]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair13.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.33.00:688][124]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair12.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.33.00:690][124]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair11.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.33.00:690][124]LogActorComponent: ~FComponentReregisterContext: (/Game/Hotel/Levels/World.World:PersistentLevel.Chair4.SkeletalMeshComponent0) Component already registered.
+[2016.04.30-11.33.00:695][124]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.33.00:701][124]LogMaterial: 0.000192 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.33.00:854][127]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.33.00:854][127]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.33.00:854][127]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.33.00:854][127]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.33.25:155][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (basement_haunted)
+[2016.04.30-11.33.39:011][296]Cmd: TRANSACTION UNDO
+[2016.04.30-11.33.39:011][296]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.30-11.33.39:049][296]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.33.39:055][296]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.33.39:358][304]Cmd: TRANSACTION UNDO
+[2016.04.30-11.33.39:360][304]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.30-11.33.39:368][304]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.33.39:374][304]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.33.39:703][317]Cmd: TRANSACTION UNDO
+[2016.04.30-11.33.39:703][317]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.30-11.33.39:732][317]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.33.39:738][317]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.33.40:363][338]Cmd: TRANSACTION UNDO
+[2016.04.30-11.33.40:363][338]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.30-11.33.40:422][338]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.33.40:428][338]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.33.42:312][389]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.33.42:312][389]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.33.42:312][389]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.33.42:312][389]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.35.40:015][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (basement_haunted)
+[2016.04.30-11.35.40:518][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate168)
+[2016.04.30-11.35.42:012][680]Cmd: TRANSACTION UNDO
+[2016.04.30-11.35.42:013][680]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.30-11.35.42:042][680]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.35.42:048][680]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.35.44:075][746]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.35.44:075][746]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.35.44:075][746]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.35.44:075][746]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.35.44:997][776]Cmd: TRANSACTION UNDO
+[2016.04.30-11.35.44:998][776]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.30-11.35.45:029][776]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.35.45:034][776]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.35.46:859][833]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.04.30-11.35.46:859][833]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.30-11.35.46:859][833]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.30-11.35.46:859][833]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.30-11.37.25:966][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2nd_guest_floor_haunted)
+[2016.04.30-11.40.37:924][999]LogSavePackage: Save=20.401825ms
+[2016.04.30-11.40.37:924][999]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/2nd_guest_floor_haunted3CB355534906575E47D33E8E0CAE2341.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/2ndGuesFloor/2nd_guest_floor_haunted.uasset'
+[2016.04.30-11.40.37:926][999]LogSavePackage: Total save time: 36.690630ms
+[2016.04.30-11.40.37:926][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/2ndGuesFloor/2nd_guest_floor_haunted.uasset
+[2016.04.30-11.41.03:471][118]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.41.03:486][118]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.41.03:524][118]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.41.03:548][118]LogMaterial: Missing cached shader map for material Large_Wine_Jugbrown, compiling. 
+[2016.04.30-11.41.03:565][118]LogMaterial: 0.007019 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.41.27:155][240]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair12)
+[2016.04.30-11.41.51:126][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bar)
+[2016.04.30-11.41.51:921][378]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair8)
+[2016.04.30-11.42.07:243][136]LogEditorViewport: Clicking on Actor (LMB): Chair_C (Chair6)
+[2016.04.30-11.42.20:003][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed2)
+[2016.04.30-11.43.01:286][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sink3)
+[2016.04.30-11.43.30:462][492]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.04.30-11.43.35:507][736]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.04.30-11.43.48:611][231]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.43.48:708][231]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.43.48:715][231]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.43.48:745][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.04.30-11.43.48:749][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.30-11.43.53:445][401]MaterialEditorStats: Info Base pass shader with static lighting: 54 instructions
+[2016.04.30-11.43.53:445][401]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.04.30-11.43.53:445][401]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.04.30-11.43.53:445][401]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.04.30-11.43.53:445][401]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.30-11.43.58:756][663]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.43.58:765][663]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.43.58:771][663]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.00:785][744]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.44.00:785][744]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.44.00:785][744]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.44.00:785][744]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.44.07:413][108]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.07:419][108]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.07:420][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.30-11.44.09:003][160]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.44.09:003][160]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.44.09:003][160]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.44.09:003][160]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.44.22:318][862]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.22:324][862]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.22:427][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.30-11.44.24:036][918]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.44.24:036][918]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.44.24:036][918]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.44.24:036][918]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.44.32:330][324]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.32:336][324]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.32:360][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.30-11.44.34:552][416]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.44.34:552][416]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.44.34:552][416]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.44.34:552][416]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.44.37:270][546]LogMaterialEditor: Applying material StainedGlass
+[2016.04.30-11.44.37:947][546]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.37:962][546]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.38:159][546]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.38:185][546]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.38:202][546]LogMaterial: 0.007232 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.39:201][583]LogMaterialEditor: Saving and Compiling material StainedGlass
+[2016.04.30-11.44.41:887][583]LogSavePackage: Save=12.446135ms
+[2016.04.30-11.44.41:887][583]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/StainedGlassF33EB0D042173995FDD10792D7B4039A.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/StainedGlass.uasset'
+[2016.04.30-11.44.41:888][583]LogSavePackage: Total save time: 15.259691ms
+[2016.04.30-11.44.41:888][583]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/StainedGlass.uasset
+[2016.04.30-11.44.41:894][583]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2016.04.30-11.44.41:894][583]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.04.30-11.44.41:894][583]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.44.41:894][583]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.30-11.44.56:117][277]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.56:123][277]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.56:179][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.30-11.44.57:581][319]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.44.57:581][319]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.44.57:581][319]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.44.57:581][319]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.44.58:580][366]LogMaterialEditor: Saving and Compiling material StainedGlass
+[2016.04.30-11.44.59:255][366]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.59:270][366]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.44.59:304][366]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.59:327][366]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.44.59:346][366]LogMaterial: 0.007438 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.45.02:802][366]LogSavePackage: Save=17.166357ms
+[2016.04.30-11.45.02:802][366]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/StainedGlassB1562B64455531C10378EF9D69416E78.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/StainedGlass.uasset'
+[2016.04.30-11.45.02:804][366]LogSavePackage: Total save time: 20.486891ms
+[2016.04.30-11.45.02:804][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/StainedGlass.uasset
+[2016.04.30-11.45.02:810][366]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2016.04.30-11.45.02:810][366]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.04.30-11.45.02:811][366]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.45.02:811][366]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.30-11.45.11:541][758]Cmd: DELETE
+[2016.04.30-11.45.11:541][758]Cmd: ACTOR DELETE
+[2016.04.30-11.45.11:593][758]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.04.30-11.45.11:628][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000647E6D40
+[2016.04.30-11.45.11:629][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003098E200
+[2016.04.30-11.45.11:630][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E7EEDE0
+[2016.04.30-11.45.11:631][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033A8CFE0
+[2016.04.30-11.45.11:632][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033A8DD00
+[2016.04.30-11.45.11:638][758]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2016.04.30-11.45.16:012][965]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.45.16:018][965]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.45.17:657][ 25]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.45.17:657][ 25]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.45.17:658][ 25]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.45.17:658][ 25]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.45.17:802][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.04.30-11.45.29:561][571]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.45.29:566][571]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.45.29:594][571]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.30-11.45.29:598][571]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.30-11.45.31:333][637]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.45.31:333][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.45.31:333][637]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.45.31:333][637]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.45.32:969][718]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.45.32:974][718]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.45.33:048][718]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.30-11.45.34:368][754]MaterialEditorStats: Info Base pass shader with static lighting: 68 instructions
+[2016.04.30-11.45.34:368][754]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2016.04.30-11.45.34:368][754]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.45.34:368][754]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.45.35:752][815]LogMaterialEditor: Applying material StainedGlass
+[2016.04.30-11.45.36:424][815]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.45.36:439][815]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.45.36:490][815]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.45.36:514][815]LogMaterial: Missing cached shader map for material StainedGlass, compiling. 
+[2016.04.30-11.45.36:546][815]LogMaterial: 0.020669 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.45.37:644][849]LogMaterialEditor: Saving and Compiling material StainedGlass
+[2016.04.30-11.45.40:349][849]LogSavePackage: Save=11.444402ms
+[2016.04.30-11.45.40:349][849]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/StainedGlassD2F5DC204F88E8D0C3850D876EC7D1D0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/StainedGlass.uasset'
+[2016.04.30-11.45.40:350][849]LogSavePackage: Total save time: 13.744622ms
+[2016.04.30-11.45.40:350][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Guest_Floor/StainedGlass.uasset
+[2016.04.30-11.45.40:355][849]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2016.04.30-11.45.40:355][849]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2016.04.30-11.45.40:355][849]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.45.40:355][849]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.30-11.46.04:667][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2nd_guest_floor_haunted)
+[2016.04.30-11.47.09:842][650]LogEditorViewport: Clicking Background
+[2016.04.30-11.47.10:746][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2nd_guest_floor_haunted)
+[2016.04.30-11.47.21:786][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (guest_floor_haunted2)
+[2016.04.30-11.47.25:912][316]LogEditorViewport: Clicking Background
+[2016.04.30-11.47.27:262][387]LogEditorViewport: Clicking Background
+[2016.04.30-11.47.27:866][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (2nd_guest_floor_haunted)
+[2016.04.30-11.47.35:652][714]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.35:740][714]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.35:747][714]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.47.35:773][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.04.30-11.47.35:776][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.04.30-11.47.39:328][832]MaterialEditorStats: Info Base pass shader with static lighting: 54 instructions
+[2016.04.30-11.47.39:328][832]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.04.30-11.47.39:328][832]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2016.04.30-11.47.39:328][832]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.04.30-11.47.39:328][832]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.30-11.47.47:676][236]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.47:685][236]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.47:691][236]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.47.49:045][275]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.47.49:045][275]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.47.49:045][275]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.47.49:045][275]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.47.53:155][505]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.53:161][505]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.47.53:334][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.04.30-11.47.53:338][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.04.30-11.47.54:572][551]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.04.30-11.47.54:572][551]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.04.30-11.47.54:572][551]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.47.54:572][551]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.47.56:759][669]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.56:765][669]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.47.56:885][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.04.30-11.47.58:651][736]MaterialEditorStats: Info Base pass shader with static lighting: 68 instructions
+[2016.04.30-11.47.58:651][736]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2016.04.30-11.47.58:651][736]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.47.58:651][736]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.30-11.47.59:092][758]LogMaterialEditor: Applying material 2ndFloorStainedGlass
+[2016.04.30-11.47.59:769][758]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.59:785][758]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.47.59:913][758]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.59:939][758]LogMaterial: Missing cached shader map for material 2ndFloorStainedGlass, compiling. 
+[2016.04.30-11.47.59:955][758]LogMaterial: 0.006699 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.30-11.48.00:869][788]LogMaterialEditor: Saving and Compiling material 2ndFloorStainedGlass
+[2016.04.30-11.48.03:680][788]LogSavePackage: Save=11.754846ms
+[2016.04.30-11.48.03:680][788]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/2ndFloorStainedGlass3043FC454AF5CB56AB2B5EB64C4E410C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/2ndGuesFloor/2ndFloorStainedGlass.uasset'
+[2016.04.30-11.48.03:682][788]LogSavePackage: Total save time: 14.722891ms
+[2016.04.30-11.48.03:682][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/2ndGuesFloor/2ndFloorStainedGlass.uasset
+[2016.04.30-11.48.03:702][788]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2016.04.30-11.48.03:702][788]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2016.04.30-11.48.03:702][788]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.30-11.48.03:702][788]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.30-11.49.10:143][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Levels/World" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.30-11.49.13:988][912]LogSavePackage: Save=3752.771240ms
+[2016.04.30-11.49.13:988][912]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/WorldA28CC8FC4A22DC78810CE6935861F19A.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap'
+[2016.04.30-11.49.13:996][912]LogSavePackage: Total save time: 3817.680530ms
+[2016.04.30-11.49.13:996][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/World.umap
+[2016.04.30-11.49.14:035][912]LogFileHelpers: Saving map 'World' took 4.036
+[2016.04.30-11.49.14:226][912]LogSavePackage: Save=51.246319ms
+[2016.04.30-11.49.14:226][912]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/BrokenChair4FA43B2F417023447D4DD984AB43EF5C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Broken_Chair/BrokenChair.uasset'
+[2016.04.30-11.49.14:231][912]LogSavePackage: Total save time: 62.912185ms
+[2016.04.30-11.49.14:231][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/Broken_Chair/BrokenChair.uasset
+[2016.04.30-11.49.14:366][912]LogSavePackage: Save=16.804090ms
+[2016.04.30-11.49.14:366][912]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Large_Wine_Jugbrown2397F86C4AC3414C6CF49F884740EF11.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/WineJugs/Large/Large_Wine_Jugbrown.uasset'
+[2016.04.30-11.49.14:367][912]LogSavePackage: Total save time: 20.651646ms
+[2016.04.30-11.49.14:367][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/WineJugs/Large/Large_Wine_Jugbrown.uasset
+[2016.04.30-11.49.16:312][964]Cmd: QUIT_EDITOR
+[2016.04.30-11.49.16:784][964]LogExit: Preparing to exit.
+[2016.04.30-11.49.17:244][964]LogExit: Editor shut down
+[2016.04.30-11.49.17:247][964]LogExit: Transaction tracking system shut down
+[2016.04.30-11.49.17:274][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048657060
+[2016.04.30-11.49.17:274][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049E81DA0
+[2016.04.30-11.49.17:274][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BBF37E0
+[2016.04.30-11.49.17:341][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000353B58A0
+[2016.04.30-11.49.17:342][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000429DAD40
+[2016.04.30-11.49.17:362][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000007BBA5C0
+[2016.04.30-11.49.17:362][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000007BBA700
+[2016.04.30-11.49.17:366][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EA54B80
+[2016.04.30-11.49.18:012][964]LogExit: Object subsystem successfully closed.
+[2016.04.30-11.49.18:055][964]LogD3D11RHI: Shutdown
+[2016.04.30-11.49.18:055][964]LogD3D11RHI: CleanupD3DDevice
+[2016.04.30-11.49.18:481][964]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module MaterialEditor (203)
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (201)
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.04.30-11.49.18:661][964]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.04.30-11.49.18:663][964]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.04.30-11.49.18:663][964]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.04.30-11.49.18:663][964]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.04.30-11.49.18:663][964]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.04.30-11.49.18:663][964]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.04.30-11.49.18:664][964]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.04.30-11.49.18:686][964]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.04.30-11.49.18:686][964]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.04.30-11.49.18:686][964]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.04.30-11.49.18:686][964]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.04.30-11.49.18:686][964]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.04.30-11.49.19:513][964]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.04.30-11.49.19:516][964]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.04.30-11.49.19:519][964]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.04.30-11.49.19:520][964]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.04.30-11.49.19:520][964]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.04.30-11.49.19:530][964]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.04.30-11.49.19:530][964]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.04.30-11.49.19:559][964]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.04.30-11.49.19:559][964]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.04.30-11.49.19:559][964]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.04.30-11.49.19:559][964]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.04.30-11.49.19:575][964]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.04.30-11.49.19:588][964]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.04.30-11.49.19:588][964]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.04.30-11.49.19:588][964]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.04.30-11.49.19:589][964]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.04.30-11.49.19:589][964]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.04.30-11.49.19:589][964]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.04.30-11.49.19:589][964]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.04.30-11.49.19:589][964]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.04.30-11.49.19:589][964]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.04.30-11.49.19:618][964]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.04.30-11.49.19:619][964]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.04.30-11.49.19:619][964]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.04.30-11.49.19:626][964]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.04.30-11.49.19:784][964]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.04.30-11.49.19:827][964]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.04.30-11.49.19:848][964]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.04.30-11.49.19:848][964]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.04.30-11.49.19:848][964]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.04.30-11.49.19:848][964]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.04.30-11.49.19:849][964]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.04.30-11.49.19:849][964]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.04.30-11.49.19:849][964]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.04.30-11.49.19:855][964]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.04.30-11.49.19:855][964]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.04.30-11.49.19:855][964]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.04.30-11.49.19:855][964]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.04.30-11.49.19:880][964]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.04.30-11.49.19:891][964]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.04.30-11.49.19:891][964]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.04.30-11.49.19:891][964]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.04.30-11.49.19:893][964]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.04.30-11.49.19:893][964]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.04.30-11.49.19:893][964]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.04.30-11.49.19:893][964]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.04.30-11.49.19:893][964]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.04.30-11.49.19:893][964]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.04.30-11.49.19:893][964]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.04.30-11.49.19:902][964]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.04.30-11.49.19:902][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.04.30-11.49.19:902][964]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.04.30-11.49.19:902][964]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.04.30-11.49.19:902][964]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.04.30-11.49.19:902][964]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.04.30-11.49.19:912][964]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.30-11.49.19:912][964]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.04.30-11.49.19:912][964]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.04.30-11.49.19:921][964]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.04.30-11.49.19:921][964]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.04.30-11.49.19:925][964]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.04.30-11.49.20:025][964]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.04.30-11.49.20:026][964]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.04.30-11.49.20:217][964]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.04.30-11.49.20:238][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.30-11.49.20:238][964]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.30-11.49.20:238][964]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.30-11.49.20:238][964]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.30-11.49.20:238][964]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.30-11.49.20:239][964]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.30-11.49.20:239][964]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.30-11.49.20:239][964]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.30-11.49.20:239][964]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.30-11.49.20:249][964]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.30-11.49.20:249][964]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.30-11.49.20:249][964]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.30-11.49.20:249][964]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.30-11.49.20:249][964]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.30-11.49.20:250][964]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.30-11.49.20:250][964]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.30-11.49.20:261][964]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.30-11.49.20:271][964]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.30-11.49.20:271][964]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.30-11.49.20:274][964]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.30-11.49.20:305][964]LogDerivedDataCache: Shutdown
+[2016.04.30-11.49.20:305][964]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.30-11.49.20:335][964]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.30-11.49.20:335][964]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.30-11.49.20:358][964]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.30-11.49.22:360][964]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.30-11.49.22:393][964]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.30-11.49.22:417][964]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.30-11.49.22:417][964]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.30-11.49.22:417][964]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.30-11.49.22:417][964]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.30-11.49.22:417][964]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.30-11.49.22:426][964]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.30-11.49.22:435][964]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.30-11.49.22:435][964]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.30-11.49.22:445][964]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.30-11.49.22:446][964]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.30-11.49.22:446][964]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.30-11.49.22:446][964]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.30-11.49.22:455][964]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.30-11.49.22:455][964]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.30-11.49.22:455][964]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.30-11.49.22:460][964]LogExit: Exiting.
+[2016.04.30-11.49.22:509][964]Log file closed, 04/30/16 07:49:22
