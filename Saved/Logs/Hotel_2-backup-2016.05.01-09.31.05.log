@@ -1,0 +1,130 @@
+﻿[2016.04.30-18.06.50:317][  0]Log file open, 04/30/16 14:06:50
+[2016.04.30-18.06.50:317][  0]LogInit:Display: Running engine for game: Hotel
+[2016.04.30-18.06.50:317][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.30-18.06.50:317][  0]LogInit:Display: RandInit(-87689853) SRandInit(-87689852).
+[2016.04.30-18.06.50:317][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.30-18.06.50:317][  0]LogStats: Stats thread started at 0.077557
+[2016.04.30-18.06.50:317][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.04.30-18.06.50:317][  0]LogInit: API Version: 2758231
+[2016.04.30-18.06.50:317][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.04.30-18.06.50:317][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.30-18.06.50:317][  0]LogInit: Build Configuration: Development
+[2016.04.30-18.06.50:317][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.30-18.06.50:317][  0]LogInit: Command line:  /Temp/Autosaves/Game/Hotel/Levels/UEDPCWorld -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.04.30-18.06.50:317][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.30-18.06.50:317][  0]LogInit: Rocket: 1
+[2016.04.30-18.06.50:329][  0]LogInit: Using libcurl 7.41.0
+[2016.04.30-18.06.50:329][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.30-18.06.50:329][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.30-18.06.50:329][  0]LogInit:  - other features:
+[2016.04.30-18.06.50:329][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.30-18.06.50:329][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.30-18.06.50:329][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.30-18.06.50:329][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.30-18.06.50:329][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.30-18.06.50:329][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.30-18.06.50:329][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.30-18.06.50:329][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.30-18.06.50:329][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.30-18.06.50:329][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.30-18.06.50:336][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.30-18.06.50:340][  0]LogInit: Object subsystem initialized
+[2016.04.30-18.06.50:341][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.30-18.06.50:341][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.30-18.06.50:343][  0]LogInit: Computer: MRRBOND-PC
+[2016.04.30-18.06.50:343][  0]LogInit: User: MrrBond
+[2016.04.30-18.06.50:343][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.30-18.06.50:343][  0]LogInit: High frequency timer resolution =3.415996 MHz
+[2016.04.30-18.06.50:343][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.30-18.06.50:343][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.30-18.06.50:343][  0]LogMemory: Process Physical Memory: 55.89 MB used, 55.89 MB peak
+[2016.04.30-18.06.50:343][  0]LogMemory: Process Virtual Memory: 56.93 MB used, 56.93 MB peak
+[2016.04.30-18.06.50:343][  0]LogMemory: Physical Memory: 5934.75 MB used, 16326.92 MB total
+[2016.04.30-18.06.50:343][  0]LogMemory: Virtual Memory: 383.86 MB used, 134217728.00 MB total
+[2016.04.30-18.06.50:375][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.30-18.06.50:709][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2016.04.30-18.06.50:709][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 1 output[s]
+[2016.04.30-18.06.50:711][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.30-18.06.50:711][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.04.30-18.06.50:711][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.30-18.06.50:714][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.30-18.06.50:714][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.30-18.06.50:729][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.30-18.06.50:748][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/1032/).
+[2016.04.30-18.06.50:749][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MrrBond/AppData/Local/Temp/UnrealShaderWorkingDir/7C63DA2143416CACD72F78B289319BD7/'.
+[2016.04.30-18.06.50:749][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.30-18.06.51:397][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.30-18.06.51:401][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.30-18.06.51:406][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.30-18.06.51:410][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.30-18.06.51:415][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.30-18.06.51:418][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.30-18.06.51:420][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.30-18.06.51:423][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.30-18.06.51:426][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.30-18.06.51:429][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.30-18.06.51:431][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.30-18.06.51:437][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.30-18.06.51:437][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.30-18.06.51:438][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.30-18.06.51:455][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.30-18.06.51:457][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.30-18.06.51:460][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.30-18.06.51:463][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.30-18.06.51:463][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.30-18.06.51:556][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.30-18.06.51:597][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.30-18.06.51:597][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MrrBond/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.30-18.06.51:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.30-18.06.51:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.30-18.06.51:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.30-18.06.51:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.30-18.06.51:647][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.30-18.06.51:659][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MrrBond/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.30-18.06.51:817][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.30-18.06.51:820][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.04.30-18.06.51:907][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.30-18.06.51:907][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.30-18.06.52:074][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.30-18.06.52:257][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/MrrBond/Documents/GitHub/HotelBete/Content/Movies/Default_Startup.mp4
+[2016.04.30-18.06.52:349][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2016.04.30-18.06.52:380][  0]SourceControl: Info Source control is disabled
+[2016.04.30-18.06.52:380][  0]SourceControl: Info Source control is disabled
+[2016.04.30-18.06.52:393][  0]SourceControl: Info Source control is disabled
+[2016.04.30-18.06.52:608][  0]LogObj: 28069 objects as part of root set at end of initial load.
+[2016.04.30-18.06.52:608][  0]LogUObjectAllocator: 5852928 out of 0 bytes used by permanent object pool.
+[2016.04.30-18.06.52:657][  0]LogEngine: Initializing Engine...
+[2016.04.30-18.06.52:659][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.30-18.06.52:659][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.30-18.06.52:748][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.30-18.06.52:758][  0]LogInit: FAudioDevice initialized.
+[2016.04.30-18.06.52:761][  0]LogInit: Texture streaming: Enabled
+[2016.04.30-18.06.52:821][  0]LogNet: Browse: /Temp/Autosaves/Game/Hotel/Levels/UEDPCWorld?Name=Player
+[2016.04.30-18.06.52:821][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Hotel/Levels/UEDPCWorld?Name=Player
+[2016.04.30-18.06.52:847][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001706AB43060
+[2016.04.30-18.06.52:859][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.30-18.06.52:859][  0]LogMemory: Process Physical Memory: 396.66 MB used, 396.66 MB peak
+[2016.04.30-18.06.52:859][  0]LogMemory: Process Virtual Memory: 447.67 MB used, 447.68 MB peak
+[2016.04.30-18.06.52:859][  0]LogMemory: Physical Memory: 6211.45 MB used, 16326.92 MB total
+[2016.04.30-18.06.52:859][  0]LogMemory: Virtual Memory: 999.89 MB used, 134217728.00 MB total
+[2016.04.30-18.06.52:859][  0]LogMemory: 
+[2016.04.30-18.06.52:859][  0]Allocator Stats for TBB: (not implemented)
+[2016.04.30-18.06.53:013][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'KeyWithRoomNum' in BlueprintGeneratedClass 'REINST_Key_C_22' (it may have been removed)
+[2016.04.30-18.06.55:370][  0]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2016.04.30-18.06.55:371][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Wood_Oak.M_Wood_Oak for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.30-18.06.55:371][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.04.30-18.06.55:454][  0]LogAIModule: Creating AISystem for world World
+[2016.04.30-18.06.55:454][  0]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.30-18.06.55:475][  0]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.04.30-18.06.55:851][  0]LogThreadingWindows:Error: Runnable thread SlateLoadingThread crashed.
+[2016.04.30-18.06.55:851][  0]LogWindows:Error: === Critical error: ===
+Assertion failed: CurrentThreadIfKnown == GetCurrentThread() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Core\Private\Async\TaskGraph.cpp] [Line: 1117] 
+
+
+
+
+Crash in runnable thread SlateLoadingThread
+
+[2016.04.30-18.06.55:951][  0]LogExit: Executing StaticShutdownAfterError
+[2016.04.30-18.06.55:951][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.30-18.06.55:951][  0]Log file closed, 04/30/16 14:06:55
