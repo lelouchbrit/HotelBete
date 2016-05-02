@@ -1,0 +1,1034 @@
+﻿[2016.05.01-23.42.38:027][  0]Log file open, 05/01/16 19:42:38
+[2016.05.01-23.42.38:027][  0]LogInit:Display: Running engine for game: Hotel
+[2016.05.01-23.42.38:027][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.01-23.42.38:027][  0]LogInit:Display: RandInit(-654291493) SRandInit(-654291444).
+[2016.05.01-23.42.38:027][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.05.01-23.42.38:027][  0]LogStats: Stats thread started at 2.993354
+[2016.05.01-23.42.38:027][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.01-23.42.38:027][  0]LogInit: API Version: 2758231
+[2016.05.01-23.42.38:027][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.05.01-23.42.38:027][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.01-23.42.38:027][  0]LogInit: Build Configuration: Development
+[2016.05.01-23.42.38:027][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.01-23.42.38:027][  0]LogInit: Command line:  
+[2016.05.01-23.42.38:027][  0]LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.01-23.42.38:027][  0]LogInit: Rocket: 1
+[2016.05.01-23.42.38:103][  0]LogInit: Using libcurl 7.41.0
+[2016.05.01-23.42.38:103][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.01-23.42.38:103][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.01-23.42.38:103][  0]LogInit:  - other features:
+[2016.05.01-23.42.38:103][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.01-23.42.38:103][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.01-23.42.38:103][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.01-23.42.38:103][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.01-23.42.38:103][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.01-23.42.38:104][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.01-23.42.38:104][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.01-23.42.38:104][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.01-23.42.38:104][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.01-23.42.38:104][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.01-23.42.38:280][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.01-23.42.38:467][  0]LogInit: Object subsystem initialized
+[2016.05.01-23.42.38:615][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-23.42.38:615][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.01-23.42.38:703][  0]LogInit: Computer: MANDY-PC
+[2016.05.01-23.42.38:703][  0]LogInit: User: Mandy
+[2016.05.01-23.42.38:703][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.05.01-23.42.38:703][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.05.01-23.42.38:703][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.05.01-23.42.38:703][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.01-23.42.38:703][  0]LogMemory: Process Physical Memory: 56.18 MB used, 56.18 MB peak
+[2016.05.01-23.42.38:703][  0]LogMemory: Process Virtual Memory: 59.71 MB used, 59.71 MB peak
+[2016.05.01-23.42.38:703][  0]LogMemory: Physical Memory: 4469.41 MB used, 16383.18 MB total
+[2016.05.01-23.42.38:703][  0]LogMemory: Virtual Memory: 354.59 MB used, 8388608.00 MB total
+[2016.05.01-23.42.39:401][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.01-23.42.40:662][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 (Feature Level 11_0)
+[2016.05.01-23.42.40:662][  0]LogD3D11RHI: Adapter has 972MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 2 output[s]
+[2016.05.01-23.42.40:662][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.01-23.42.40:670][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.01-23.42.40:671][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2016.05.01-23.42.40:683][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.01-23.42.41:003][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Intermediate/Shaders/WorkingDirectory/4404/).
+[2016.05.01-23.42.41:003][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mandy/AppData/Local/Temp/UnrealShaderWorkingDir/CC0774624EF4847AB3F2BC9E05BEA911/'.
+[2016.05.01-23.42.41:003][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.01-23.42.44:049][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.01-23.42.44:056][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.01-23.42.44:063][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.01-23.42.44:069][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.01-23.42.44:076][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.01-23.42.44:081][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.01-23.42.44:086][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.01-23.42.44:092][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.01-23.42.44:097][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.01-23.42.44:108][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.01-23.42.44:113][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.01-23.42.44:125][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.01-23.42.44:125][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.01-23.42.44:127][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.01-23.42.44:198][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.01-23.42.44:203][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.01-23.42.44:208][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.01-23.42.44:236][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.01-23.42.44:236][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.01-23.42.44:687][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.01-23.42.44:994][  0]LogDerivedDataCache: Loaded boot cache 0.31s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.01-23.42.44:994][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.01-23.42.44:994][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.01-23.42.44:994][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.01-23.42.44:994][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.01-23.42.44:994][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.01-23.42.45:137][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.01-23.42.45:150][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mandy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.01-23.42.49:810][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-23.42.49:854][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.01-23.42.50:591][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.01-23.42.50:591][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.01-23.42.53:814][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.01-23.43.01:474][  0]LogAssetRegistry: FAssetRegistry took 0.0120 seconds to start up
+[2016.05.01-23.43.01:563][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.01-23.43.05:223][  0]SourceControl: Info Source control is disabled
+[2016.05.01-23.43.05:247][  0]SourceControl: Info Source control is disabled
+[2016.05.01-23.43.05:514][  0]SourceControl: Info Source control is disabled
+[2016.05.01-23.43.05:607][  0]SourceControl: Info Source control is disabled
+[2016.05.01-23.43.08:446][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.05.01-23.43.08:446][  0]LogUObjectAllocator: 6129776 out of 0 bytes used by permanent object pool.
+[2016.05.01-23.43.10:392][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.21s
+[2016.05.01-23.43.10:514][  0]LogEngine: Initializing Engine...
+[2016.05.01-23.43.10:563][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.01-23.43.10:646][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.01-23.43.11:930][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.01-23.43.12:230][  0]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.01-23.43.12:242][  0]LogInit: FAudioDevice initialized.
+[2016.05.01-23.43.12:293][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Mandy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.01-23.43.12:313][  0]LogInit: Texture streaming: Enabled
+[2016.05.01-23.43.12:385][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.01-23.43.12:423][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.01-23.43.12:423][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e0d98b0e467b55d21c5013962f69b996|a1543627d61e4593a39d507d0813b255|cef8b6ba-01d0-47b7-a028-3b7e918a90c5
+[2016.05.01-23.43.12:430][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.01-23.43.12:700][  0]LogInit: Transaction tracking system initialized
+[2016.05.01-23.43.13:742][  0]BlueprintLog: New page: Editor Load
+[2016.05.01-23.43.17:941][  0]LocalizationService: Info Localization service is disabled
+[2016.05.01-23.43.20:066][  0]LogConsoleResponse:Display: 
+[2016.05.01-23.43.21:919][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/' took 0.02s
+[2016.05.01-23.43.21:919][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.01-23.43.24:089][  0]SourceControl: Info Source control is disabled
+[2016.05.01-23.43.24:219][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-23.43.24:280][  0]LightingResults: New page: Lighting Build
+[2016.05.01-23.43.24:673][  0]MapCheck: New page: Map Check
+[2016.05.01-23.43.24:673][  0]LightingResults: New page: Lighting Build
+[2016.05.01-23.43.25:111][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026A6AAC0
+[2016.05.01-23.43.30:302][  0]LogTexture:Display: Building textures: button_Credits (BGRA8)
+[2016.05.01-23.43.30:713][  0]LogTexture:Display: Building textures: button_MouseOver__CREDITS (BGRA8)
+[2016.05.01-23.43.31:039][  0]LogMaterial: Missing cached shader map for material fog_Mat, compiling. 
+[2016.05.01-23.43.31:647][  0]LogAIModule: Creating AISystem for world Menu
+[2016.05.01-23.43.31:814][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-23.43.31:874][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-23.43.31:986][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.974ms to complete.
+[2016.05.01-23.43.31:986][  0]LogFileHelpers: Loading map 'Menu' took 7.836
+[2016.05.01-23.43.34:523][  0]LogCollectionManager: Loaded 0 collections in 0.004224 seconds
+[2016.05.01-23.43.35:053][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Saved/Collections/' took 0.01s
+[2016.05.01-23.43.35:053][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Developers/Mandy/Collections/' took 0.01s
+[2016.05.01-23.43.35:053][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Mandy/Documents/GitHub/HotelBete/Content/Collections/' took 0.00s
+[2016.05.01-23.43.35:053][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.05.01-23.43.35:109][  0]LogContentBrowser: Native class hierarchy populated in 0.0519 seconds. Added 1908 classes and 344 folders.
+[2016.05.01-23.43.35:265][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.05.01-23.43.37:898][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.01-23.43.37:949][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.05.01-23.43.38:713][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.01-23.43.38:864][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.01-23.43.38:939][  0]LogLoad: Full Startup: 66.62 seconds (BP compile: 0.82 seconds)
+[2016.05.01-23.43.39:286][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.01-23.43.39:728][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.01-23.43.40:211][  0]LogRenderer: Reallocating scene render targets to support 1036x568 (Frame:2).
+[2016.05.01-23.43.41:568][ 14]LogAssetRegistry: Asset discovery search completed in 40.1053 seconds
+[2016.05.01-23.43.41:568][ 14]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.01-23.43.41:568][ 14]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2016.05.01-23.44.20:445][849]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.44.20:918][849]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.44.20:924][849]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.44.20:951][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2016.05.01-23.44.22:054][870]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.44.22:188][870]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.44.22:194][870]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.44.22:266][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.01-23.44.22:287][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.44.22:288][870]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.44.22:288][870]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.44.22:861][886]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.44.22:998][886]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.44.23:004][886]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.44.23:034][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2016.05.01-23.44.23:477][900]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.44.23:477][900]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.44.23:477][900]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.44.23:677][906]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.44.23:798][906]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.44.23:805][906]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.44.23:833][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2016.05.01-23.44.24:446][926]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.44.24:654][926]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.44.24:660][926]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.44.24:690][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.05.01-23.44.24:700][926]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.44.24:700][926]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.44.24:700][926]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.44.25:303][947]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.44.25:429][947]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.44.25:435][947]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.44.25:498][947]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.01-23.44.25:982][964]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.44.25:983][964]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.44.25:983][964]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.44.26:550][986]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.44.26:676][986]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.44.26:681][986]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.44.26:710][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.05.01-23.44.27:332][  5]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.44.27:332][  5]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.44.27:332][  5]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.44.28:825][ 61]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.44.28:825][ 61]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.44.28:825][ 61]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.44.29:851][ 91]LogRenderer: Reallocating scene render targets to support 1192x780 (Frame:3644).
+[2016.05.01-23.44.30:147][ 94]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.44.30:147][ 94]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.44.30:147][ 94]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.46.19:131][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\bluegrey_Metallic.png)
+[2016.05.01-23.46.19:165][640]LogTexture:Display: Building textures: bluegrey_Metallic (AutoDXT)
+[2016.05.01-23.46.19:423][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\bluegrey_Normal_DirectX.png)
+[2016.05.01-23.46.19:472][640]LogTexture:Display: Building textures: bluegrey_Normal_DirectX (BC5)
+[2016.05.01-23.46.19:528][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\brnhair_Base_Color.png)
+[2016.05.01-23.46.19:553][640]LogTexture:Display: Building textures: brnhair_Base_Color (AutoDXT)
+[2016.05.01-23.46.19:903][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\brnhair_Normal_DirectX.png)
+[2016.05.01-23.46.19:951][640]LogTexture:Display: Building textures: brnhair_Normal_DirectX (BC5)
+[2016.05.01-23.46.20:018][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\green_Base_Color.png)
+[2016.05.01-23.46.20:035][640]LogTexture:Display: Building textures: green_Base_Color (AutoDXT)
+[2016.05.01-23.46.20:203][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\green_Metallic.png)
+[2016.05.01-23.46.20:209][640]LogTexture:Display: Building textures: green_Metallic (AutoDXT)
+[2016.05.01-23.46.20:386][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\green_Normal_DirectX.png)
+[2016.05.01-23.46.20:426][640]LogTexture:Display: Building textures: green_Normal_DirectX (BC5)
+[2016.05.01-23.46.20:485][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\grey_Base_Color.png)
+[2016.05.01-23.46.20:503][640]LogTexture:Display: Building textures: grey_Base_Color (AutoDXT)
+[2016.05.01-23.46.20:704][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\grey_Normal_DirectX.png)
+[2016.05.01-23.46.20:744][640]LogTexture:Display: Building textures: grey_Normal_DirectX (BC5)
+[2016.05.01-23.46.20:805][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\yellow_green_Base_Color.png)
+[2016.05.01-23.46.20:823][640]LogTexture:Display: Building textures: yellow_green_Base_Color (AutoDXT)
+[2016.05.01-23.46.21:060][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\yellow_green_Normal_DirectX.png)
+[2016.05.01-23.46.21:154][640]LogTexture:Display: Building textures: yellow_green_Normal_DirectX (BC5)
+[2016.05.01-23.46.21:236][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\yelloworng_Base_Color.png)
+[2016.05.01-23.46.21:253][640]LogTexture:Display: Building textures: yelloworng_Base_Color (AutoDXT)
+[2016.05.01-23.46.21:420][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\yelloworng_Metallic.png)
+[2016.05.01-23.46.21:424][640]LogTexture:Display: Building textures: yelloworng_Metallic (AutoDXT)
+[2016.05.01-23.46.21:585][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\yelloworng_Normal_DirectX.png)
+[2016.05.01-23.46.21:625][640]LogTexture:Display: Building textures: yelloworng_Normal_DirectX (BC5)
+[2016.05.01-23.46.21:672][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\archwhite_Base_Color.png)
+[2016.05.01-23.46.21:690][640]LogTexture:Display: Building textures: archwhite_Base_Color (AutoDXT)
+[2016.05.01-23.46.21:887][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\archwhite_Metallic.png)
+[2016.05.01-23.46.21:892][640]LogTexture:Display: Building textures: archwhite_Metallic (AutoDXT)
+[2016.05.01-23.46.22:071][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\archwhite_Normal_DirectX.png)
+[2016.05.01-23.46.22:113][640]LogTexture:Display: Building textures: archwhite_Normal_DirectX (BC5)
+[2016.05.01-23.46.22:169][640]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:\Users\Mandy\Documents\HauntedTextures\ChemSet\bluegrey_Base_Color.png)
+[2016.05.01-23.46.22:188][640]LogTexture:Display: Building textures: bluegrey_Base_Color (AutoDXT)
+[2016.05.01-23.46.45:612][875]LogSavePackage: Save=61.199608ms
+[2016.05.01-23.46.45:612][875]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask2_Base_Color209D1F84442907A390DA5EB3E50BDE89.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/Flask2_Base_Color.uasset'
+[2016.05.01-23.46.45:613][875]LogSavePackage: Total save time: 65.009031ms
+[2016.05.01-23.46.45:613][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/Flask2_Base_Color.uasset
+[2016.05.01-23.46.53:279][302]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.46.53:284][302]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.46.53:285][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.01-23.46.53:316][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2016.05.01-23.46.53:324][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.01-23.46.54:802][358]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.46.54:802][358]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.46.54:802][358]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.46.56:086][420]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.46.56:092][420]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.46.57:217][466]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.46.57:217][466]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.46.57:217][466]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.46.58:445][543]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.46.58:465][543]LogMaterial: 0.000264 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.46.58:556][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.01-23.46.59:653][579]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.46.59:653][579]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.46.59:653][579]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.47.09:861][ 73]LogSavePackage: Save=19.821024ms
+[2016.05.01-23.47.09:861][ 73]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask2_MetallicDF69917A417E37628F6C779B1D481724.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/Flask2_Metallic.uasset'
+[2016.05.01-23.47.09:862][ 73]LogSavePackage: Total save time: 21.110222ms
+[2016.05.01-23.47.09:862][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/Flask2_Metallic.uasset
+[2016.05.01-23.47.20:078][580]LogSavePackage: Save=86.019524ms
+[2016.05.01-23.47.20:078][580]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask2_Normal_DirectX76AC5AAC47D40CB95EF206AD2AF2526D.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/Flask2_Normal_DirectX.uasset'
+[2016.05.01-23.47.20:080][580]LogSavePackage: Total save time: 87.350279ms
+[2016.05.01-23.47.20:080][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/Flask2_Normal_DirectX.uasset
+[2016.05.01-23.47.23:741][795]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.47.23:747][795]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.47.23:748][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.01-23.47.23:786][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.01-23.47.23:790][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.01-23.47.23:804][795]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.47.23:810][795]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.47.23:812][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.01-23.47.23:838][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.01-23.47.23:842][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.01-23.47.23:846][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.01-23.47.25:604][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.47.25:604][870]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.47.25:604][870]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.47.29:441][ 99]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.47.29:446][ 99]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.47.29:523][ 99]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.01-23.47.30:649][143]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.05.01-23.47.30:649][143]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.47.30:649][143]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.47.33:711][335]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.47.33:716][335]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.47.33:741][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.01-23.47.35:135][392]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.05.01-23.47.35:135][392]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.47.35:135][392]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.01-23.47.35:974][433]LogMaterialEditor: Saving and Compiling material Flask2
+[2016.05.01-23.47.36:650][433]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.47.36:664][433]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.47.36:706][433]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.47.36:724][433]LogMaterial: Missing cached shader map for material Flask2, compiling. 
+[2016.05.01-23.47.36:732][433]LogMaterial: 0.000747 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.47.39:172][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask2" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask2.uasset" SILENT=true
+[2016.05.01-23.47.39:202][433]LogSavePackage: Save=27.617336ms
+[2016.05.01-23.47.39:202][433]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask2F92E86FA468DB824312AFF9DF71A920A.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask2.uasset'
+[2016.05.01-23.47.39:204][433]LogSavePackage: Total save time: 31.137340ms
+[2016.05.01-23.47.39:204][433]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask2.uasset
+[2016.05.01-23.47.39:210][433]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.05.01-23.47.39:210][433]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.47.39:210][433]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.05.01-23.48.38:115][817]LogSavePackage: Save=47.043339ms
+[2016.05.01-23.48.38:115][817]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter_Base_Color9160DB6C4B4DA04B48C6BA881E6FAD1C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Base_Color.uasset'
+[2016.05.01-23.48.38:116][817]LogSavePackage: Total save time: 48.326675ms
+[2016.05.01-23.48.38:116][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Base_Color.uasset
+[2016.05.01-23.48.38:179][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003011FB00
+[2016.05.01-23.48.41:014][973]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.48.41:019][973]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.48.41:023][973]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.01-23.48.41:065][973]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.01-23.48.41:069][973]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.01-23.48.42:680][ 42]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.48.42:680][ 42]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.48.42:680][ 42]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.48.43:643][ 90]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.48.43:649][ 90]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.48.44:866][148]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.48.44:867][148]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.48.44:867][148]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.48.45:262][176]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.48.45:268][176]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.48.45:352][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.01-23.48.46:419][217]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.48.46:419][217]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.48.46:419][217]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.48.46:939][244]LogMaterialEditor: Saving and Compiling material morter
+[2016.05.01-23.48.47:630][244]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.48.47:669][244]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.48.47:707][244]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.48.47:728][244]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.48.47:736][244]LogMaterial: 0.000625 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.48.50:119][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/morter" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset" SILENT=true
+[2016.05.01-23.48.50:137][244]LogSavePackage: Save=14.778625ms
+[2016.05.01-23.48.50:137][244]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter44DA252B4D5C6DFA96C597B63493538D.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset'
+[2016.05.01-23.48.50:138][244]LogSavePackage: Total save time: 18.138759ms
+[2016.05.01-23.48.50:138][244]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset
+[2016.05.01-23.48.50:145][244]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.05.01-23.48.50:145][244]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.48.50:145][244]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.01-23.48.59:108][816]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.48.59:113][816]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.49.00:248][863]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.49.00:248][863]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.49.00:248][863]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.49.37:298][993]LogSavePackage: Save=15.168268ms
+[2016.05.01-23.49.37:299][993]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/metal_Base_ColorD4A8F21B481F3584C7407E9218CA7221.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/metal_Base_Color.uasset'
+[2016.05.01-23.49.37:300][993]LogSavePackage: Total save time: 16.506847ms
+[2016.05.01-23.49.37:300][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/metal_Base_Color.uasset
+[2016.05.01-23.49.37:466][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/morter" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset" SILENT=true
+[2016.05.01-23.49.37:471][993]LogSavePackage: Save=2.656134ms
+[2016.05.01-23.49.37:471][993]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morterF0B67126495DCAC5A959FCB7949339ED.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset'
+[2016.05.01-23.49.37:472][993]LogSavePackage: Total save time: 4.906978ms
+[2016.05.01-23.49.37:472][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset
+[2016.05.01-23.49.39:098][ 95]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.49.39:118][ 95]LogMaterial: 0.000355 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.49.39:123][ 95]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.01-23.49.39:188][ 95]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.05.01-23.49.39:192][ 95]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.01-23.49.40:915][172]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.49.40:915][172]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.49.40:915][172]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.49.41:448][197]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.49.41:453][197]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.49.42:522][234]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.49.42:522][234]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.49.42:522][234]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.49.43:165][280]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.49.43:171][280]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.49.43:214][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.01-23.49.44:448][327]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.49.44:448][327]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.49.44:448][327]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.49.44:932][353]LogMaterialEditor: Saving and Compiling material metal
+[2016.05.01-23.49.45:601][353]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.49.45:615][353]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.49.45:637][353]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.49.45:665][353]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.49.45:673][353]LogMaterial: 0.000494 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.49.48:092][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/metal" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/metal.uasset" SILENT=true
+[2016.05.01-23.49.48:118][353]LogSavePackage: Save=21.885603ms
+[2016.05.01-23.49.48:118][353]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/metal780024FA458664EE33BAEFA7428D65C4.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/metal.uasset'
+[2016.05.01-23.49.48:120][353]LogSavePackage: Total save time: 26.911382ms
+[2016.05.01-23.49.48:120][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/metal.uasset
+[2016.05.01-23.49.48:128][353]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.05.01-23.49.48:128][353]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.49.48:128][353]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.01-23.50.01:838][101]LogSavePackage: Save=22.127604ms
+[2016.05.01-23.50.01:838][101]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/metal_Metallic355BDECF455319BD97AB7DB4513C5599.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/metal_Metallic.uasset'
+[2016.05.01-23.50.01:839][101]LogSavePackage: Total save time: 23.393825ms
+[2016.05.01-23.50.01:839][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/metal_Metallic.uasset
+[2016.05.01-23.50.09:442][494]LogSavePackage: Save=109.195793ms
+[2016.05.01-23.50.09:442][494]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/metal_Normal_DirectXBB480D5D4CE67B1A19C04589F6DF84C6.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/metal_Normal_DirectX.uasset'
+[2016.05.01-23.50.09:444][494]LogSavePackage: Total save time: 110.528991ms
+[2016.05.01-23.50.09:444][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/metal_Normal_DirectX.uasset
+[2016.05.01-23.50.13:932][731]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.50.13:937][731]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.13:938][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.01-23.50.13:967][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.01-23.50.13:973][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.01-23.50.13:988][731]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.50.13:994][731]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.13:995][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.05.01-23.50.14:025][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.01-23.50.14:029][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.01-23.50.14:032][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.05.01-23.50.15:917][813]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.50.15:917][813]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.50.15:917][813]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.50.18:466][967]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.50.18:471][967]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.18:495][967]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.01-23.50.19:905][ 25]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.05.01-23.50.19:905][ 25]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.50.19:905][ 25]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.50.20:539][ 68]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.50.20:545][ 68]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.20:570][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.05.01-23.50.21:912][121]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.05.01-23.50.21:912][121]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.50.21:912][121]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.01-23.50.22:530][153]LogMaterialEditor: Saving and Compiling material metal
+[2016.05.01-23.50.23:202][153]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.50.23:216][153]LogMaterial: 0.000182 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.23:245][153]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.50.23:261][153]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2016.05.01-23.50.23:269][153]LogMaterial: 0.000480 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.25:762][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/metal" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/metal.uasset" SILENT=true
+[2016.05.01-23.50.25:788][153]LogSavePackage: Save=22.330980ms
+[2016.05.01-23.50.25:788][153]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/metalEDEA5A9741D5765272389CB956D38BC0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/metal.uasset'
+[2016.05.01-23.50.25:790][153]LogSavePackage: Total save time: 26.510004ms
+[2016.05.01-23.50.25:790][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/metal.uasset
+[2016.05.01-23.50.25:796][153]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.05.01-23.50.25:796][153]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.50.25:796][153]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.05.01-23.50.46:854][291]LogSavePackage: Save=71.430099ms
+[2016.05.01-23.50.46:854][291]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter_Base_Color3B05FD6D46CBBC3914BCA8B560BC67DA.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Base_Color.uasset'
+[2016.05.01-23.50.46:855][291]LogSavePackage: Total save time: 72.775029ms
+[2016.05.01-23.50.46:855][291]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Base_Color.uasset
+[2016.05.01-23.50.46:922][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000060CD36A0
+[2016.05.01-23.50.49:157][451]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.50.49:162][451]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.49:165][451]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.05.01-23.50.49:193][451]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.05.01-23.50.50:731][518]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.50.50:731][518]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.50.50:731][518]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.50.51:384][563]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.50.51:389][563]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.51:437][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.05.01-23.50.52:687][611]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.50.52:687][611]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.50.52:687][611]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.50.53:119][636]LogMaterialEditor: Saving and Compiling material morter
+[2016.05.01-23.50.53:794][636]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.50.53:808][636]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.53:841][636]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.50.53:856][636]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.50.53:864][636]LogMaterial: 0.000476 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.50.56:277][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/morter" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset" SILENT=true
+[2016.05.01-23.50.56:301][636]LogSavePackage: Save=20.969913ms
+[2016.05.01-23.50.56:301][636]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter72C05AD24D71AA886B196F828786FD29.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset'
+[2016.05.01-23.50.56:302][636]LogSavePackage: Total save time: 24.552979ms
+[2016.05.01-23.50.56:302][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset
+[2016.05.01-23.50.56:307][636]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.05.01-23.50.56:307][636]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.50.56:307][636]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.01-23.51.19:364][115]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.51.19:370][115]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.51.19:371][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.01-23.51.19:418][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2016.05.01-23.51.19:421][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.01-23.51.20:752][172]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.51.20:759][172]LogMaterial: 0.001628 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.51.20:929][178]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.51.20:929][178]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.51.20:929][178]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.51.23:282][303]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.51.23:301][303]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.51.23:331][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.01-23.51.24:670][358]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.51.24:670][358]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.51.24:670][358]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.51.25:238][389]LogMaterialEditor: Applying material bowl
+[2016.05.01-23.51.25:914][389]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.51.25:928][389]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.51.25:954][389]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.51.25:972][389]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.51.25:980][389]LogMaterial: 0.000456 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.51.30:087][611]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.05.01-23.51.30:087][611]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.51.30:087][611]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.01-23.51.30:927][659]LogMaterialEditor: Saving and Compiling material bowl
+[2016.05.01-23.51.30:972][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/bowl" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset" SILENT=true
+[2016.05.01-23.51.30:989][659]LogSavePackage: Save=14.348890ms
+[2016.05.01-23.51.30:989][659]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl28A0C2D84CB881AC108D02800A50BD0D.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset'
+[2016.05.01-23.51.30:990][659]LogSavePackage: Total save time: 17.831735ms
+[2016.05.01-23.51.30:990][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset
+[2016.05.01-23.52.02:310][656]LogSavePackage: Save=23.539024ms
+[2016.05.01-23.52.02:310][656]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl_Base_Color61D992224307D3CF96E456B6A62B32C7.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Base_Color.uasset'
+[2016.05.01-23.52.02:311][656]LogSavePackage: Total save time: 24.869293ms
+[2016.05.01-23.52.02:311][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Base_Color.uasset
+[2016.05.01-23.52.02:531][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/morter" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset" SILENT=true
+[2016.05.01-23.52.02:536][656]LogSavePackage: Save=2.668845ms
+[2016.05.01-23.52.02:536][656]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morterD91537AF4E2FAB849C410FB449BA6470.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset'
+[2016.05.01-23.52.02:537][656]LogSavePackage: Total save time: 5.006220ms
+[2016.05.01-23.52.02:537][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset
+[2016.05.01-23.52.02:544][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/bowl" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset" SILENT=true
+[2016.05.01-23.52.02:549][656]LogSavePackage: Save=2.552000ms
+[2016.05.01-23.52.02:549][656]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl503D8EA4477D3CA182DB01963CB17CD1.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset'
+[2016.05.01-23.52.02:549][656]LogSavePackage: Total save time: 4.917733ms
+[2016.05.01-23.52.02:549][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset
+[2016.05.01-23.52.10:797][203]LogSavePackage: Save=131.675888ms
+[2016.05.01-23.52.10:797][203]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl_Normal_DirectX26DC112C45D5CCB643116F9B6D061CF4.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Normal_DirectX.uasset'
+[2016.05.01-23.52.10:798][203]LogSavePackage: Total save time: 132.995393ms
+[2016.05.01-23.52.10:798][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Normal_DirectX.uasset
+[2016.05.01-23.52.15:269][473]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.52.15:274][473]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.52.15:275][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.05.01-23.52.15:303][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.01-23.52.15:307][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.05.01-23.52.16:917][542]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.52.16:917][542]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.52.16:917][542]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.52.17:225][558]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.52.17:231][558]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.52.17:256][558]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.05.01-23.52.18:605][617]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-23.52.18:605][617]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.52.18:605][617]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.52.19:115][643]LogMaterialEditor: Saving and Compiling material bowl
+[2016.05.01-23.52.19:789][643]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.52.19:803][643]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.52.19:840][643]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.52.19:857][643]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.52.19:865][643]LogMaterial: 0.000487 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.52.22:300][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/bowl" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset" SILENT=true
+[2016.05.01-23.52.22:333][643]LogSavePackage: Save=14.725824ms
+[2016.05.01-23.52.22:333][643]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl9C09C150429C96BACFCC7FA2891A7C94.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset'
+[2016.05.01-23.52.22:334][643]LogSavePackage: Total save time: 17.612223ms
+[2016.05.01-23.52.22:334][643]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset
+[2016.05.01-23.52.22:339][643]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2016.05.01-23.52.22:339][643]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.52.22:339][643]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-23.52.53:983][664]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.52.54:003][664]LogMaterial: 0.000249 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.52.55:691][737]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.52.55:691][737]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.52.55:691][737]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.53.09:625][484]LogSavePackage: Save=40.375381ms
+[2016.05.01-23.53.09:625][484]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/flask3_Base_Color8257EE904D596F1F3BF3C98816EE1D58.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask3_Base_Color.uasset'
+[2016.05.01-23.53.09:626][484]LogSavePackage: Total save time: 41.662630ms
+[2016.05.01-23.53.09:626][484]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask3_Base_Color.uasset
+[2016.05.01-23.53.16:583][865]LogSavePackage: Save=21.595692ms
+[2016.05.01-23.53.16:583][865]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/flask3_Metallic5FDC6CEA42C6AFC28A948FB65039C426.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask3_Metallic.uasset'
+[2016.05.01-23.53.16:585][865]LogSavePackage: Total save time: 22.858489ms
+[2016.05.01-23.53.16:585][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask3_Metallic.uasset
+[2016.05.01-23.53.22:892][204]LogSavePackage: Save=95.331879ms
+[2016.05.01-23.53.22:892][204]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/flask3_Normal_DirectX889442CB4F334B2FC7CA0EBB123B946B.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask3_Normal_DirectX.uasset'
+[2016.05.01-23.53.22:893][204]LogSavePackage: Total save time: 96.686102ms
+[2016.05.01-23.53.22:893][204]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask3_Normal_DirectX.uasset
+[2016.05.01-23.53.26:047][387]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.26:067][387]LogMaterial: 0.000352 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.26:071][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.01-23.53.26:117][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.01-23.53.26:132][387]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.26:138][387]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.26:140][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.05.01-23.53.26:166][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.01-23.53.26:171][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.05.01-23.53.26:183][387]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.26:189][387]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.26:190][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.05.01-23.53.26:219][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.01-23.53.26:223][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.05.01-23.53.26:227][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.05.01-23.53.27:857][455]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.53.27:857][455]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.53.27:857][455]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.53.29:074][522]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.29:080][522]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.29:103][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.01-23.53.30:355][572]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.53.30:355][572]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.53.30:355][572]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.53.33:750][769]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.33:755][769]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.33:809][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.05.01-23.53.34:958][811]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-23.53.34:958][811]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.53.34:958][811]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.53.37:044][935]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.37:050][935]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.37:124][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.05.01-23.53.38:534][990]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.05.01-23.53.38:534][990]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.53.38:534][990]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.01-23.53.40:697][100]LogMaterialEditor: Saving and Compiling material Flask3
+[2016.05.01-23.53.41:376][100]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.41:390][100]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.41:423][100]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.41:442][100]LogMaterial: Missing cached shader map for material Flask3, compiling. 
+[2016.05.01-23.53.41:450][100]LogMaterial: 0.000467 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.53.43:953][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask3" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask3.uasset" SILENT=true
+[2016.05.01-23.53.43:992][100]LogSavePackage: Save=34.427559ms
+[2016.05.01-23.53.43:992][100]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask3FAE5715B48324F9CF6986198BA59184B.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask3.uasset'
+[2016.05.01-23.53.43:994][100]LogSavePackage: Total save time: 39.644007ms
+[2016.05.01-23.53.43:994][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask3.uasset
+[2016.05.01-23.53.44:001][100]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.05.01-23.53.44:001][100]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.53.44:001][100]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.05.01-23.54.07:234][377]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.07:239][377]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.08:726][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.54.08:726][437]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.54.08:726][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.54.09:335][480]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.09:340][480]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.09:341][480]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.05.01-23.54.09:415][480]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.05.01-23.54.10:343][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.54.10:344][509]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.54.10:344][509]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.54.11:396][576]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.11:402][576]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.11:425][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.05.01-23.54.12:716][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.54.12:716][637]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.54.12:716][637]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.54.14:495][732]LogMaterialEditor: Saving and Compiling material morter
+[2016.05.01-23.54.15:169][732]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.15:183][732]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.15:341][732]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.15:356][732]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.15:364][732]LogMaterial: 0.000517 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.17:579][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/morter" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset" SILENT=true
+[2016.05.01-23.54.17:597][732]LogSavePackage: Save=14.709202ms
+[2016.05.01-23.54.17:597][732]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter737F419146ADC9B4A87948B089376719.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset'
+[2016.05.01-23.54.17:598][732]LogSavePackage: Total save time: 18.257067ms
+[2016.05.01-23.54.17:598][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset
+[2016.05.01-23.54.17:604][732]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2016.05.01-23.54.17:604][732]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.54.17:604][732]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.01-23.54.38:671][961]LogSavePackage: Save=41.546272ms
+[2016.05.01-23.54.38:671][961]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter_Base_ColorF6F21DC74D161113B4E8DC8243D3C6ED.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Base_Color.uasset'
+[2016.05.01-23.54.38:672][961]LogSavePackage: Total save time: 42.833030ms
+[2016.05.01-23.54.38:672][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Base_Color.uasset
+[2016.05.01-23.54.38:738][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3B7D80
+[2016.05.01-23.54.38:762][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/morter" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset" SILENT=true
+[2016.05.01-23.54.38:767][961]LogSavePackage: Save=2.671289ms
+[2016.05.01-23.54.38:767][961]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morterFE99D1334E40410250ED6E9154792C8F.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset'
+[2016.05.01-23.54.38:768][961]LogSavePackage: Total save time: 5.054623ms
+[2016.05.01-23.54.38:768][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset
+[2016.05.01-23.54.44:966][304]LogSavePackage: Save=88.262054ms
+[2016.05.01-23.54.44:966][304]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter_Normal_DirectX2561C76B44E77F2E9EE960B77B2C12FF.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Normal_DirectX.uasset'
+[2016.05.01-23.54.44:967][304]LogSavePackage: Total save time: 89.556631ms
+[2016.05.01-23.54.44:967][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/morter_Normal_DirectX.uasset
+[2016.05.01-23.54.49:535][597]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.49:540][597]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.49:542][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2016.05.01-23.54.49:582][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.05.01-23.54.49:586][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2016.05.01-23.54.51:190][677]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.54.51:190][677]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.54.51:190][677]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.54.51:415][686]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.51:421][686]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.51:458][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2016.05.01-23.54.52:753][739]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-23.54.52:753][739]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.54.52:753][739]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.54.53:345][771]LogMaterialEditor: Saving and Compiling material morter
+[2016.05.01-23.54.54:017][771]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.54:032][771]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.54:068][771]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.54:084][771]LogMaterial: Missing cached shader map for material morter, compiling. 
+[2016.05.01-23.54.54:092][771]LogMaterial: 0.000447 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.54.56:544][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/morter" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset" SILENT=true
+[2016.05.01-23.54.56:562][771]LogSavePackage: Save=14.915513ms
+[2016.05.01-23.54.56:562][771]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/morter5732B692471D8294344EBD93B2B637A9.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset'
+[2016.05.01-23.54.56:563][771]LogSavePackage: Total save time: 17.954446ms
+[2016.05.01-23.54.56:563][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/morter.uasset
+[2016.05.01-23.54.56:569][771]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2016.05.01-23.54.56:569][771]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.54.56:569][771]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-23.55.16:707][119]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.16:712][119]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.16:713][119]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2016.05.01-23.55.16:749][119]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.05.01-23.55.16:752][119]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2016.05.01-23.55.18:168][179]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.55.18:168][179]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.55.18:168][179]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.55.19:339][242]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.19:345][242]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.20:500][290]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.55.20:500][290]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.55.20:500][290]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.55.22:208][400]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.22:228][400]LogMaterial: 0.000284 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.22:259][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2016.05.01-23.55.23:455][450]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.55.23:455][450]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.55.23:455][450]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.55.38:718][320]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.38:724][320]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.39:879][378]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.55.39:879][378]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.55.39:879][378]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.55.41:652][490]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.41:658][490]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.41:659][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2016.05.01-23.55.41:688][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2016.05.01-23.55.42:788][531]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.55.42:788][531]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.55.42:788][531]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.55.43:701][589]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.43:707][589]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.43:714][589]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2016.05.01-23.55.43:742][589]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2016.05.01-23.55.43:746][589]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2016.05.01-23.55.44:943][650]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.55.44:943][650]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.55.44:943][650]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.55.45:377][669]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.45:382][669]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.45:407][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2016.05.01-23.55.46:453][706]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.55.46:453][706]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.55.46:453][706]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.55.47:187][753]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.47:193][753]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.47:270][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2016.05.01-23.55.48:285][789]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-23.55.48:285][789]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.55.48:285][789]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.55.48:836][820]LogMaterialEditor: Saving and Compiling material Flask1
+[2016.05.01-23.55.49:513][820]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.49:527][820]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.49:548][820]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.49:566][820]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.55.49:574][820]LogMaterial: 0.000387 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.55.52:010][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.55.52:044][820]LogSavePackage: Save=31.024405ms
+[2016.05.01-23.55.52:044][820]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask1EC1DDFBF40CB0C7555F8D384CAF97D0D.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.55.52:045][820]LogSavePackage: Total save time: 34.647074ms
+[2016.05.01-23.55.52:045][820]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.55.52:051][820]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2016.05.01-23.55.52:051][820]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.55.52:051][820]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-23.56.06:184][629]LogSavePackage: Save=23.727736ms
+[2016.05.01-23.56.06:184][629]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/notbowl_Base_ColorCE6A68F54C185A79BD1649A5BFB98F84.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/notbowl_Base_Color.uasset'
+[2016.05.01-23.56.06:185][629]LogSavePackage: Total save time: 25.080983ms
+[2016.05.01-23.56.06:185][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/notbowl_Base_Color.uasset
+[2016.05.01-23.56.06:259][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034CB5C60
+[2016.05.01-23.56.06:327][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.56.06:333][629]LogSavePackage: Save=2.971467ms
+[2016.05.01-23.56.06:333][629]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask19A131B8245C98EE27C9540922E747FF2.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.56.06:334][629]LogSavePackage: Total save time: 5.472623ms
+[2016.05.01-23.56.06:334][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.56.06:340][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/bowl" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset" SILENT=true
+[2016.05.01-23.56.06:345][629]LogSavePackage: Save=2.788134ms
+[2016.05.01-23.56.06:345][629]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowlDFDBC0594606BE9375AD0C913E18CEE0.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset'
+[2016.05.01-23.56.06:346][629]LogSavePackage: Total save time: 5.241379ms
+[2016.05.01-23.56.06:346][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset
+[2016.05.01-23.56.12:503][975]LogSavePackage: Save=25.572803ms
+[2016.05.01-23.56.12:503][975]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/notbowl_Normal_DirectX7798C55A4EA80E315B07BAB67A54E696.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/notbowl_Normal_DirectX.uasset'
+[2016.05.01-23.56.12:504][975]LogSavePackage: Total save time: 27.073693ms
+[2016.05.01-23.56.12:504][975]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/notbowl_Normal_DirectX.uasset
+[2016.05.01-23.56.12:644][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/bowl" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset" SILENT=true
+[2016.05.01-23.56.12:649][975]LogSavePackage: Save=2.839956ms
+[2016.05.01-23.56.12:649][975]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowlCA067DCD499622F8930B57A4A25B97E6.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset'
+[2016.05.01-23.56.12:650][975]LogSavePackage: Total save time: 5.304936ms
+[2016.05.01-23.56.12:650][975]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset
+[2016.05.01-23.56.12:656][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.56.12:661][975]LogSavePackage: Save=2.826756ms
+[2016.05.01-23.56.12:661][975]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask1E808793049256694E3C25EB8E574EC33.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.56.12:662][975]LogSavePackage: Total save time: 5.263377ms
+[2016.05.01-23.56.12:662][975]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.56.22:753][543]LogSavePackage: Save=42.380318ms
+[2016.05.01-23.56.22:753][543]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl_green_Base_ColorCF8110B14AED0A2B23BBE1BC31D6AA39.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_green_Base_Color.uasset'
+[2016.05.01-23.56.22:755][543]LogSavePackage: Total save time: 43.769740ms
+[2016.05.01-23.56.22:755][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_green_Base_Color.uasset
+[2016.05.01-23.56.37:255][348]LogSavePackage: Save=95.440903ms
+[2016.05.01-23.56.37:255][348]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl_Normal_DirectX4DB5980041B16E3546D1DC84D46BF768.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Normal_DirectX.uasset'
+[2016.05.01-23.56.37:256][348]LogSavePackage: Total save time: 96.738413ms
+[2016.05.01-23.56.37:256][348]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Normal_DirectX.uasset
+[2016.05.01-23.56.45:492][803]LogSavePackage: Save=15.756402ms
+[2016.05.01-23.56.45:492][803]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl_Base_Color97902E4A41CB08BD9AA4A4BD6787B1EA.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Base_Color.uasset'
+[2016.05.01-23.56.45:493][803]LogSavePackage: Total save time: 17.107688ms
+[2016.05.01-23.56.45:493][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bowl_Base_Color.uasset
+[2016.05.01-23.56.53:579][257]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.56.53:585][257]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.56.55:134][326]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.56.55:134][326]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.56.55:134][326]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.56.55:827][377]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.56.55:833][377]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.56.55:834][377]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2016.05.01-23.56.55:916][377]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2016.05.01-23.56.55:930][377]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.56.55:937][377]LogMaterial: 0.000638 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.56.55:941][377]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2016.05.01-23.56.55:967][377]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2016.05.01-23.56.55:971][377]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2016.05.01-23.56.57:226][435]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.56.57:226][435]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.56.57:226][435]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.56.58:795][528]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.56.58:800][528]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.56.58:844][528]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2016.05.01-23.56.59:917][564]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.05.01-23.56.59:917][564]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.56.59:917][564]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.57.00:553][602]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.57.00:558][602]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.00:619][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2016.05.01-23.57.02:146][670]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.05.01-23.57.02:146][670]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.57.02:146][670]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.57.02:624][698]LogMaterialEditor: Saving and Compiling material bowl
+[2016.05.01-23.57.03:298][698]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.57.03:311][698]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.03:442][698]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.57.03:458][698]LogMaterial: Missing cached shader map for material bowl, compiling. 
+[2016.05.01-23.57.03:465][698]LogMaterial: 0.000383 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.05:774][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/bowl" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset" SILENT=true
+[2016.05.01-23.57.05:793][698]LogSavePackage: Save=15.952447ms
+[2016.05.01-23.57.05:793][698]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bowl945D18F74D878767BFC58E9FA70C8494.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset'
+[2016.05.01-23.57.05:794][698]LogSavePackage: Total save time: 19.606892ms
+[2016.05.01-23.57.05:794][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/bowl.uasset
+[2016.05.01-23.57.05:799][698]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2016.05.01-23.57.05:799][698]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.57.05:799][698]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-23.57.33:217][487]LogSavePackage: Save=27.215960ms
+[2016.05.01-23.57.33:217][487]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/powder_Base_Color59EBD3834421AB9478D649A81A85E97A.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/powder_Base_Color.uasset'
+[2016.05.01-23.57.33:218][487]LogSavePackage: Total save time: 28.638139ms
+[2016.05.01-23.57.33:218][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/powder_Base_Color.uasset
+[2016.05.01-23.57.33:291][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DF32660
+[2016.05.01-23.57.33:359][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.57.33:364][487]LogSavePackage: Save=2.814534ms
+[2016.05.01-23.57.33:364][487]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask1F26B7CE449A9A761D3955B850A897EA9.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.57.33:365][487]LogSavePackage: Total save time: 5.301513ms
+[2016.05.01-23.57.33:365][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.57.41:684][975]LogSavePackage: Save=25.395336ms
+[2016.05.01-23.57.41:685][975]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/powder_Normal_DirectX46A231814ACE94B50431A4A48093142A.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/powder_Normal_DirectX.uasset'
+[2016.05.01-23.57.41:686][975]LogSavePackage: Total save time: 26.779380ms
+[2016.05.01-23.57.41:686][975]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/powder_Normal_DirectX.uasset
+[2016.05.01-23.57.41:825][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.57.41:830][975]LogSavePackage: Save=2.803289ms
+[2016.05.01-23.57.41:830][975]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask1AFC48EAE4EAD5379CE951782B7B33D5D.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.57.41:831][975]LogSavePackage: Total save time: 5.435467ms
+[2016.05.01-23.57.41:831][975]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.57.44:866][159]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.44:872][159]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.44:873][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2016.05.01-23.57.44:912][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.05.01-23.57.44:916][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2016.05.01-23.57.44:929][159]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.44:935][159]LogMaterial: 0.000381 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.44:937][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2016.05.01-23.57.44:962][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.05.01-23.57.44:966][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2016.05.01-23.57.44:969][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2016.05.01-23.57.46:629][247]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.46:635][247]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.48:671][350]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.57.48:671][350]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.57.48:671][350]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.57.53:792][681]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.53:797][681]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.54:004][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2016.05.01-23.57.54:896][708]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.57.54:896][708]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.57.54:896][708]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.57.56:257][804]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.56:263][804]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.56:288][804]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2016.05.01-23.57.57:690][875]LogMaterialEditor: Saving and Compiling material powder
+[2016.05.01-23.57.58:536][875]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.58:585][875]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.57.58:616][875]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.58:634][875]LogMaterial: Missing cached shader map for material powder, compiling. 
+[2016.05.01-23.57.58:641][875]LogMaterial: 0.000356 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.01:090][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/powder" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/powder.uasset" SILENT=true
+[2016.05.01-23.58.01:196][875]LogSavePackage: Save=84.602722ms
+[2016.05.01-23.58.01:196][875]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/powder4FD6C7924EB291B56CF02BB24E2CE3CF.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/powder.uasset'
+[2016.05.01-23.58.01:198][875]LogSavePackage: Total save time: 107.515480ms
+[2016.05.01-23.58.01:198][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/powder.uasset
+[2016.05.01-23.58.01:205][875]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2016.05.01-23.58.01:205][875]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.58.01:205][875]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.01-23.58.37:700][344]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.37:705][344]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.39:284][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.58.39:284][423]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.58.39:284][423]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.58.41:281][547]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.41:287][547]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.41:288][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2016.05.01-23.58.41:341][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2016.05.01-23.58.41:355][547]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.41:454][547]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.41:455][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_23, compiling. 
+[2016.05.01-23.58.41:481][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2016.05.01-23.58.41:486][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_23, compiling. 
+[2016.05.01-23.58.41:499][547]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.41:505][547]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.41:506][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_24, compiling. 
+[2016.05.01-23.58.41:591][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2016.05.01-23.58.41:594][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_23, compiling. 
+[2016.05.01-23.58.41:599][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_24, compiling. 
+[2016.05.01-23.58.42:859][595]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.01-23.58.42:859][595]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.01-23.58.42:859][595]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.01-23.58.44:431][682]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.44:436][682]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.44:463][682]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2016.05.01-23.58.45:677][738]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.05.01-23.58.45:677][738]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.58.45:677][738]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.01-23.58.49:108][959]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.49:114][959]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.49:140][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_23, compiling. 
+[2016.05.01-23.58.50:531][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.05.01-23.58.50:531][ 26]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.58.50:531][ 26]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.01-23.58.51:026][ 58]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.51:031][ 58]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.51:126][ 58]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_24, compiling. 
+[2016.05.01-23.58.52:489][122]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.05.01-23.58.52:489][122]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.58.52:489][122]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.01-23.58.52:907][147]LogMaterialEditor: Saving and Compiling material Flask1
+[2016.05.01-23.58.53:748][147]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.53:789][147]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.53:829][147]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.53:847][147]LogMaterial: Missing cached shader map for material Flask1, compiling. 
+[2016.05.01-23.58.53:856][147]LogMaterial: 0.000533 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-23.58.56:340][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.58.56:366][147]LogSavePackage: Save=14.514624ms
+[2016.05.01-23.58.56:366][147]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask1EF3BA96E4616EA166A98ED97F8A22991.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.58.56:368][147]LogSavePackage: Total save time: 17.849334ms
+[2016.05.01-23.58.56:368][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.58.56:373][147]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.05.01-23.58.56:373][147]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.01-23.58.56:373][147]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.05.01-23.59.27:316][143]LogSavePackage: Save=36.744404ms
+[2016.05.01-23.59.27:317][143]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/flask1_Base_Color804F82524D3471E56133A9A2EEDA327F.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask1_Base_Color.uasset'
+[2016.05.01-23.59.27:318][143]LogSavePackage: Total save time: 38.012095ms
+[2016.05.01-23.59.27:318][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask1_Base_Color.uasset
+[2016.05.01-23.59.27:383][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032D1C220
+[2016.05.01-23.59.27:384][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036FEFC40
+[2016.05.01-23.59.27:407][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.59.27:412][143]LogSavePackage: Save=3.032089ms
+[2016.05.01-23.59.27:412][143]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask1C100657B4C7B90D3943061ADA2EA743D.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.59.27:413][143]LogSavePackage: Total save time: 5.611468ms
+[2016.05.01-23.59.27:413][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.59.39:143][876]LogSavePackage: Save=19.248047ms
+[2016.05.01-23.59.39:143][876]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/flask1_MetallicF2A3276B4A7DF882A8352DB9B73C1C2C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask1_Metallic.uasset'
+[2016.05.01-23.59.39:144][876]LogSavePackage: Total save time: 20.497158ms
+[2016.05.01-23.59.39:144][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask1_Metallic.uasset
+[2016.05.01-23.59.39:240][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.59.39:246][876]LogSavePackage: Save=3.011067ms
+[2016.05.01-23.59.39:246][876]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask13D95F21F44203F396B65FEA6D1AF9EA2.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.59.39:246][876]LogSavePackage: Total save time: 5.516622ms
+[2016.05.01-23.59.39:246][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.59.48:664][465]LogSavePackage: Save=73.668228ms
+[2016.05.01-23.59.48:664][465]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/flask1_Normal_DirectX1F0B4B374992097A4390BF81D701F208.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask1_Normal_DirectX.uasset'
+[2016.05.01-23.59.48:665][465]LogSavePackage: Total save time: 75.018056ms
+[2016.05.01-23.59.48:665][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/flask1_Normal_DirectX.uasset
+[2016.05.01-23.59.48:756][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hotel/Art/Models/ChemSet/Flask1" FILE="../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset" SILENT=true
+[2016.05.01-23.59.48:762][465]LogSavePackage: Save=3.064845ms
+[2016.05.01-23.59.48:762][465]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/Flask1F8CD8F5843B7D79F16AB578734F3EAE4.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset'
+[2016.05.01-23.59.48:762][465]LogSavePackage: Total save time: 5.593866ms
+[2016.05.01-23.59.48:762][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Models/ChemSet/Flask1.uasset
+[2016.05.01-23.59.54:888][922]LogSavePackage: Save=1.246667ms
+[2016.05.01-23.59.54:888][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bluegrey_Metallic658085BF4BBC14C0D6A0CD925F506682.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bluegrey_Metallic.uasset'
+[2016.05.01-23.59.54:889][922]LogSavePackage: Total save time: 2.602845ms
+[2016.05.01-23.59.54:889][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bluegrey_Metallic.uasset
+[2016.05.01-23.59.54:903][922]LogSavePackage: Save=1.026178ms
+[2016.05.01-23.59.54:903][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/bluegrey_Normal_DirectXCD050F9A47CBDF57FB3CC79FFB0FB96E.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bluegrey_Normal_DirectX.uasset'
+[2016.05.01-23.59.54:904][922]LogSavePackage: Total save time: 2.292398ms
+[2016.05.01-23.59.54:904][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/bluegrey_Normal_DirectX.uasset
+[2016.05.01-23.59.54:912][922]LogSavePackage: Save=0.988533ms
+[2016.05.01-23.59.54:912][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/brnhair_Base_ColorE57D3C5D42D099787E4F45B90C4A3236.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/brnhair_Base_Color.uasset'
+[2016.05.01-23.59.54:913][922]LogSavePackage: Total save time: 2.266977ms
+[2016.05.01-23.59.54:913][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/brnhair_Base_Color.uasset
+[2016.05.01-23.59.54:920][922]LogSavePackage: Save=1.010533ms
+[2016.05.01-23.59.54:920][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/brnhair_Normal_DirectX1DB21AC7429A6C369362C29E59D462BE.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/brnhair_Normal_DirectX.uasset'
+[2016.05.01-23.59.54:921][922]LogSavePackage: Total save time: 2.312936ms
+[2016.05.01-23.59.54:921][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/brnhair_Normal_DirectX.uasset
+[2016.05.01-23.59.54:929][922]LogSavePackage: Save=1.071645ms
+[2016.05.01-23.59.54:929][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/green_Base_Color3046A065447B2F0C70BA5DBD28D033AA.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/green_Base_Color.uasset'
+[2016.05.01-23.59.54:930][922]LogSavePackage: Total save time: 2.360355ms
+[2016.05.01-23.59.54:930][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/green_Base_Color.uasset
+[2016.05.01-23.59.54:938][922]LogSavePackage: Save=1.068711ms
+[2016.05.01-23.59.54:938][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/green_MetallicE8181C364A783EC4695E979912E51849.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/green_Metallic.uasset'
+[2016.05.01-23.59.54:939][922]LogSavePackage: Total save time: 2.336398ms
+[2016.05.01-23.59.54:939][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/green_Metallic.uasset
+[2016.05.01-23.59.54:946][922]LogSavePackage: Save=0.988533ms
+[2016.05.01-23.59.54:946][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/green_Normal_DirectX62A4CC7E4C4900DB8E59DAB87EEFABF8.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/green_Normal_DirectX.uasset'
+[2016.05.01-23.59.54:947][922]LogSavePackage: Total save time: 2.269913ms
+[2016.05.01-23.59.54:947][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/green_Normal_DirectX.uasset
+[2016.05.01-23.59.54:954][922]LogSavePackage: Save=1.008089ms
+[2016.05.01-23.59.54:954][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/grey_Base_ColorFB973225414D452769B02394AFC3AC1D.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/grey_Base_Color.uasset'
+[2016.05.01-23.59.54:955][922]LogSavePackage: Total save time: 2.251823ms
+[2016.05.01-23.59.54:955][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/grey_Base_Color.uasset
+[2016.05.01-23.59.54:962][922]LogSavePackage: Save=0.999289ms
+[2016.05.01-23.59.54:962][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/grey_Normal_DirectX867D711D4943C8D24CC228B95E683A07.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/grey_Normal_DirectX.uasset'
+[2016.05.01-23.59.54:963][922]LogSavePackage: Total save time: 2.282131ms
+[2016.05.01-23.59.54:963][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/grey_Normal_DirectX.uasset
+[2016.05.01-23.59.54:971][922]LogSavePackage: Save=1.000267ms
+[2016.05.01-23.59.54:971][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/yellow_green_Base_Color03699D0844B2280DC4500BB3F69E080B.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yellow_green_Base_Color.uasset'
+[2016.05.01-23.59.54:972][922]LogSavePackage: Total save time: 2.465956ms
+[2016.05.01-23.59.54:972][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yellow_green_Base_Color.uasset
+[2016.05.01-23.59.54:979][922]LogSavePackage: Save=1.068711ms
+[2016.05.01-23.59.54:979][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/yellow_green_Normal_DirectX9C84594B4BE7D30A94E41ABF8CDCC454.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yellow_green_Normal_DirectX.uasset'
+[2016.05.01-23.59.54:980][922]LogSavePackage: Total save time: 2.399955ms
+[2016.05.01-23.59.54:981][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yellow_green_Normal_DirectX.uasset
+[2016.05.01-23.59.54:988][922]LogSavePackage: Save=1.019333ms
+[2016.05.01-23.59.54:988][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/yelloworng_Base_Color7766445D4279E4ABC06DA8A584E1EB7F.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yelloworng_Base_Color.uasset'
+[2016.05.01-23.59.54:989][922]LogSavePackage: Total save time: 2.315868ms
+[2016.05.01-23.59.54:989][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yelloworng_Base_Color.uasset
+[2016.05.01-23.59.54:996][922]LogSavePackage: Save=1.072622ms
+[2016.05.01-23.59.54:996][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/yelloworng_MetallicE6C50CDC4B449A772A0720970F19320E.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yelloworng_Metallic.uasset'
+[2016.05.01-23.59.54:997][922]LogSavePackage: Total save time: 2.351556ms
+[2016.05.01-23.59.54:997][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yelloworng_Metallic.uasset
+[2016.05.01-23.59.55:004][922]LogSavePackage: Save=1.033511ms
+[2016.05.01-23.59.55:004][922]LogSavePackage: Moving '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Saved/yelloworng_Normal_DirectX7A06188E4C0A54FF2B0DABB2A5A7E60C.tmp' to '../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yelloworng_Normal_DirectX.uasset'
+[2016.05.01-23.59.55:006][922]LogSavePackage: Total save time: 2.314892ms
+[2016.05.01-23.59.55:006][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mandy/Documents/GitHub/HotelBete/Content/Hotel/Art/Textures/ChemSet/yelloworng_Normal_DirectX.uasset
+[2016.05.01-23.59.55:013][922]LogSavePackage: Save=0.998311ms
+[2016.05.01-2
